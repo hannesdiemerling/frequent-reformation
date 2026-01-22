@@ -1,0 +1,13 @@
+site_name: Meine Workshop Landingpage
+site_url: https://deine-seite.github.io
+
+theme:
+  name: material
+  features:
+    - navigation.tabs 
+    - navigation.sections
+
+markdown_extensions:
+  - attr_list 
+  - admonition
+  - pymdownx.details
