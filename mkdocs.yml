@@ -1,13 +1,48 @@
-site_name: Meine Workshop Landingpage
-site_url: https://deine-seite.github.io
+site_name: Beyond p-values
+site_url: https://hannesdiemerling.github.io/Frequent-Reformation/
 
 theme:
   name: material
+  language: de
+  palette: 
+    - scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Dark Mode
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Light Mode
   features:
-    - navigation.tabs 
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.instant
+    - navigation.top
 
 markdown_extensions:
-  - attr_list 
   - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Startseite: index.md
+  - Workshops:
+    - Workshop 1: https://dein-user.github.io/workshop1/
+    - Workshop 2: https://dein-user.github.io/workshop2/
+    - Workshop 3: https://dein-user.github.io/workshop3/
+  - Externe Ressourcen: ressourcen.md

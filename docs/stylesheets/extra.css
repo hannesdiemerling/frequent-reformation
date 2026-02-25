@@ -1,0 +1,54 @@
+.hero-section {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: linear-gradient(135deg, #4051b5 0%, #7e57c2 100%);
+    color: white;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.hero-section h1 {
+    color: white !important;
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-section h3 {
+    color: rgba(255,255,255,0.9) !important;
+    font-weight: 300;
+}
+
+.hero-section .md-button {
+    border-radius: 50px;
+    margin: 0.5rem;
+}
+
+.hero-section .md-button--primary {
+    background-color: white;
+    color: #4051b5;
+    font-weight: bold;
+}
+
+.hero-section .md-button--primary:hover {
+    background-color: #f5f5f5;
+}
+
+.md-typeset .grid.cards > ul > li {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border: 1px solid transparent;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    border-color: var(--md-primary-fg-color);
+}
+
+.lg {
+    font-size: 2.5rem;
+    color: var(--md-primary-fg-color);
+    margin-bottom: 1rem;
+    display: block;
+}
