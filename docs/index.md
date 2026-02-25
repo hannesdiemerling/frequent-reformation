@@ -21,23 +21,28 @@ Willkommen zur methodischen Wende. Hier findest du Werkzeuge und Wissen für ein
 
 <div class="grid cards" markdown>
 
-* :material-school:{ .lg .middle } __Workshop 1: Grundlagen__
+    - Workshop 1: https://hannesdiemerling.github.io/Thinking_Bayesian/
+    - Workshop 2: https://hannesdiemerling.github.io/Bayesian_Power/
+    - Workshop 3: https://hannesdiemerling.github.io/Bayesian_Connection/
+  - Externe Ressourcen: ressourcen.md
 
-    Lerne Bayesianische Statistik und moderne Methoden.
+* :material-sprout:{ .lg .middle } __Grundlagen__
+
+    Lerne grundlegende Bayesianische Statistik und moderne Methoden.
     
-    [Zur Webseite](https://dein-user.github.io/workshop1/)
+    [Zur Webseite](https://hannesdiemerling.github.io/Thinking_Bayesian/)
 
-* :material-book-open-page-variant:{ .lg .middle } __Deep Dive: Effektstärken__
+* :material-slope-uphill:{ .lg .middle } __Fortgeschrittene__
 
-    Direkteinstieg in spezifische Kapitel.
+    Lerne hier mehr über zusammenhänge.
     
-    [Kapitel lesen](https://dein-user.github.io/workshop1/effektstaerken.html)
+    [Kapitel lesen](https://hannesdiemerling.github.io/Bayesian_Power/)
 
-* :material-school:{ .lg .middle } __Workshop 2: JASP in der Praxis__
+* :material-tournament:{ .lg .middle } __Experte__
 
-    Anwendung der Methoden mit Software.
+    Lerne mehr über Effektstärken.
     
-    [Zur Webseite](https://dein-user.github.io/workshop2/)
+    [Zur Webseite](https://hannesdiemerling.github.io/Bayesian_Connection/)
 
 * :material-open-in-new:{ .lg .middle } __Externe Ressourcen__
 
