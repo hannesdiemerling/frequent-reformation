@@ -42,7 +42,7 @@ extra_css:
 nav:
   - Startseite: index.md
   - Workshops:
-    - Workshop 1: https://dein-user.github.io/workshop1/
-    - Workshop 2: https://dein-user.github.io/workshop2/
-    - Workshop 3: https://dein-user.github.io/workshop3/
+    - Workshop 1: https://hannesdiemerling.github.io/Thinking_Bayesian/
+    - Workshop 2: https://hannesdiemerling.github.io/Bayesian_Power/
+    - Workshop 3: https://hannesdiemerling.github.io/Bayesian_Connection/
   - Externe Ressourcen: ressourcen.md
