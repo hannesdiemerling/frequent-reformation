@@ -1,86 +1,85 @@
 ---
-title: Bayesian Power — Workshop 02
+title: Beyond Significance — Workshop 02
 ---
 
-# Bayesian Power <span class="bp-pill bp-pill--live">Live</span>
+# Beyond Significance <span class="bp-pill bp-pill--live">Live</span>
 
-> **Workshop 02 · Anwendung.** Stichprobenplanung jenseits der klassischen Power-Analyse.
-> Präzision, Bayes-Faktor-Design und Simulation als Standard-Werkzeug der Studienplanung.
+> **Workshop · Grundlagen.** Statistische Signifikanz kritisch hinterfragen und praktische Relevanz von Effekten bewerten.
+> Vom p-Wert-Fetisch zu Effektgrößen, Bedeutsamkeit und einem ehrlichen Blick auf wissenschaftliche Evidenz.
 
-[Zum Workshop-Material →](https://hannesdiemerling.github.io/Bayesian_Power/){ .bp-btn .bp-btn--primary }
+[Zum Workshop-Material →](https://hannesdiemerling.github.io/Beyond_Significance/){ .bp-btn .bp-btn--primary }
 [Anmelden](../kontakt.md){ .bp-btn .bp-btn--ghost }
 
 ## Worum geht es?
 
-Klassische Power-Analyse fragt: *"Wie viele Probanden brauche ich, um mit 80 % Wahrscheinlichkeit
-einen signifikanten p-Wert zu finden?"* — eine seltsame Frage, denn ein signifikanter p-Wert ist
-nicht das, was du eigentlich wissen willst.
+Die Frage, die in fast jeder Studie gestellt wird, lautet: *"Ist mein Ergebnis signifikant?"* — eine
+merkwürdige Frage, denn ein p-Wert unter 0.05 sagt dir weder, ob ein Effekt wahr ist, noch ob er
+groß genug ist, um in der realen Welt etwas zu bedeuten.
 
-Bayesianische Studienplanung kehrt die Frage um: **Welche Stichprobe brauche ich, um meine
-Hypothese mit hinreichender Präzision oder hinreichend starker Evidenz zu beantworten?** Das
-Ergebnis ist meist transparenter — und oft auch effizienter.
+Dieser Workshop dreht die Frage um: **Wie groß ist der Effekt wirklich — und ist er bedeutsam genug,
+um Entscheidungen darauf zu stützen?** Anhand des durchgängigen Beispiels "SmartRail" (ein fiktives
+Pünktlichkeits-System der Deutschen Bahn) arbeitest du dich durch alle zentralen Fallstricke der
+klassischen Signifikanztestung — und lernst Werkzeuge kennen, die dir ehrliche Antworten geben.
 
 ## Lernziele
 
-Nach Workshop 02 kannst du:
+Nach diesem Workshop kannst du:
 
-- [x] Den Unterschied zwischen **Power**, **Präzision** und **Bayes-Faktor-Design** erklären.
-- [x] Mit **Simulation** statt Faustformel zur Stichprobengröße kommen.
-- [x] **Sequenzielle Designs** mit Bayes-Faktor-Stoppregel umsetzen.
-- [x] Praxisnahe Trade-offs zwischen Genauigkeit, Aufwand und Aussagekraft abwägen.
-- [x] Eine bayesianische Studienplanung in einem Preregistration-Template dokumentieren.
+- [x] Die gängigsten **Fehlinterpretationen des p-Wertes** erkennen und widerlegen.
+- [x] Den Zusammenhang zwischen **Stichprobengröße und Signifikanz** sauber einordnen.
+- [x] **Unstandardisierte und standardisierte Effektgrößen** (z. B. Cohens d) richtig lesen und kommunizieren.
+- [x] Statistische Signifikanz von **praktischer Bedeutsamkeit** trennen.
+- [x] Die Mechanik des **Publikationsbias** verstehen und in Literatur­recherchen berücksichtigen.
 
 ## Inhalt
 
 <div class="bp-pillars">
 
   <div class="bp-pillar">
-    <div class="bp-pillar__num">SESSION 01</div>
-    <h3>Was Power eigentlich ist</h3>
+    <div class="bp-pillar__num">KAPITEL 2.1</div>
+    <h3>Fehlinterpretationen und binäres Denken</h3>
     <p>
-      Eine ehrliche Auseinandersetzung mit dem Konzept — und seinen Grenzen.
+      Warum die harte 0.05-Grenze unlogisch ist und messbare Nuancen in ein "Erfolg / Misserfolg"-Schema presst.
     </p>
   </div>
 
   <div class="bp-pillar">
-    <div class="bp-pillar__num">SESSION 02</div>
-    <h3>Präzisions-Planung</h3>
+    <div class="bp-pillar__num">KAPITEL 2.2</div>
+    <h3>p-Wert und Stichprobengröße</h3>
     <p>
-      Wie schmal soll dein Glaubwürdigkeitsintervall werden? Eine direkt übersetzbare
-      Frage in Stichprobengrößen.
+      Warum bei großen Datensätzen fast jeder triviale Unterschied signifikant wird — und was das über den p-Wert verrät.
     </p>
   </div>
 
   <div class="bp-pillar">
-    <div class="bp-pillar__num">SESSION 03</div>
-    <h3>Bayes-Faktor-Design</h3>
+    <div class="bp-pillar__num">KAPITEL 2.3</div>
+    <h3>Unstandardisierte Effekte</h3>
     <p>
-      Stichprobenplanung mit Zielgröße: "Ich brauche BF₁₀ ≥ 10". Mit Simulation.
+      Effekte in der Einheit des Messinstruments — die Brücke von der Statistik in die Realität.
     </p>
   </div>
 
   <div class="bp-pillar">
-    <div class="bp-pillar__num">SESSION 04</div>
-    <h3>Sequenzielle Tests</h3>
+    <div class="bp-pillar__num">KAPITEL 2.4</div>
+    <h3>Standardisierte Effektgrößen</h3>
     <p>
-      Optional Stopping war im Frequentismus problematisch — bayesianisch ist es ein Feature.
+      Cohens d als dimensionslose Vergleichsgröße — mit allen Vorbehalten, die Cohen selbst betont hat.
     </p>
   </div>
 
   <div class="bp-pillar">
-    <div class="bp-pillar__num">SESSION 05</div>
-    <h3>Hands-on Simulation</h3>
+    <div class="bp-pillar__num">KAPITEL 2.5</div>
+    <h3>Praktische Bedeutsamkeit</h3>
     <p>
-      Eigene Studie planen: vom Effekt-Szenario zur konkreten Stichprobengröße — in JASP
-      und R.
+      Hochsignifikant und trotzdem irrelevant: Wann lohnt sich ein Effekt wirklich?
     </p>
   </div>
 
   <div class="bp-pillar">
-    <div class="bp-pillar__num">SESSION 06</div>
-    <h3>Preregistration</h3>
+    <div class="bp-pillar__num">KAPITEL 2.6</div>
+    <h3>Publikationsbias</h3>
     <p>
-      Bayesianische Designs sauber dokumentieren — Templates für OSF und AsPredicted.
+      Wie ein System ohne Betrug und Vorsatz ein systematisch verzerrtes Bild der Realität produziert.
     </p>
   </div>
 
@@ -90,32 +89,32 @@ Nach Workshop 02 kannst du:
 
 | Aspekt          | Details                                                  |
 |-----------------|----------------------------------------------------------|
-| Dauer           | 5 Stunden (1 Tag oder 2 × 2,5 h)                         |
-| Format          | Online (Zoom) oder Präsenz                               |
-| Voraussetzungen | Workshop 01 oder vergleichbare Bayes-Grundlagen          |
-| Teilnehmende    | 6–20                                                     |
-| Materialien     | Folien (PDF), Simulations-Notebooks (R/JASP), Templates  |
+| Dauer           | ca. 90 Minuten (6 × 15 min) — flexibel als Selbststudium oder begleitete Session |
+| Format          | Interaktiv im Browser (Shinylive) · Online oder Präsenz  |
+| Voraussetzungen | Grundkenntnisse in Inferenzstatistik (p-Wert, Mittelwerte, Standardabweichung) |
+| Teilnehmende    | Selbststudium oder Gruppen bis 25                        |
+| Materialien     | Interaktive Web-Applikationen, Theorietexte, SmartRail-Beispiele |
 | Sprache         | Deutsch · Englisch auf Anfrage                           |
 
 !!! tip "Nächste Termine"
-    Termine werden 4–6 Wochen im Voraus auf der [Workshop-Übersicht](index.md) und im Newsletter angekündigt.
+    Termine werden 4–6 Wochen im Voraus auf der [Workshop-Übersicht](index.md) und im Newsletter angekündigt. Die Lernumgebung ist jederzeit frei zugänglich.
 
 ## Voraussetzungen
 
-- Workshop 01 oder vergleichbare Vertrautheit mit Bayes-Theorem, Posterior und Bayes-Faktor
-- Notebook mit JASP **oder** R (≥ 4.2) und RStudio
-- Optional: Vorerfahrung mit dem Paket [`BFDA`](https://github.com/nicebread/BFDA) hilfreich
+- Grundlegende Vertrautheit mit klassischer Inferenzstatistik (Hypothesentest, p-Wert, Mittelwertsvergleiche)
+- Moderner Webbrowser (Chrome, Firefox, Edge, Safari) — **keine Softwareinstallation nötig**
+- Optional: Vorkenntnisse in Effektgrößen und Meta-Analyse hilfreich, aber nicht erforderlich
 
 ## Begleitmaterial
 
-Alle Materialien findest du in der eigenständigen Lernumgebung:
+Alle Kapitel mit interaktiven Shiny-Applikationen — direkt im Browser, ohne Installation, alle Daten bleiben lokal auf deinem Rechner:
 
-[Materialseite öffnen](https://hannesdiemerling.github.io/Bayesian_Power/){ .bp-btn .bp-btn--primary }
+[Materialseite öffnen](https://hannesdiemerling.github.io/Beyond_Significance/){ .bp-btn .bp-btn--primary }
 
 <div class="bp-soon">
   <span class="bp-pill bp-pill--soon">In Vorbereitung</span>
-  <h3>Erweiterte Modul-Reihe</h3>
-  <p>Spezialisierte Module für klinische Studien, Bildungsforschung und Wirtschaftsexperimente sind in Arbeit. Inhalte werden hier ergänzt, sobald verfügbar.</p>
+  <h3>Vertiefende Module</h3>
+  <p>Ergänzende Kapitel zu Konfidenz- und Glaubwürdigkeitsintervallen, Meta-Analyse und Prä-Registrierung sind in Arbeit. Inhalte werden hier ergänzt, sobald verfügbar.</p>
 </div>
 
 ## Weiter geht's mit
