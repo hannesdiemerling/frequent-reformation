@@ -171,6 +171,33 @@ verstehen.
 
 </div>
 
+## Übungs-Kapitel — direkt anwenden
+
+Diese Workshop-Kapitel vertiefen das Thema mit interaktiven Beispielen im Browser:
+
+<div class="bp-carousel">
+  <div class="bp-carousel__track">
+    {% for ref in [
+      {"workshop": "thinking", "chapter": 2},
+      {"workshop": "thinking", "chapter": 3},
+      {"workshop": "thinking", "chapter": 4},
+      {"workshop": "thinking", "chapter": 5},
+      {"workshop": "thinking", "chapter": 6},
+      {"workshop": "thinking", "chapter": 7}
+    ] %}
+      {% set ws = workshops[ref.workshop] %}
+      {% set ch = ws.chapters[ref.chapter - 1] %}
+      <a class="bp-card" href="{{ ws.base }}/{{ ch.file }}" target="_blank" rel="noopener">
+        <span class="bp-card__num">{{ "%02d" | format(ch.num) }}</span>
+        <span class="bp-card__tag">{{ ws.title }}</span>
+        <h3 class="bp-card__title">{{ ch.title }}</h3>
+        <p class="bp-card__desc">Theorie + interaktive Browser-App. ↗ extern.</p>
+        <div class="bp-card__meta"><span>⏱ {{ ch.time }}</span><span>🎚 {{ ch.level }}</span></div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
 <div class="bp-soon">
   <span class="bp-pill bp-pill--soon">In Arbeit</span>
   <h3>Interaktive Bayes-Demos</h3>

@@ -82,5 +82,20 @@ klassische Signifikanztest beantwortet keine davon vollständig.
 
 <hr class="bp-sep">
 
+## Alternative Einstiege
+
+<div class="bp-pillars">
+  <a class="bp-pillar" href="../fragen/" style="text-decoration:none;color:inherit;display:block;">
+    <div class="bp-pillar__num">→ FRAGEN</div>
+    <h3>Themenzentriert starten</h3>
+    <p>Statt Methoden-Kapitel zu durchsuchen — wähle die Frage, die du gerade hast, und springe direkt ins passende Workshop-Kapitel.</p>
+  </a>
+  <a class="bp-pillar" href="../workshops/" style="text-decoration:none;color:inherit;display:block;">
+    <div class="bp-pillar__num">→ WORKSHOPS</div>
+    <h3>Strukturiert lernen</h3>
+    <p>Drei Workshops mit interaktiven Beispielen. Self-paced kostenfrei, geführt buchbar.</p>
+  </a>
+</div>
+
 !!! quote "Aus dem Vollantrag"
     *„Zu erklären und zu demonstrieren, dass für die Beurteilung der Evidenz von Forschungsergebnissen der Signifikanztest gänzlich ungeeignet ist und wesentlich bessere Alternativen zur Verfügung stehen, ist das übergeordnete Ziel."*

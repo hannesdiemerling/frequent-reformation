@@ -42,6 +42,11 @@ theme:
   icon:
     repo: fontawesome/brands/github
 
+plugins:
+  - search
+  - macros:
+      include_dir: docs/_includes
+
 markdown_extensions:
   - admonition
   - attr_list
@@ -72,12 +77,203 @@ extra_css:
 extra_javascript:
   - javascripts/extra.js
 
+# ============================================================
+# ZENTRALE DATEN — werden via mkdocs-macros-plugin in alle
+# Markdown-Seiten als Variablen zur Verfügung gestellt.
+# Nur HIER bearbeiten — alle Pages konsumieren diese Werte.
+# ============================================================
 extra:
   generator: false
+
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/hannesdiemerling/Frequent-Reformation
       name: Beyond p-values auf GitHub
+
+  contact:
+    email: hello@beyond-p-values.example
+    booking_subject: "Workshop-Buchung — Beyond p-values"
+
+  # Drei Workshops als GitHub-Pages-Sites (Quarto). Self-paced
+  # Bedienung direkt im Browser; geführt = Buchung über Kontakt.
+  workshops:
+
+    thinking:
+      key: thinking
+      slug: thinking
+      title: "Denke Bayesianisch"
+      subtitle: "Bayesianische Intuition aufbauen"
+      tagline: "Vom Wahrscheinlichkeitsbegriff bis zur Posterior-Verteilung — Schritt für Schritt, mit interaktiven Beispielen rund um SmartRail."
+      number: "01"
+      level: "Einstieg · Fortgeschritten"
+      duration_self: "ca. 2 h"
+      duration_guided: "1 Tag (ca. 6 h)"
+      chapters_count: 7
+      eyebrow: "Workshop 01 · Grundlagen"
+      tone: "navy"
+      repo: "https://github.com/hannesdiemerling/Thinking_Bayesian"
+      base: "https://hannesdiemerling.github.io/Thinking_Bayesian"
+      goal_self: "Du arbeitest die sieben Kapitel in deinem eigenen Tempo durch und erkundest die Shinylive-Apps direkt im Browser."
+      goal_guided: "Wir führen durch die Inhalte, beantworten Fragen live und passen Tempo und Tiefe an deine Gruppe an."
+      audience: "Wissenschaftler:innen, Studierende, Praktiker:innen — alle, die bayesianisch denken lernen wollen."
+      chapters:
+        - { num: 1, title: "Wahrscheinlichkeitsbegriffe",  time: "15 min", level: "Einfach",   file: "chap1.html" }
+        - { num: 2, title: "Das Bayes-Theorem",            time: "15 min", level: "Einfach",   file: "chap2.html" }
+        - { num: 3, title: "Der Prior",                    time: "15 min", level: "Einfach",   file: "chap3.html" }
+        - { num: 4, title: "Die Likelihood",               time: "15 min", level: "Einsteiger", file: "chap4.html" }
+        - { num: 5, title: "Der Posterior",                time: "15 min", level: "Einsteiger", file: "chap5.html" }
+        - { num: 6, title: "Vorhersagen",                  time: "15 min", level: "Einfach",   file: "chap6.html" }
+        - { num: 7, title: "Numerische Berechnung (MCMC)", time: "15 min", level: "Einsteiger", file: "chap7.html" }
+
+    power:
+      key: power
+      slug: power
+      title: "Beyond Significance"
+      subtitle: "Effekte verstehen statt p-Werte ablesen"
+      tagline: "Warum der p-Wert nichts über Bedeutsamkeit aussagt — und wie du Effektgrößen, Praxisrelevanz und Publikationsbias greifbar machst."
+      number: "02"
+      level: "Einstieg · Fortgeschritten"
+      duration_self: "ca. 2 h"
+      duration_guided: "1 Tag (ca. 5 h)"
+      chapters_count: 6
+      eyebrow: "Workshop 02 · Anwendung"
+      tone: "coral"
+      repo: "https://github.com/hannesdiemerling/Bayesian_Power"
+      base: "https://hannesdiemerling.github.io/Bayesian_Power"
+      goal_self: "Du arbeitest die sechs Kapitel selbstständig durch und erkundest interaktive Beispiele zur Effekt- und Signifikanz-Logik."
+      goal_guided: "Wir gehen die Inhalte gemeinsam durch, diskutieren Beispiele aus eurem Kontext und legen Anwendungsbezüge frei."
+      audience: "Forschende und Lehrende, die p-Werte kritisch lesen und Effektgrößen souverän berichten wollen."
+      chapters:
+        - { num: 1, title: "Fehlinterpretationen und binäres Denken", time: "15 min", level: "Einsteiger", file: "chap1.html" }
+        - { num: 2, title: "p-Wert und Stichprobengröße",             time: "15 min", level: "Einsteiger", file: "chap2.html" }
+        - { num: 3, title: "Unstandardisierte Effekte",               time: "15 min", level: "Einsteiger", file: "chap3.html" }
+        - { num: 4, title: "Standardisierte Effektgrößen",            time: "15 min", level: "Einsteiger", file: "chap4.html" }
+        - { num: 5, title: "Praktische Bedeutsamkeit",                time: "15 min", level: "Einsteiger", file: "chap5.html" }
+        - { num: 6, title: "Publikationsbias",                        time: "15 min", level: "Einsteiger", file: "chap6.html" }
+
+    reliability:
+      key: reliability
+      slug: reliability
+      title: "Repräsentativität & Stichprobengröße"
+      subtitle: "Wie verlässlich verallgemeinert deine Studie?"
+      tagline: "Von der Stichprobe zur Population — Verzerrung, p-Hacking, Schätzgenauigkeit und Unsicherheit, anschaulich am SmartRail-Beispiel."
+      number: "03"
+      level: "Einstieg · Fortgeschritten"
+      duration_self: "ca. 1.5 h"
+      duration_guided: "1 Tag (ca. 5 h)"
+      chapters_count: 5
+      eyebrow: "Workshop 03 · Vertiefung"
+      tone: "teal"
+      repo: "https://github.com/hannesdiemerling/True_Reliability"
+      base: "https://hannesdiemerling.github.io/True_Reliability"
+      goal_self: "Du arbeitest die fünf Kapitel selbstständig durch und experimentierst mit Stichproben-Simulationen im Browser."
+      goal_guided: "Wir nehmen euch mit durch die Inhalte und übersetzen sie auf eure konkreten Studien-Designs."
+      audience: "Studienplaner:innen, Forschende und alle, die Sample-Size-Entscheidungen wirklich verstehen möchten."
+      chapters:
+        - { num: 1, title: "Von der Stichprobe zur Population",          time: "15 min", level: "Einsteiger", file: "chap1.html" }
+        - { num: 2, title: "Verzerrung durch Dropouts und Missings",     time: "15 min", level: "Einsteiger", file: "chap2.html" }
+        - { num: 3, title: "p-Hacking und falsch-positive Ergebnisse",   time: "15 min", level: "Einsteiger", file: "chap3.html" }
+        - { num: 4, title: "Schätzgenauigkeit und tolerierbarer Fehler", time: "15 min", level: "Einsteiger", file: "chap4.html" }
+        - { num: 5, title: "Unsicherheit quantifizieren",                time: "15 min", level: "Einsteiger", file: "chap5.html" }
+
+  # Themenfeld "Fragen" — typische Nutzerfragen, jeweils mit
+  # Verweisen auf konkrete Kapitel + Methoden-Seiten.
+  questions:
+    - key: q-pwert
+      icon: "?"
+      tone: "coral"
+      title: "Was bedeutet ein p-Wert eigentlich genau?"
+      lead: "Sieben Fehlannahmen — und was der p-Wert tatsächlich aussagt."
+      links:
+        - { type: "chapter", workshop: "power",       chapter: 1, label: "Fehlinterpretationen & binäres Denken" }
+        - { type: "chapter", workshop: "power",       chapter: 2, label: "p-Wert und Stichprobengröße" }
+        - { type: "method",  path: "methoden/p-werte/",        label: "Probleme des p-Werts" }
+
+    - key: q-effekt
+      icon: "d"
+      tone: "teal"
+      title: "Wie groß ist mein Effekt — und ist er bedeutsam?"
+      lead: "Die einzig sinnvolle Antwort: Effektgrößen, kontextbezogen interpretiert."
+      links:
+        - { type: "chapter", workshop: "power",       chapter: 3, label: "Unstandardisierte Effekte" }
+        - { type: "chapter", workshop: "power",       chapter: 4, label: "Standardisierte Effektgrößen" }
+        - { type: "chapter", workshop: "power",       chapter: 5, label: "Praktische Bedeutsamkeit" }
+        - { type: "method",  path: "methoden/effektgroessen/", label: "Effekte & Effektgrößen" }
+
+    - key: q-stichprobe
+      icon: "N"
+      tone: "navy"
+      title: "Wie viele Probanden brauche ich wirklich?"
+      lead: "Schätzgenauigkeit, Wurzelgesetz und Simulation statt Daumenregel."
+      links:
+        - { type: "chapter", workshop: "reliability", chapter: 4, label: "Schätzgenauigkeit und tolerierbarer Fehler" }
+        - { type: "chapter", workshop: "reliability", chapter: 1, label: "Von der Stichprobe zur Population" }
+        - { type: "method",  path: "methoden/stichproben/",    label: "Stichproben & Präzision" }
+
+    - key: q-prior
+      icon: "π"
+      tone: "sand"
+      title: "Was ist ein Prior — ist er nicht zu subjektiv?"
+      lead: "Wie Vorwissen mathematisch transparent gemacht wird."
+      links:
+        - { type: "chapter", workshop: "thinking",    chapter: 3, label: "Der Prior" }
+        - { type: "chapter", workshop: "thinking",    chapter: 5, label: "Der Posterior — Synthese aus Prior & Daten" }
+        - { type: "method",  path: "methoden/bayesian/",       label: "Bayesianische Datenanalyse" }
+
+    - key: q-update
+      icon: "↻"
+      title: "Wie aktualisiere ich Überzeugungen mit neuen Daten?"
+      lead: "Die mechanische Logik des Bayes-Theorems — Schritt für Schritt."
+      links:
+        - { type: "chapter", workshop: "thinking",    chapter: 2, label: "Das Bayes-Theorem" }
+        - { type: "chapter", workshop: "thinking",    chapter: 4, label: "Die Likelihood" }
+        - { type: "chapter", workshop: "thinking",    chapter: 5, label: "Der Posterior" }
+
+    - key: q-95
+      icon: "%"
+      title: "Wie sage ich „mit 95 % Wahrscheinlichkeit liegt der Wert in …"?"
+      lead: "Glaubwürdigkeitsintervalle vs. Konfidenzintervalle — endlich klar."
+      links:
+        - { type: "chapter", workshop: "thinking",    chapter: 5, label: "Der Posterior & Glaubwürdigkeitsintervall" }
+        - { type: "chapter", workshop: "reliability", chapter: 5, label: "Unsicherheit quantifizieren" }
+        - { type: "method",  path: "methoden/bayesian/",       label: "Bayesianische Datenanalyse" }
+
+    - key: q-hacking
+      icon: "✦"
+      tone: "coral"
+      title: "Was ist p-Hacking — und woran erkenne ich es?"
+      lead: "Verborgene Freiheitsgrade, falsch-positive Raten bis 61 %."
+      links:
+        - { type: "chapter", workshop: "reliability", chapter: 3, label: "p-Hacking und falsch-positive Ergebnisse" }
+        - { type: "chapter", workshop: "power",       chapter: 6, label: "Publikationsbias" }
+        - { type: "method",  path: "methoden/p-werte/",        label: "Probleme des p-Werts" }
+
+    - key: q-bias
+      icon: "Δ"
+      title: "Wann ist eine Stichprobe verzerrt — und was tun?"
+      lead: "Selektion, Drop-outs, Missings: was systematisch passiert."
+      links:
+        - { type: "chapter", workshop: "reliability", chapter: 1, label: "Von der Stichprobe zur Population" }
+        - { type: "chapter", workshop: "reliability", chapter: 2, label: "Dropouts und Missings" }
+        - { type: "method",  path: "methoden/stichproben/",    label: "Stichproben & Präzision" }
+
+    - key: q-vorhersage
+      icon: "→"
+      tone: "teal"
+      title: "Wie sage ich Werte für die Zukunft vorher?"
+      lead: "Posterior-Predictive — Unsicherheit ehrlich ausgewiesen."
+      links:
+        - { type: "chapter", workshop: "thinking",    chapter: 6, label: "Vorhersagen mit Posterior-Predictive" }
+        - { type: "method",  path: "methoden/bayesian/",       label: "Bayesianische Datenanalyse" }
+
+    - key: q-mcmc
+      icon: "≈"
+      title: "Was tun, wenn das Bayes-Integral nicht lösbar ist?"
+      lead: "MCMC: numerisch approximieren statt analytisch lösen."
+      links:
+        - { type: "chapter", workshop: "thinking",    chapter: 7, label: "Numerische Berechnung (MCMC)" }
+        - { type: "method",  path: "methoden/bayesian/",       label: "Bayesianische Datenanalyse" }
+
   status:
     new: Neu hinzugefügt
     deprecated: In Überarbeitung
@@ -86,13 +282,19 @@ copyright: >
   Copyright &copy; 2025 Beyond p-values Initiative —
   <a href="#__consent">Cookie-Einstellungen ändern</a>
 
+# ============================================================
+# NAVIGATION
+# Workshop-Slugs: thinking / power / reliability
+# Neue Sektion: Fragen — themenzentrierter Einstieg.
+# ============================================================
 nav:
   - Startseite: index.md
   - Workshops:
       - Übersicht: workshops/index.md
-      - Thinking Bayesian (Grundlagen): workshops/thinking-bayesian.md
-      - Bayesian Power: workshops/bayesian-power.md
-      - Bayesian Connection: workshops/bayesian-connection.md
+      - Denke Bayesianisch: workshops/thinking.md
+      - Beyond Significance: workshops/power.md
+      - Repräsentativität & Stichprobengröße: workshops/reliability.md
+  - Fragen: fragen/index.md
   - Methoden:
       - Übersicht: methoden/index.md
       - Probleme des p-Werts: methoden/p-werte.md

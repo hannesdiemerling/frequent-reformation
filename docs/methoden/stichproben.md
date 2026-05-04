@@ -78,7 +78,7 @@ Fragt: *„Wie viele Probanden brauche ich, damit der Bayes-Faktor mit hoher Wah
 - Vermeidet Ressourcen-Verschwendung
 - Funktioniert symmetrisch für H0 und H1
 
-→ Tiefere Behandlung in [Workshop 02 — Bayesian Power](../workshops/bayesian-power.md).
+→ Tiefere Behandlung in [Workshop 02 — Beyond Significance](../workshops/power.md).
 
 ## Simulation statt Faustregel
 
@@ -106,6 +106,31 @@ Mit 10–20 Zeilen Code bekommst du eine ehrlichere Antwort als jede Tabelle.
 - **Auswahlmechanismus** und Dropout-Rate
 - **A-priori-Begründung** für die Größe (Präzision, Bayes-Faktor-Design oder Power)
 - **Sensitivitätsanalysen** für unterschiedliche Annahmen
+
+## Übungs-Kapitel — direkt anwenden
+
+Diese Workshop-Kapitel vertiefen das Thema mit interaktiven Beispielen im Browser:
+
+<div class="bp-carousel">
+  <div class="bp-carousel__track">
+    {% for ref in [
+      {"workshop": "reliability", "chapter": 1},
+      {"workshop": "reliability", "chapter": 2},
+      {"workshop": "reliability", "chapter": 4},
+      {"workshop": "reliability", "chapter": 5}
+    ] %}
+      {% set ws = workshops[ref.workshop] %}
+      {% set ch = ws.chapters[ref.chapter - 1] %}
+      <a class="bp-card" href="{{ ws.base }}/{{ ch.file }}" target="_blank" rel="noopener">
+        <span class="bp-card__num">{{ "%02d" | format(ch.num) }}</span>
+        <span class="bp-card__tag">{{ ws.title }}</span>
+        <h3 class="bp-card__title">{{ ch.title }}</h3>
+        <p class="bp-card__desc">Theorie + interaktive Browser-App. ↗ extern.</p>
+        <div class="bp-card__meta"><span>⏱ {{ ch.time }}</span><span>🎚 {{ ch.level }}</span></div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
 
 <div class="bp-soon">
   <span class="bp-pill bp-pill--soon">In Arbeit</span>
