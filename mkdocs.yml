@@ -1,48 +1,117 @@
 site_name: Beyond p-values
+site_description: Hub für bayesianische Statistik. Werkzeuge, Workshops und Wissen zur Überwindung des Signifikanztest-Rituals.
 site_url: https://hannesdiemerling.github.io/Frequent-Reformation/
+site_author: Beyond p-values Initiative
 
 theme:
   name: material
   language: de
-  palette: 
+  logo: assets/Logo2.png
+  favicon: assets/Logo2.png
+  palette:
     - scheme: default
-      primary: indigo
-      accent: deep purple
+      primary: custom
+      accent: custom
       toggle:
-        icon: material/brightness-7
-        name: Dark Mode
+        icon: material/weather-night
+        name: Dark Mode aktivieren
     - scheme: slate
-      primary: indigo
-      accent: deep purple
+      primary: custom
+      accent: custom
       toggle:
-        icon: material/brightness-4
-        name: Light Mode
+        icon: material/weather-sunny
+        name: Light Mode aktivieren
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.instant
+    - navigation.tracking
     - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+    - toc.follow
+    - header.autohide
+  icon:
+    repo: fontawesome/brands/github
 
 markdown_extensions:
   - admonition
   - attr_list
   - md_in_html
+  - footnotes
+  - tables
+  - def_list
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.tabbed:
-      alternate_style: true 
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - javascripts/extra.js
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hannesdiemerling/Frequent-Reformation
+      name: Beyond p-values auf GitHub
+  status:
+    new: Neu hinzugefügt
+    deprecated: In Überarbeitung
+
+copyright: >
+  Copyright &copy; 2025 Beyond p-values Initiative —
+  <a href="#__consent">Cookie-Einstellungen ändern</a>
+
 nav:
   - Startseite: index.md
   - Workshops:
-    - Workshop 1: https://hannesdiemerling.github.io/Thinking_Bayesian/
-    - Workshop 2: https://hannesdiemerling.github.io/Bayesian_Power/
-    - Workshop 3: https://hannesdiemerling.github.io/Bayesian_Connection/
-  - Externe Ressourcen: ressourcen.md
+      - Übersicht: workshops/index.md
+      - Thinking Bayesian (Grundlagen): workshops/thinking-bayesian.md
+      - Bayesian Power: workshops/bayesian-power.md
+      - Bayesian Connection: workshops/bayesian-connection.md
+  - Methoden:
+      - Übersicht: methoden/index.md
+      - Probleme des p-Werts: methoden/p-werte.md
+      - Effekte & Effektgrößen: methoden/effektgroessen.md
+      - Stichproben & Präzision: methoden/stichproben.md
+      - Bayesianische Datenanalyse: methoden/bayesian.md
+  - Ressourcen:
+      - Übersicht: ressourcen/index.md
+      - Tools & Software: ressourcen/tools.md
+      - Literatur: ressourcen/literatur.md
+      - Journals: ressourcen/journals.md
+      - Videos & Talks: ressourcen/videos.md
+      - Datensätze: ressourcen/datensaetze.md
+  - Über:
+      - Mission: ueber/index.md
+      - Team: ueber/team.md
+      - Partner & Förderer: ueber/partner.md
+  - Blog: blog/index.md
+  - Kontakt: kontakt.md
+  - Rechtliches:
+      - Impressum: rechtliches/impressum.md
+      - Datenschutz: rechtliches/datenschutz.md
