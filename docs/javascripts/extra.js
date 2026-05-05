@@ -313,6 +313,111 @@
   }
 
   // ============================================================
+  // PORTAL-TOOLTIP-MANAGER
+  // Eine einzige .bp-tip-Box am <body>. Vermeidet Clipping
+  // innerhalb von Karten und z-index-Konflikte komplett.
+  // ============================================================
+  let bpTip = null;
+  let bpTipTimer = null;
+  let bpTipCurrent = null;
+
+  function bpEnsureTip() {
+    if (bpTip) return bpTip;
+    bpTip = document.createElement("div");
+    bpTip.className = "bp-tip";
+    bpTip.setAttribute("role", "tooltip");
+    document.body.appendChild(bpTip);
+    return bpTip;
+  }
+
+  function bpShowTip(target) {
+    const text = target.getAttribute("data-tip");
+    if (!text) return;
+
+    const t = bpEnsureTip();
+    t.textContent = text;
+    t.classList.remove("bp-tip--visible");
+
+    // Reset für saubere Messung
+    t.dataset.placement = "top";
+    t.style.left = "0px";
+    t.style.top = "0px";
+
+    // Force reflow → Maße holen
+    const tipRect = t.getBoundingClientRect();
+    const targetRect = target.getBoundingClientRect();
+
+    const margin = 12;
+    let left = targetRect.left + targetRect.width / 2 - tipRect.width / 2;
+    let top = targetRect.top - tipRect.height - 10;
+    let placement = "top";
+
+    // Nicht über den oberen Viewport-Rand → unten anzeigen
+    if (top < margin) {
+      top = targetRect.bottom + 10;
+      placement = "bottom";
+    }
+
+    // Horizontal in den Viewport zwingen
+    const minLeft = margin;
+    const maxLeft = window.innerWidth - tipRect.width - margin;
+    if (left < minLeft) left = minLeft;
+    if (left > maxLeft) left = Math.max(minLeft, maxLeft);
+
+    // Pfeil-X relativ zum Tooltip-Anfang (zeigt auf Term-Mitte)
+    const arrowX = targetRect.left + targetRect.width / 2 - left;
+
+    t.style.left = left + window.scrollX + "px";
+    t.style.top = top + window.scrollY + "px";
+    t.dataset.placement = placement;
+    t.style.setProperty("--bp-tip-arrow-x", arrowX + "px");
+
+    bpTipCurrent = target;
+    requestAnimationFrame(() => t.classList.add("bp-tip--visible"));
+  }
+
+  function bpHideTip() {
+    if (bpTip) bpTip.classList.remove("bp-tip--visible");
+    bpTipCurrent = null;
+  }
+
+  function bpInitTooltipDelegation() {
+    if (document.body.dataset.bpTipsBound === "1") return;
+    document.body.dataset.bpTipsBound = "1";
+
+    document.addEventListener("mouseover", (e) => {
+      const abbr = e.target.closest && e.target.closest("abbr[data-tip]");
+      if (!abbr) return;
+      clearTimeout(bpTipTimer);
+      if (bpTipCurrent !== abbr) bpShowTip(abbr);
+    });
+
+    document.addEventListener("mouseout", (e) => {
+      const abbr = e.target.closest && e.target.closest("abbr[data-tip]");
+      if (!abbr) return;
+      // Bewegt sich Maus zu Kindelement des abbr → nicht ausblenden
+      if (e.relatedTarget && abbr.contains(e.relatedTarget)) return;
+      bpTipTimer = setTimeout(bpHideTip, 90);
+    });
+
+    document.addEventListener("focusin", (e) => {
+      const abbr = e.target.closest && e.target.closest("abbr[data-tip]");
+      if (abbr) bpShowTip(abbr);
+    });
+    document.addEventListener("focusout", (e) => {
+      const abbr = e.target.closest && e.target.closest("abbr[data-tip]");
+      if (abbr) bpHideTip();
+    });
+
+    window.addEventListener("scroll", bpHideTip, { passive: true });
+    window.addEventListener("resize", bpHideTip);
+    document.addEventListener("click", (e) => {
+      // Tap außerhalb auf Touch-Geräten → Tooltip schließen
+      if (!e.target.closest || !e.target.closest("abbr[data-tip]")) bpHideTip();
+    });
+  }
+
+  // ============================================================
   // REVEAL-Animation
   // ============================================================
   const observer = new IntersectionObserver(
