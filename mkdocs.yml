@@ -231,7 +231,7 @@ extra:
 
     - key: q-95
       icon: "%"
-      title: "Wie sage ich „mit 95 % Wahrscheinlichkeit liegt der Wert in …"?"
+      title: 'Wie formuliere ich „mit 95 % Wahrscheinlichkeit liegt der Wert in …“?'
       lead: "Glaubwürdigkeitsintervalle vs. Konfidenzintervalle — endlich klar."
       links:
         - { type: "chapter", workshop: "thinking",    chapter: 5, label: "Der Posterior & Glaubwürdigkeitsintervall" }
