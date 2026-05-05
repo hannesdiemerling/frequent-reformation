@@ -498,6 +498,8 @@
       applyGlossary(main);
       main.dataset.bpGlossaryApplied = "1";
     }
+    // Tooltip-Event-Delegation binden (idempotent — prüft bpTipsBound)
+    bpInitTooltipDelegation();
   }
 
   // ============================================================
