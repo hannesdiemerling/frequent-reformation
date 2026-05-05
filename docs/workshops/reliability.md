@@ -11,7 +11,7 @@ title: Repräsentativität & Stichprobengröße — Workshop 03
 <div class="bp-workshop__meta" style="margin: 1rem 0 1.5rem 0;">
   <span><strong>{{ w.chapters_count }}</strong> Kapitel</span>
   <span>· {{ w.level }}</span>
-  <span>· Self-paced: {{ w.duration_self }}</span>
+  <span>· Eigenes Tempo: {{ w.duration_self }}</span>
   <span>· Geführt: {{ w.duration_guided }}</span>
 </div>
 
@@ -19,7 +19,7 @@ title: Repräsentativität & Stichprobengröße — Workshop 03
 
   <div class="bp-mode bp-mode--self">
     <div class="bp-mode__head">
-      <span class="bp-pill bp-pill--live">Selbstständig</span>
+      <span class="bp-pill bp-pill--live">Im eigenen Tempo</span>
       <strong>kostenfrei · jederzeit</strong>
     </div>
     <p>{{ w.goal_self }}</p>
@@ -44,10 +44,9 @@ title: Repräsentativität & Stichprobengröße — Workshop 03
 ## Worum geht es?
 
 Eine Stichprobe ist nur so gut wie ihre **Repräsentativität** und ihre **Größe**. Dieser
-Workshop zeigt, wann eine Studie wirklich auf die Grundgesamtheit verallgemeinert — und wann
-nicht. Wir behandeln Verzerrung durch Drop-outs, p-Hacking, Schätzgenauigkeit nach dem
-Wurzelgesetz und das ehrliche Quantifizieren von Unsicherheit. Erneut anhand des
-SmartRail-Beispiels.
+Workshop zeigt, wann eine Studie tatsächlich auf die Grundgesamtheit verallgemeinert — und
+wann nicht. Wir behandeln Verzerrungen durch Drop-outs, p-Hacking, Schätzgenauigkeit nach dem
+Wurzelgesetz und das ehrliche Quantifizieren von Unsicherheit — wieder am SmartRail-Szenario.
 
 ## Für wen ist der Workshop?
 
@@ -81,13 +80,13 @@ SmartRail-Beispiels.
 
 ## Format & Termine
 
-| Aspekt          | Self-paced                                  | Geführt                                          |
-|-----------------|---------------------------------------------|--------------------------------------------------|
-| Dauer           | {{ w.duration_self }}                       | {{ w.duration_guided }}                          |
-| Tempo           | individuell                                 | strukturiert, mit Pausen                         |
-| Interaktion     | Browser-Apps, Fragen via Kontakt            | Live-Diskussion, Q&A, Übungsbetreuung            |
-| Kosten          | kostenfrei                                  | auf Anfrage                                      |
-| Termin          | jederzeit                                   | nach Vereinbarung                                |
+| Aspekt      | Im eigenen Tempo                  | Geführt                                |
+|-------------|-----------------------------------|----------------------------------------|
+| Dauer       | {{ w.duration_self }}             | {{ w.duration_guided }}                |
+| Tempo       | individuell                       | strukturiert, mit Pausen               |
+| Interaktion | Browser-Apps, Fragen via Kontakt  | Live-Diskussion, Q&A, Übungsbetreuung  |
+| Kosten      | kostenfrei                        | auf Anfrage                            |
+| Termin      | jederzeit                         | nach Vereinbarung                      |
 
 ## Begleitmaterial
 

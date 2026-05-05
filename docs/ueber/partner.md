@@ -4,8 +4,8 @@ title: Partner & Förderer
 
 # Partner & Förderer
 
-Das Projekt funktioniert nur, weil viele Akteure mitziehen — von Hochschulen über Fachverlage
-bis zu Krankenkassen. Hier dokumentieren wir den wachsenden Verbund.
+Das Projekt lebt davon, dass viele Akteure mitziehen — von Hochschulen über Fachverlage bis
+zu Krankenkassen. Hier dokumentieren wir den wachsenden Verbund.
 
 ## Förderung
 

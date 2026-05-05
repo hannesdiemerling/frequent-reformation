@@ -366,6 +366,14 @@
   text-align: left;
   box-shadow: var(--bp-shadow-sm);
 }
+.bp-stat {
+  transition: transform 0.25s var(--bp-ease), box-shadow 0.25s var(--bp-ease), border-color 0.2s ease;
+}
+.bp-stat:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--bp-shadow-md);
+  border-color: rgba(79,168,160,0.35);
+}
 .bp-stat__num {
   font-size: 2rem;
   font-weight: 800;
@@ -719,6 +727,13 @@
   box-shadow: var(--bp-shadow-sm);
   position: relative;
   overflow: hidden;
+  transition: transform 0.3s var(--bp-ease), box-shadow 0.3s var(--bp-ease), border-color 0.2s ease;
+}
+a.bp-pillar:hover,
+.bp-pillar:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--bp-shadow-md);
+  border-color: rgba(79,168,160,0.35);
 }
 .bp-pillar__num {
   font-size: 0.78rem;
@@ -951,6 +966,33 @@
 
 /* Hide default H1 spacing on top of pages with hero */
 .bp-no-top-margin h1:first-child { margin-top: 0; }
+
+/* =========================================================
+   REDUCED MOTION — respektiere Nutzer-Einstellungen
+   ========================================================= */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .bp-hero__visual img,
+  .bp-hero__eyebrow .dot {
+    animation: none !important;
+  }
+  .bp-bento__cell:hover,
+  .bp-card:hover,
+  .bp-pillar:hover,
+  .bp-mode:hover,
+  .bp-stat:hover,
+  .bp-person:hover,
+  .bp-qlink:hover,
+  .bp-btn:hover {
+    transform: none !important;
+  }
+}
 
 
 /* Bento Image Support */
@@ -1256,9 +1298,14 @@
   font-weight: inherit;
   border: 0;
 }
+.md-typeset abbr[data-tip]:focus-visible {
+  outline: 2px solid var(--bp-coral);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
 
 .bp-tip {
-  position: absolute;
+  position: fixed;
   z-index: 9999;
   background: var(--bp-ink);
   color: #fff;

@@ -4,8 +4,8 @@ title: Literatur
 
 # Literatur
 
-Eine kommentierte Auswahl. Wir konzentrieren uns auf Quellen, die wir selbst empfehlen — nicht
-auf eine erschöpfende Bibliographie.
+Eine kommentierte Auswahl. Wir konzentrieren uns auf Quellen, die wir selbst empfehlen können —
+nicht auf eine erschöpfende Bibliographie.
 
 ## Lehrbücher — Bayesianische Statistik
 

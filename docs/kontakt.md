@@ -6,8 +6,8 @@ hide:
 
 # Kontakt
 
-Wir freuen uns über Anfragen zu Workshops, Kooperationen, Schulungen und über jede Form von
-Feedback.
+Wir freuen uns über Anfragen zu Workshops, Kooperationen und Schulungen — und über jede
+Form von Feedback.
 
 <div class="bp-bento">
 
@@ -40,8 +40,8 @@ Feedback.
 
 ## Kontaktformular <span class="bp-pill bp-pill--soon">Demo</span>
 
-Das untenstehende Formular ist ein Vorschau-Element. Eine echte Anbindung folgt mit dem
-Förderbeginn — bis dahin nutze gerne die E-Mail oben.
+Das untenstehende Formular ist eine Vorschau. Die echte Anbindung folgt mit dem Förderbeginn —
+bis dahin erreichst du uns am verlässlichsten per E-Mail.
 
 <div class="bp-callout">
   <div style="grid-column: 1 / -1;">

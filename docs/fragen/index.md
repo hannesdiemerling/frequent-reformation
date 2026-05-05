@@ -7,11 +7,11 @@ hide:
 <section class="bp-hero" style="padding: 3.5rem 2rem 4rem 2rem;">
   <div class="bp-hero__inner" style="grid-template-columns: 1fr;">
     <div>
-      <span class="bp-hero__eyebrow"><span class="dot"></span> Fragen · Themenzentrierter Einstieg</span>
+      <span class="bp-hero__eyebrow"><span class="dot"></span> Themenzentrierter Einstieg</span>
       <h1>Was willst du <span class="grad">wirklich wissen?</span></h1>
       <p class="bp-hero__lead">
-        Statt durch Methoden-Kapitel zu blättern: starte mit deiner Frage. Jede Karte führt
-        dich direkt zu den passenden Workshop-Kapiteln und Methoden-Seiten — ohne Umwege.
+        Statt durch Methoden-Kapitel zu blättern, starte mit deiner Frage. Jede Karte führt
+        dich ohne Umwege zu den passenden Workshop-Kapiteln und Methoden-Seiten.
       </p>
     </div>
   </div>
@@ -32,7 +32,7 @@ hide:
       <span class="bp-question__chev">+</span>
     </summary>
     <div class="bp-question__body">
-      <p class="bp-question__hint">Direkt einsteigen — Kapitel öffnen sich in einem neuen Tab:</p>
+      <p class="bp-question__hint">Direkt einsteigen — die Workshop-Kapitel öffnen sich in einem neuen Tab:</p>
       <div class="bp-question__links">
         {% for l in q.links %}
           {% if l.type == "chapter" %}
@@ -72,7 +72,7 @@ hide:
   <a class="bp-pillar" href="../workshops/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">→ WORKSHOPS</div>
     <h3>Strukturiert lernen</h3>
-    <p>Drei Workshops, jeweils self-paced oder als geführte Veranstaltung buchbar.</p>
+    <p>Drei Workshops — jeweils im eigenen Tempo oder als geführte Veranstaltung buchbar.</p>
   </a>
   <a class="bp-pillar" href="../methoden/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">→ METHODEN</div>

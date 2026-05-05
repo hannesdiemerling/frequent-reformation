@@ -4,8 +4,8 @@ title: Team
 
 # Team
 
-Das Projekt wird von einem kleinen Kernteam umgesetzt — und durch ein wachsendes Netz an
-Kooperationspartner:innen und Multiplikator:innen verstärkt.
+Das Projekt wird von einem kleinen Kernteam getragen — verstärkt durch ein wachsendes Netz
+aus Kooperationspartner:innen und Multiplikator:innen.
 
 <div class="bp-team">
 

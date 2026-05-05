@@ -4,8 +4,7 @@ title: Videos & Talks
 
 # Videos & Talks
 
-Vorlesungen, Konferenzbeiträge, Talks und Podcasts — alles, was du dir kostenlos ansehen
-oder anhören kannst, ohne ein Lehrbuch zu kaufen.
+Vorlesungen, Konferenzbeiträge und Podcasts — alles kostenlos, ohne Lehrbuch-Pflicht.
 
 ## Vorlesungsreihen — komplett
 

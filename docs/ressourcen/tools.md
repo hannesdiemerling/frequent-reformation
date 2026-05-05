@@ -4,14 +4,14 @@ title: Tools & Software
 
 # Tools & Software
 
-Praktische Werkzeuge für bayesianische Analysen — nach Einstiegshürde sortiert. Alles
-empfohlene Software ist **kostenlos und Open Source**.
+Praktische Werkzeuge für bayesianische Analysen — nach Einstiegshürde sortiert. Alle
+empfohlene Software ist **kostenlos und quelloffen**.
 
 <div class="bp-section-head">
   <div>
     <span class="bp-section-head__eyebrow">Niederschwellig · GUI</span>
     <h2>Für Einsteiger:innen</h2>
-    <p class="bp-section-head__lead">Klicken statt Programmieren — ideal für Lehre, erste Analysen und alle, die nicht Coden möchten.</p>
+    <p class="bp-section-head__lead">Klicken statt Programmieren — ideal für Lehre, erste eigene Analysen und alle, die nicht coden möchten.</p>
   </div>
 </div>
 
@@ -53,9 +53,9 @@ empfohlene Software ist **kostenlos und Open Source**.
 
 <div class="bp-section-head">
   <div>
-    <span class="bp-section-head__eyebrow">Mittlere Hürde · R-Pakete</span>
+    <span class="bp-section-head__eyebrow">Fortgeschritten · R-Pakete</span>
     <h2>Für Anwender:innen mit R-Erfahrung</h2>
-    <p class="bp-section-head__lead">Maximale Modell-Flexibilität ohne den Sprung in eine probabilistische Programmiersprache.</p>
+    <p class="bp-section-head__lead">Hohe Modell-Flexibilität — ohne den Sprung in eine probabilistische Programmiersprache.</p>
   </div>
 </div>
 
@@ -107,9 +107,9 @@ empfohlene Software ist **kostenlos und Open Source**.
 
 <div class="bp-section-head">
   <div>
-    <span class="bp-section-head__eyebrow">Power-User · Probabilistic Programming</span>
+    <span class="bp-section-head__eyebrow">Profi · Probabilistic Programming</span>
     <h2>Für maximale Flexibilität</h2>
-    <p class="bp-section-head__lead">Wenn dein Modell nicht in eine Standardformel passt — oder du performance-kritisch arbeitest.</p>
+    <p class="bp-section-head__lead">Wenn dein Modell nicht in eine Standardformel passt — oder Performance entscheidend ist.</p>
   </div>
 </div>
 

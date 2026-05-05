@@ -11,7 +11,7 @@ title: Beyond Significance — Workshop 02
 <div class="bp-workshop__meta" style="margin: 1rem 0 1.5rem 0;">
   <span><strong>{{ w.chapters_count }}</strong> Kapitel</span>
   <span>· {{ w.level }}</span>
-  <span>· Self-paced: {{ w.duration_self }}</span>
+  <span>· Eigenes Tempo: {{ w.duration_self }}</span>
   <span>· Geführt: {{ w.duration_guided }}</span>
 </div>
 
@@ -19,7 +19,7 @@ title: Beyond Significance — Workshop 02
 
   <div class="bp-mode bp-mode--self">
     <div class="bp-mode__head">
-      <span class="bp-pill bp-pill--live">Selbstständig</span>
+      <span class="bp-pill bp-pill--live">Im eigenen Tempo</span>
       <strong>kostenfrei · jederzeit</strong>
     </div>
     <p>{{ w.goal_self }}</p>
@@ -43,10 +43,10 @@ title: Beyond Significance — Workshop 02
 
 ## Worum geht es?
 
-„Signifikant" heißt nicht „bedeutsam". Dieser Workshop zerlegt die wichtigsten Missverständnisse
-um den p-Wert und zeigt, wie du Effekte stattdessen sinnvoll **berichten, vergleichen und
-interpretieren** kannst — von Cohen's d bis zur ehrlichen Diskussion praktischer Relevanz. Das
-durchgängige SmartRail-Beispiel macht abstrakte Konzepte greifbar.
+„Signifikant" heißt nicht „bedeutsam". Dieser Workshop löst die wichtigsten Missverständnisse
+rund um den p-Wert auf und zeigt, wie du Effekte stattdessen sinnvoll **berichten, vergleichen
+und interpretieren** kannst — von Cohen's d bis zur ehrlichen Diskussion praktischer Relevanz.
+Das durchgängige SmartRail-Szenario macht abstrakte Konzepte greifbar.
 
 ## Für wen ist der Workshop?
 
@@ -80,13 +80,13 @@ durchgängige SmartRail-Beispiel macht abstrakte Konzepte greifbar.
 
 ## Format & Termine
 
-| Aspekt          | Self-paced                                  | Geführt                                          |
-|-----------------|---------------------------------------------|--------------------------------------------------|
-| Dauer           | {{ w.duration_self }}                       | {{ w.duration_guided }}                          |
-| Tempo           | individuell                                 | strukturiert, mit Pausen                         |
-| Interaktion     | Browser-Apps, Fragen via Kontakt            | Live-Diskussion, Q&A, Übungsbetreuung            |
-| Kosten          | kostenfrei                                  | auf Anfrage                                      |
-| Termin          | jederzeit                                   | nach Vereinbarung                                |
+| Aspekt      | Im eigenen Tempo                  | Geführt                                |
+|-------------|-----------------------------------|----------------------------------------|
+| Dauer       | {{ w.duration_self }}             | {{ w.duration_guided }}                |
+| Tempo       | individuell                       | strukturiert, mit Pausen               |
+| Interaktion | Browser-Apps, Fragen via Kontakt  | Live-Diskussion, Q&A, Übungsbetreuung  |
+| Kosten      | kostenfrei                        | auf Anfrage                            |
+| Termin      | jederzeit                         | nach Vereinbarung                      |
 
 ## Begleitmaterial
 

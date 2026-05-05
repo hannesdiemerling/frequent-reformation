@@ -9,9 +9,9 @@ title: Effekte & Effektgrößen
 
 ## Warum Effektgrößen?
 
-Ein p-Wert sagt dir, wie überraschend deine Daten unter einer Annahme wären — er sagt dir
-**nicht**, wie groß der Unterschied oder Zusammenhang tatsächlich ist. Genau das ist aber die
-Frage, die für Theoriebildung und Praxisentscheidungen zählt.
+Ein p-Wert verrät dir, wie überraschend deine Daten unter einer Annahme wären — aber **nicht**,
+wie groß der Unterschied oder Zusammenhang tatsächlich ist. Genau das ist jedoch die Frage,
+die für Theoriebildung und Praxisentscheidungen zählt.
 
 !!! quote "Cohen, 1994"
     *„The primary product of a research inquiry is one or more measures of effect size, not p values."*
@@ -106,13 +106,17 @@ Frage, die für Theoriebildung und Praxisentscheidungen zählt.
   </div>
 </div>
 
-## Cohen's Daumenregeln — mit Vorsicht
+## Cohens Klassifikation — mit Vorbehalt
 
-Jacob Cohen schlug 1988 die Klassifikation klein/mittel/groß vor — als Notnagel, **wenn keine
-fachspezifischen Vergleichswerte vorliegen**. Das wurde leider als Naturgesetz missverstanden.
+Jacob Cohen schlug 1988 die Einteilung klein/mittel/groß vor — als grobe Orientierung, **wenn
+keine fachspezifischen Vergleichswerte vorliegen**. In der Praxis wird sie häufig als Naturgesetz
+fehlinterpretiert.
 
 !!! warning "Domänenwissen schlägt Faustregel"
-    Was als "klein" oder "groß" gilt, hängt von deinem Forschungsfeld ab. Ein d = 0.2 für eine Suizidpräventions-Intervention ist riesig. Ein d = 0.5 für ein neues Lernformat in einem etablierten Fachgebiet ist eher mittelmäßig. **Vergleiche immer mit publizierten Effekten in deiner Subdisziplin.**
+    Was als „klein" oder „groß" gilt, hängt vom Forschungsfeld ab. Ein d = 0.2 für eine
+    Suizidpräventions-Intervention ist riesig — ein d = 0.5 für ein neues Lernformat in einem
+    etablierten Fachgebiet eher mittelmäßig. **Vergleiche immer mit publizierten Effekten in
+    deiner Subdisziplin.**
 
 Empirische Verteilungen für viele Subdisziplinen findest du in:
 
@@ -124,7 +128,7 @@ Eine Effektgröße ohne Intervall ist nur die halbe Geschichte. Berichte immer:
 
 - **Punktschätzer** (z. B. d = 0.42)
 - **Intervall** (z. B. 95 % CI [0.18, 0.66] oder bayesianisch HDI [0.20, 0.65])
-- **Modellannahmen** und Effektgrößen-Variante (z. B. unbiased / corrected)
+- **Modellannahmen** und Effektgrößen-Variante (z. B. korrigiert für kleine Stichproben)
 
 ## Cheatsheet — welche Effektgröße wann?
 

@@ -16,13 +16,13 @@
   // ============================================================
   const BP_GLOSSARY = {
     "p-Wert":
-      "Wahrscheinlichkeit, die beobachteten Daten — oder noch extremere — zu erhalten, falls die Nullhypothese wahr wäre. Sagt nichts über die Wahrscheinlichkeit der Hypothese selbst.",
+      "Wahrscheinlichkeit, ein mindestens so extremes Ergebnis wie das beobachtete zu sehen, wenn die Nullhypothese wahr wäre. Er sagt nichts darüber, wie wahrscheinlich die Hypothese selbst ist.",
     "p-Werts":
-      "Wahrscheinlichkeit, die beobachteten Daten — oder noch extremere — zu erhalten, falls die Nullhypothese wahr wäre.",
+      "Wahrscheinlichkeit, ein mindestens so extremes Ergebnis wie das beobachtete zu sehen, wenn die Nullhypothese wahr wäre.",
     "p-Werte":
-      "Wahrscheinlichkeit, die beobachteten Daten — oder noch extremere — zu erhalten, falls die Nullhypothese wahr wäre.",
+      "Wahrscheinlichkeit, ein mindestens so extremes Ergebnis wie das beobachtete zu sehen, wenn die Nullhypothese wahr wäre.",
     "p-Werten":
-      "Wahrscheinlichkeit, die beobachteten Daten — oder noch extremere — zu erhalten, falls die Nullhypothese wahr wäre.",
+      "Wahrscheinlichkeit, ein mindestens so extremes Ergebnis wie das beobachtete zu sehen, wenn die Nullhypothese wahr wäre.",
 
     "Signifikanztest":
       "Klassisches Testverfahren, das prüft, ob ein Ergebnis unter Annahme der Nullhypothese „überraschend“ ist. Beantwortet nicht, ob ein Effekt real oder bedeutsam ist.",
@@ -209,6 +209,43 @@
       "Technologie, mit der Python-Anwendungen direkt im Browser laufen — keine Installation nötig.",
     "SmartRail":
       "Fiktives Pilot-System der Deutschen Bahn, das in den Workshops als durchgängiges Beispiel dient.",
+
+    "Pioniervorhaben":
+      "Förderlinie der Volkswagen-Stiftung für transformative Grundlagenforschung mit Pilot-Charakter — adressiert ungelöste Probleme des Wissenschaftssystems.",
+    "Faktenbox":
+      "Standardisiertes, evidenzbasiertes Informationsformat — etabliert vom Harding-Zentrum für Risikokompetenz — das Nutzen und Schaden medizinischer Maßnahmen in absoluten Zahlen darstellt.",
+    "Faktenboxen":
+      "Standardisiertes, evidenzbasiertes Informationsformat — etabliert vom Harding-Zentrum — das Nutzen und Schaden medizinischer Maßnahmen in absoluten Zahlen darstellt.",
+    "RCT":
+      "Randomisierte kontrollierte Studie — Goldstandard für kausale Wirksamkeitsnachweise; Teilnehmende werden zufällig auf Interventions- und Kontrollgruppe verteilt.",
+    "Convenience-Sample":
+      "Anfallstichprobe — Teilnehmende werden nach Verfügbarkeit ausgewählt (z. B. Studierende einer Vorlesung). Selten repräsentativ für die Zielpopulation.",
+    "Convenience-Stichprobe":
+      "Anfallstichprobe — Teilnehmende werden nach Verfügbarkeit ausgewählt. Selten repräsentativ.",
+    "Self-Selection":
+      "Selbstselektion — Personen entscheiden selbst, ob sie an einer Studie teilnehmen. Erzeugt systematische Verzerrungen, weil Motivation und Merkmale korrelieren.",
+    "Hierarchisches Modell":
+      "Statistisches Modell mit mehreren Ebenen (z. B. Schüler:innen in Klassen). Erlaubt partielles Pooling: Schätzungen pro Gruppe profitieren von der Information aller Gruppen.",
+    "Hierarchische Modelle":
+      "Statistische Modelle mit mehreren Ebenen — erlauben partielles Pooling über Gruppen hinweg und liefern dadurch stabilere Schätzungen.",
+    "Codebook":
+      "Dokument, das alle Variablen eines Datensatzes mit Bedeutung, Wertebereich und Kodierung beschreibt — Voraussetzung für Nachvollziehbarkeit und Reanalyse.",
+    "DSGVO":
+      "EU-Datenschutz-Grundverordnung — regelt seit 2018 die Verarbeitung personenbezogener Daten in der Europäischen Union.",
+    "R̂":
+      "R-Hat — Konvergenz-Diagnostik für MCMC-Verfahren. Werte nahe 1.00 zeigen, dass mehrere Sampling-Ketten dieselbe Verteilung erreicht haben.",
+    "ESS":
+      "Effective Sample Size — Anzahl effektiv unabhängiger Stichproben aus einer MCMC-Kette. Niedrige Werte signalisieren autokorrelierte oder ineffiziente Inferenz.",
+    "MCMC-Konvergenz":
+      "Zustand, in dem die MCMC-Ketten die Posterior-Verteilung stabil approximieren — geprüft mit R̂, ESS und Trace-Plots.",
+    "Trace-Plot":
+      "Verlaufs-Diagramm einer MCMC-Kette — zeigt, ob die Ketten sich gut durchmischen oder hängenbleiben.",
+    "Variational Inference":
+      "Approximative Bayes-Inferenz: ersetzt das Sampling durch Optimierung einer einfacheren Verteilung. Schneller als MCMC, aber weniger genau.",
+    "ANOVA":
+      "Varianzanalyse — testet Mittelwerts-Unterschiede zwischen mehreren Gruppen, indem sie die Gesamtvarianz in erklärte und nicht erklärte Anteile zerlegt.",
+    "Cohens d":
+      "Standardisierte Effektgröße für Mittelwertsdifferenzen — Differenz geteilt durch die gepoolte Standardabweichung. Daumenregeln: 0.2 klein, 0.5 mittel, 0.8 groß.",
   };
 
   // ============================================================
@@ -367,8 +404,9 @@
     // Pfeil-X relativ zum Tooltip-Anfang (zeigt auf Term-Mitte)
     const arrowX = targetRect.left + targetRect.width / 2 - left;
 
-    t.style.left = left + window.scrollX + "px";
-    t.style.top = top + window.scrollY + "px";
+    // position: fixed -> Viewport-Koordinaten, kein Scroll-Offset addieren
+    t.style.left = left + "px";
+    t.style.top = top + "px";
     t.dataset.placement = placement;
     t.style.setProperty("--bp-tip-arrow-x", arrowX + "px");
 

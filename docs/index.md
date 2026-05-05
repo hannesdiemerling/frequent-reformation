@@ -8,16 +8,15 @@ title: Beyond p-values — Hub für bayesianische Statistik
 <section class="bp-hero">
   <div class="bp-hero__inner">
     <div>
-      <span class="bp-hero__eyebrow"><span class="dot"></span> Pioniervorhaben · Wissenschaftssystem</span>
+      <span class="bp-hero__eyebrow"><span class="dot"></span> Workshops · Methoden · Werkzeuge</span>
       <h1>Jenseits des <span class="grad">p-Werts</span>.<br>Bayesianisch denken.</h1>
       <p class="bp-hero__lead">
-        Werkzeuge, Workshops und Wissen für eine Wissenschaft, die Evidenz nicht mehr an einer
-        willkürlichen Schwelle festmacht — sondern an Effekten, Präzision und der Stärke der Evidenz
-        für eine Hypothese.
+        Bessere Antworten als „signifikant oder nicht": Effektgrößen, Präzision und
+        bayesianische Inferenz — verständlich erklärt, im Browser zum Mitmachen.
       </p>
       <div class="bp-hero__ctas">
-        <a class="bp-btn bp-btn--primary" href="workshops/">Workshops starten →</a>
-        <a class="bp-btn bp-btn--ghost" href="fragen/">Mit einer Frage anfangen</a>
+        <a class="bp-btn bp-btn--primary" href="workshops/">Workshops entdecken →</a>
+        <a class="bp-btn bp-btn--ghost" href="fragen/">Mit deiner Frage starten</a>
       </div>
     </div>
     <div class="bp-hero__visual">
@@ -29,29 +28,29 @@ title: Beyond p-values — Hub für bayesianische Statistik
 <div class="bp-stats">
   <div class="bp-stat">
     <span class="bp-stat__num">61&nbsp;%</span>
-    <span class="bp-stat__label">Falsch-positiv-Rate möglich, wenn Questionable Research Practices im Spiel sind <em>(Simmons et&nbsp;al., 2011)</em>.</span>
+    <span class="bp-stat__label">Falsch-positiv-Rate, wenn fragwürdige Forschungspraktiken zusammenkommen <em>(Simmons et&nbsp;al., 2011)</em>.</span>
   </div>
   <div class="bp-stat">
     <span class="bp-stat__num">3</span>
-    <span class="bp-stat__label">interaktive Workshops — vollständig im Browser, self-paced oder geführt.</span>
+    <span class="bp-stat__label">interaktive Workshops — vollständig im Browser, im eigenen Tempo oder geführt.</span>
   </div>
   <div class="bp-stat">
     <span class="bp-stat__num">{{ workshops.thinking.chapters_count + workshops.power.chapters_count + workshops.reliability.chapters_count }}</span>
-    <span class="bp-stat__label">Kapitel mit Theorie + interaktiven Beispielen rund um SmartRail.</span>
+    <span class="bp-stat__label">Kapitel mit Theorie und interaktiven Beispielen am SmartRail-Szenario.</span>
   </div>
   <div class="bp-stat">
     <span class="bp-stat__num">2015</span>
-    <span class="bp-stat__label">verbietet <em>Basic and Applied Social Psychology</em> als erstes Journal p-Werte vollständig.</span>
+    <span class="bp-stat__label">verzichtet <em>Basic and Applied Social Psychology</em> als erstes Journal vollständig auf p-Werte.</span>
   </div>
 </div>
 
 <div class="bp-section-head">
   <div>
-    <span class="bp-section-head__eyebrow">Bento · Überblick</span>
+    <span class="bp-section-head__eyebrow">Überblick</span>
     <h2>Drei Wege ins Material</h2>
     <p class="bp-section-head__lead">
-      Strukturiert über Workshops. Themenzentriert über Fragen. Vertieft über die Methoden-Seiten.
-      Wähle den Einstieg, der dir gerade dient.
+      Strukturiert über Workshops, themenzentriert über Fragen, vertieft über die
+      Methoden-Seiten — wähle den Einstieg, der zu dir passt.
     </p>
   </div>
   <a class="bp-section-head__link" href="ueber/">Mehr über das Projekt →</a>
@@ -64,8 +63,8 @@ title: Beyond p-values — Hub für bayesianische Statistik
     <div>
       <h3>Workshops — strukturiert lernen</h3>
       <p>
-        Drei Workshops mit insgesamt {{ workshops.thinking.chapters_count + workshops.power.chapters_count + workshops.reliability.chapters_count }} Kapiteln. Vollständig im Browser nutzbar — als Self-paced oder als
-        gebuchter Live-Workshop für dein Team.
+        Drei Workshops mit insgesamt {{ workshops.thinking.chapters_count + workshops.power.chapters_count + workshops.reliability.chapters_count }} Kapiteln. Vollständig im Browser — im eigenen Tempo
+        oder als gebuchter Live-Workshop für dein Team.
       </p>
     </div>
   </a>
@@ -73,7 +72,7 @@ title: Beyond p-values — Hub für bayesianische Statistik
   <a class="bp-bento__cell x2 tone-coral" href="fragen/">
     <span class="icon">?</span>
     <h3>Fragen — themenzentriert</h3>
-    <p>Klick auf deine Frage → direkt zum passenden Kapitel.</p>
+    <p>Klick auf deine Frage und springe direkt ins passende Kapitel.</p>
   </a>
 
   <a class="bp-bento__cell x2" href="methoden/p-werte/">
@@ -85,13 +84,13 @@ title: Beyond p-values — Hub für bayesianische Statistik
   <a class="bp-bento__cell x3 tone-teal" href="ressourcen/tools/">
     <span class="icon">⚙</span>
     <h3>Tools & Software</h3>
-    <p>Niederschwellige Bayes-Workflows mit JASP, Jamovi, brms, PyMC.</p>
+    <p>Bayes-Analysen mit JASP, Jamovi, brms und PyMC — von Klick-GUI bis Code.</p>
   </a>
 
   <a class="bp-bento__cell x3 tone-sand">
     <span class="icon">✦</span>
     <div>
-      <span class="quote">„The earth is round (p &lt; .05).“</span>
+      <span class="quote">„The earth is round (p &lt; .05)."</span>
       <div class="quote-author">— Jacob Cohen, 1994</div>
     </div>
   </a>
@@ -99,31 +98,31 @@ title: Beyond p-values — Hub für bayesianische Statistik
   <a class="bp-bento__cell x2" href="methoden/effektgroessen/">
     <span class="icon">d</span>
     <h3>Effektgrößen</h3>
-    <p>Cohen's d, Hedges' g, η² — verstehen und interpretieren.</p>
+    <p>Cohen's d, Hedges' g, η² — verstehen, einordnen, berichten.</p>
   </a>
 
   <a class="bp-bento__cell x2" href="methoden/stichproben/">
     <span class="icon">N</span>
     <h3>Stichproben & Präzision</h3>
-    <p>Wie viele brauche ich wirklich? Simulation statt Daumenregel.</p>
+    <p>Wie viele Probanden brauchst du wirklich? Simulation statt Daumenregel.</p>
   </a>
 
   <a class="bp-bento__cell x2" href="ressourcen/literatur/">
     <span class="icon">📚</span>
     <h3>Literatur</h3>
-    <p>Kuratierte Bücher, Reviews und Schlüsselpapers.</p>
+    <p>Kuratierte Bücher, Reviews und Schlüssel-Papers.</p>
   </a>
 
 </div>
 
 <div class="bp-section-head">
   <div>
-    <span class="bp-section-head__eyebrow">Workshops · Self-paced &amp; geführt</span>
+    <span class="bp-section-head__eyebrow">Workshops</span>
     <h2>Drei Lernpfade — zwei Wege</h2>
     <p class="bp-section-head__lead">
-      Jeder Workshop läuft komplett im Browser (Python via Shinylive). Self-paced ist
-      kostenfrei und jederzeit zugänglich; die geführte Variante buchst du für dein Team
-      über uns.
+      Jeder Workshop läuft vollständig im Browser (Python via Shinylive — keine Installation).
+      Im eigenen Tempo ist alles kostenfrei zugänglich; geführte Sessions für dein Team
+      buchst du über uns.
     </p>
   </div>
   <a class="bp-section-head__link" href="workshops/">Alle Workshops →</a>
@@ -151,8 +150,8 @@ title: Beyond p-values — Hub für bayesianische Statistik
       <span class="bp-card__tag">Train-the-Trainer</span>
       <h3 class="bp-card__title">Multiplikator:innen-Programm</h3>
       <p class="bp-card__desc">
-        Werde Multiplikator:in für die Methoden-Wende an deiner Hochschule oder Klinik.
-        Curriculum &amp; Materialien folgen.
+        Bringe die Methodenwende an deine Hochschule oder Klinik — als zertifizierte
+        Multiplikator:in mit fertigem Curriculum und Materialien.
       </p>
       <div class="bp-card__meta">
         <span>👥 Lehrende</span><span class="bp-pill bp-pill--soon">In Planung</span>
@@ -164,11 +163,11 @@ title: Beyond p-values — Hub für bayesianische Statistik
 
 <div class="bp-section-head">
   <div>
-    <span class="bp-section-head__eyebrow">Fragen · Themenzentriert</span>
+    <span class="bp-section-head__eyebrow">Fragen</span>
     <h2>Starte mit deiner Frage</h2>
     <p class="bp-section-head__lead">
-      Statt Methoden-Kapitel zu durchsuchen — wähle die Frage, die dich aktuell interessiert,
-      und springe direkt ins relevante Workshop-Kapitel.
+      Statt Methoden-Kapitel zu durchsuchen, wähle eine konkrete Frage und springe direkt
+      ins passende Workshop-Kapitel.
     </p>
   </div>
   <a class="bp-section-head__link" href="fragen/">Alle Fragen →</a>
@@ -191,11 +190,11 @@ title: Beyond p-values — Hub für bayesianische Statistik
 
 <div class="bp-section-head">
   <div>
-    <span class="bp-section-head__eyebrow">Methoden · Vertiefung</span>
-    <h2>Die methodischen Säulen</h2>
+    <span class="bp-section-head__eyebrow">Methoden</span>
+    <h2>Die drei methodischen Säulen</h2>
     <p class="bp-section-head__lead">
-      Drei Fragen, die jede Studie beantworten sollte — und die Werkzeuge, mit denen du sie
-      tatsächlich beantworten kannst.
+      Drei Fragen, die jede empirische Studie beantworten sollte — und die Werkzeuge,
+      mit denen sie sich tatsächlich beantworten lassen.
     </p>
   </div>
   <a class="bp-section-head__link" href="methoden/">Alle Methoden →</a>
@@ -203,42 +202,42 @@ title: Beyond p-values — Hub für bayesianische Statistik
 
 <div class="bp-pillars">
 
-  <div class="bp-pillar">
+  <a class="bp-pillar" href="methoden/effektgroessen/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">FRAGE 01</div>
     <h3>Gibt es einen Effekt — und wie groß?</h3>
     <p>
-      Antwort: <strong>Effekte und Effektgrößen.</strong> Unstandardisierte Effekte in
-      Mess-Einheiten und standardisierte Maße wie Cohen's d liefern direkt die Größe — der p-Wert
-      kann das prinzipbedingt nicht.
+      Antwort: <strong>Effekte und Effektgrößen.</strong> Cohen's d, Hedges' g oder schlicht
+      Mittelwertsdifferenzen liefern die Größe direkt — der p-Wert kann das prinzipbedingt nicht.
     </p>
-  </div>
+  </a>
 
-  <div class="bp-pillar">
+  <a class="bp-pillar" href="methoden/stichproben/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">FRAGE 02</div>
     <h3>Wie verlässlich ist die Schätzung?</h3>
     <p>
       Antwort: <strong>Stichprobenqualität und -größe.</strong> Repräsentativität, Drop-outs und
-      Simulationen zur Präzision sagen mehr als jede pauschale Power-Tabelle.
+      Präzisions-Simulationen sagen mehr aus als jede pauschale Power-Tabelle.
     </p>
-  </div>
+  </a>
 
-  <div class="bp-pillar">
+  <a class="bp-pillar" href="methoden/bayesian/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">FRAGE 03</div>
-    <h3>Was sagt das Ergebnis über die Hypothese?</h3>
+    <h3>Was sagen die Daten über die Hypothese?</h3>
     <p>
       Antwort: <strong>Bayesianische Datenanalyse.</strong> Wahrscheinlichkeiten für Hypothesen,
-      Bayes-Faktoren und sequenzielles Lernen statt binäres Sieger/Verlierer-Schema.
+      Bayes-Faktoren und sequenzielles Lernen — statt binärem Sieger-Verlierer-Schema.
     </p>
-  </div>
+  </a>
 
 </div>
 
 <div class="bp-section-head">
   <div>
-    <span class="bp-section-head__eyebrow">Ressourcen · Kuratiert</span>
-    <h2>Software, Literatur &amp; Talks</h2>
+    <span class="bp-section-head__eyebrow">Ressourcen</span>
+    <h2>Software, Literatur und Talks</h2>
     <p class="bp-section-head__lead">
-      Empfehlungen, mit denen wir selbst arbeiten — laufend ergänzt und kommentiert.
+      Eine kuratierte Auswahl — Werkzeuge und Quellen, mit denen wir selbst arbeiten und
+      die wir guten Gewissens weiterempfehlen.
     </p>
   </div>
   <a class="bp-section-head__link" href="ressourcen/">Alle Ressourcen →</a>
@@ -248,21 +247,21 @@ title: Beyond p-values — Hub für bayesianische Statistik
   <div class="bp-carousel__track">
 
     <a class="bp-card" href="https://jasp-stats.org/" target="_blank" rel="noopener">
-      <span class="bp-card__tag">Software · Free</span>
+      <span class="bp-card__tag">Software · Open Source</span>
       <h3 class="bp-card__title">JASP</h3>
       <p class="bp-card__desc">
-        GUI-basierte Statistiksoftware mit erstklassiger Bayes-Implementierung. Niederschwellig
-        für Lehre und Forschung.
+        Statistiksoftware mit grafischer Oberfläche und erstklassiger Bayes-Implementierung —
+        niederschwellig für Lehre und eigene Analysen.
       </p>
       <div class="bp-card__meta"><span>🪟 Win</span><span>🍎 Mac</span><span>🐧 Linux</span></div>
     </a>
 
     <a class="bp-card" href="https://www.jamovi.org/" target="_blank" rel="noopener">
-      <span class="bp-card__tag">Software · Free</span>
+      <span class="bp-card__tag">Software · Open Source</span>
       <h3 class="bp-card__title">Jamovi</h3>
       <p class="bp-card__desc">
-        Modulare Open-Source-Plattform auf R-Basis. Erweiterbar mit jsq und vielen
-        Bayes-Modulen.
+        Modulare Plattform auf R-Basis. Klassische und bayesianische Tests stehen
+        nebeneinander, erweiterbar mit zahlreichen Modulen.
       </p>
       <div class="bp-card__meta"><span>🪟 Win</span><span>🍎 Mac</span><span>🐧 Linux</span></div>
     </a>
@@ -271,8 +270,8 @@ title: Beyond p-values — Hub für bayesianische Statistik
       <span class="bp-card__tag">Buch</span>
       <h3 class="bp-card__title">Statistical Rethinking</h3>
       <p class="bp-card__desc">
-        Richard McElreath's Klassiker — der wahrscheinlich beste Einstieg in bayesianisches
-        Denken überhaupt.
+        Richard McElreaths Klassiker — der wahrscheinlich beste Einstieg in bayesianisches
+        Denken überhaupt. Inkl. frei verfügbarer Vorlesungsreihe.
       </p>
       <div class="bp-card__meta"><span>📘 612 Seiten</span><span>🎥 Vorlesungsreihe</span></div>
     </a>
@@ -282,7 +281,7 @@ title: Beyond p-values — Hub für bayesianische Statistik
       <h3 class="bp-card__title">ASA Statement on p-Values</h3>
       <p class="bp-card__desc">
         Wasserstein &amp; Lazar (2016) — der offizielle Konsens der American Statistical
-        Association.
+        Association zur Auslegung des p-Werts.
       </p>
       <div class="bp-card__meta"><span>📄 6 Seiten</span><span>🔗 DOI</span></div>
     </a>
@@ -291,18 +290,18 @@ title: Beyond p-values — Hub für bayesianische Statistik
       <span class="bp-card__tag">Video</span>
       <h3 class="bp-card__title">Vorlesungsreihe McElreath</h3>
       <p class="bp-card__desc">
-        Komplette Vorlesung zu „Statistical Rethinking" — frei verfügbar auf YouTube. Empfohlen
-        für Selbstlerner:innen.
+        Komplette „Statistical Rethinking"-Vorlesung — frei auf YouTube. Ideal als
+        Begleitung zum Buch oder als eigenständiger Lernpfad.
       </p>
       <div class="bp-card__meta"><span>🎥 20 Folgen</span><span>⏱ 30+ h</span></div>
     </a>
 
     <a class="bp-card" href="ressourcen/journals/">
       <span class="bp-card__tag">Journal</span>
-      <h3 class="bp-card__title">BASP — p-frei publizieren</h3>
+      <h3 class="bp-card__title">BASP — Publizieren ohne p-Werte</h3>
       <p class="bp-card__desc">
-        <em>Basic and Applied Social Psychology</em> verbietet seit 2015 p-Werte. Eine Blaupause für
-        andere Journals.
+        <em>Basic and Applied Social Psychology</em> verzichtet seit 2015 vollständig auf
+        p-Werte — Blaupause für eine neue Berichtskultur.
       </p>
       <div class="bp-card__meta"><span>📰 Quarterly</span><span>🔗 Editorial</span></div>
     </a>
@@ -314,14 +313,14 @@ title: Beyond p-values — Hub für bayesianische Statistik
   <div>
     <h3>Bleib informiert — kein Spam, nur Substanz.</h3>
     <p>
-      Quartalsweiser Newsletter mit neuen Workshops, Veröffentlichungen und Best-Practice-Beispielen
-      aus dem Projekt.
+      Quartalsweiser Newsletter mit neuen Workshops, Veröffentlichungen und konkreten
+      Beispielen aus der Arbeit am Projekt.
     </p>
     <form>
       <input type="email" placeholder="deine@email.de" aria-label="E-Mail-Adresse" required>
       <button type="submit" class="bp-btn bp-btn--primary">Anmelden</button>
     </form>
-    <small>Du kannst dich jederzeit abmelden. Wir geben deine Adresse nicht weiter.</small>
+    <small>Jederzeit abbestellbar. Wir geben deine Adresse nicht weiter.</small>
   </div>
   <div>
     <p style="margin: 0; opacity: 0.85;">

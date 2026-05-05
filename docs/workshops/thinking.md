@@ -11,7 +11,7 @@ title: Denke Bayesianisch — Workshop 01
 <div class="bp-workshop__meta" style="margin: 1rem 0 1.5rem 0;">
   <span><strong>{{ w.chapters_count }}</strong> Kapitel</span>
   <span>· {{ w.level }}</span>
-  <span>· Self-paced: {{ w.duration_self }}</span>
+  <span>· Eigenes Tempo: {{ w.duration_self }}</span>
   <span>· Geführt: {{ w.duration_guided }}</span>
 </div>
 
@@ -19,7 +19,7 @@ title: Denke Bayesianisch — Workshop 01
 
   <div class="bp-mode bp-mode--self">
     <div class="bp-mode__head">
-      <span class="bp-pill bp-pill--live">Selbstständig</span>
+      <span class="bp-pill bp-pill--live">Im eigenen Tempo</span>
       <strong>kostenfrei · jederzeit</strong>
     </div>
     <p>{{ w.goal_self }}</p>
@@ -44,11 +44,11 @@ title: Denke Bayesianisch — Workshop 01
 ## Worum geht es?
 
 Bayesianische Statistik beginnt mit einer einfachen Idee: **Wahrscheinlichkeit ist ein Maß für
-Überzeugung**, das durch Daten aktualisiert wird. Dieser Workshop baut die Intuition dafür von
-Grund auf — anschaulich am laufenden SmartRail-Beispiel der Deutschen Bahn.
+Überzeugung**, das sich durch Daten aktualisieren lässt. Dieser Workshop baut die Intuition
+dafür von Grund auf — anschaulich am laufenden SmartRail-Szenario der Deutschen Bahn.
 
 Du lernst, wie Prior, Likelihood und Posterior zusammenspielen, wie du Glaubwürdigkeitsintervalle
-korrekt interpretierst, und warum MCMC die Brücke zur praktischen Anwendung ist.
+korrekt interpretierst und warum MCMC die Brücke von Theorie zur praktischen Anwendung ist.
 
 ## Für wen ist der Workshop?
 
@@ -83,13 +83,13 @@ korrekt interpretierst, und warum MCMC die Brücke zur praktischen Anwendung ist
 
 ## Format & Termine
 
-| Aspekt          | Self-paced                                  | Geführt                                          |
-|-----------------|---------------------------------------------|--------------------------------------------------|
-| Dauer           | {{ w.duration_self }}                       | {{ w.duration_guided }}                          |
-| Tempo           | individuell                                 | strukturiert, mit Pausen                         |
-| Interaktion     | Browser-Apps, Fragen via Kontakt            | Live-Diskussion, Q&A, Übungsbetreuung            |
-| Kosten          | kostenfrei                                  | auf Anfrage                                      |
-| Termin          | jederzeit                                   | nach Vereinbarung                                |
+| Aspekt      | Im eigenen Tempo                  | Geführt                                |
+|-------------|-----------------------------------|----------------------------------------|
+| Dauer       | {{ w.duration_self }}             | {{ w.duration_guided }}                |
+| Tempo       | individuell                       | strukturiert, mit Pausen               |
+| Interaktion | Browser-Apps, Fragen via Kontakt  | Live-Diskussion, Q&A, Übungsbetreuung  |
+| Kosten      | kostenfrei                        | auf Anfrage                            |
+| Termin      | jederzeit                         | nach Vereinbarung                      |
 
 ## Begleitmaterial
 

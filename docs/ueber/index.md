@@ -6,22 +6,22 @@ hide:
 
 # Mission
 
-> **Wir wollen die Wende vollziehen — von einem überholten statistischen Ritual zu einer
-> Wissenschaft, die Evidenz wirklich beurteilt.**
+> **Wir vollziehen die Wende — von einem überholten statistischen Ritual zu einer Wissenschaft,
+> die Evidenz wirklich beurteilt.**
 
 ## Worum es geht
 
-Signifikanztestergebnisse sind in vielen wissenschaftlichen Disziplinen das primäre Kriterium
-zur Bewertung von Forschungsergebnissen. Dabei wird der p-Wert — das Hauptergebnis dieser Tests
-— von der Mehrheit der Forschenden in mehreren zentralen Punkten **systematisch falsch
+In vielen wissenschaftlichen Disziplinen ist der Signifikanztest bis heute das wichtigste
+Kriterium zur Bewertung von Forschungsergebnissen. Sein zentrales Ergebnis — der p-Wert —
+wird allerdings von der Mehrheit der Forschenden in zentralen Punkten **systematisch falsch
 interpretiert** (Haller & Krauss, 2002; Schäfer, 2023).
 
-Die Konsequenzen sind weitreichend: Publication Bias, Reproduzierbarkeitskrise, p-Hacking,
-falsche Therapie-Entscheidungen — und ein bis zu **zwölffach erhöhter Falsch-positiv-Anteil**
-in der Literatur (Simmons et al., 2011).
+Die Konsequenzen sind weitreichend: Publikationsbias, Reproduzierbarkeitskrise, p-Hacking,
+falsche Therapie-Entscheidungen — und ein in der Literatur bis zu **zwölffach erhöhter
+Falsch-positiv-Anteil** (Simmons et al., 2011).
 
-Seit Jahrzehnten existieren bessere Alternativen. Sie sind technisch ausgereift, didaktisch
-gut beschrieben und in moderner Software niederschwellig zugänglich. **Was fehlt, ist die
+Bessere Alternativen existieren seit Jahrzehnten. Sie sind technisch ausgereift, didaktisch
+gut beschrieben und in moderner Software niederschwellig verfügbar. **Was fehlt, ist die
 flächendeckende Anwendung.**
 
 ## Was wir tun
@@ -60,12 +60,12 @@ flächendeckende Anwendung.**
   <div class="bp-timeline__item">
     <div class="bp-timeline__date">Stufe 01</div>
     <h3 class="bp-timeline__title">Aufklärung & Training</h3>
-    <p>Konkretes Methodenwissen wird in Workshops, Multiplikator:innen-Programmen und offenen Materialien vermittelt — niederschwellig und kostenfrei während der Förderphase.</p>
+    <p>Konkretes Methodenwissen vermitteln wir über Workshops, Multiplikator:innen-Programme und offene Materialien — niederschwellig und während der Förderphase kostenfrei.</p>
   </div>
   <div class="bp-timeline__item">
     <div class="bp-timeline__date">Stufe 02</div>
     <h3 class="bp-timeline__title">Strukturelle Reform</h3>
-    <p>Mit Verlagen, Journals und Fachgesellschaften entwickeln wir Richtlinien für Studien-Berichte ohne p-Werte und mit transparenter Effekt- und Bayes-Berichterstattung.</p>
+    <p>Mit Verlagen, Journals und Fachgesellschaften entwickeln wir Richtlinien für Studienberichte ohne p-Werte — mit transparenter Effekt- und Bayes-Berichterstattung.</p>
   </div>
   <div class="bp-timeline__item">
     <div class="bp-timeline__date">Stufe 03</div>
@@ -75,7 +75,7 @@ flächendeckende Anwendung.**
   <div class="bp-timeline__item">
     <div class="bp-timeline__date">Stufe 04</div>
     <h3 class="bp-timeline__title">Netzwerk & Verstetigung</h3>
-    <p>Eine Online-Plattform und ein Kooperationsnetz halten die Bewegung über das Förderende hinaus aktiv — und skalieren auf weitere Disziplinen und in den englischsprachigen Raum.</p>
+    <p>Eine Online-Plattform und ein Kooperationsnetz halten die Bewegung über das Förderende hinaus aktiv — und skalieren auf weitere Disziplinen sowie in den englischsprachigen Raum.</p>
   </div>
 </div>
 
@@ -83,9 +83,9 @@ flächendeckende Anwendung.**
 
 Drei Faktoren machen den Moment richtig:
 
-1. **Reproduzierbarkeitskrise** seit 2005 — die Bereitschaft, methodische Praxis ehrlich zu hinterfragen, ist so hoch wie nie.
+1. **Reproduzierbarkeitskrise.** Seit den 2000er-Jahren ist die Bereitschaft, methodische Praxis ehrlich zu hinterfragen, so hoch wie nie.
 2. **Software-Reife.** JASP, Jamovi, brms und Stan haben bayesianische Analysen massentauglich gemacht.
-3. **Erste Vorreiter** wie *Basic and Applied Social Psychology* zeigen, dass p-freies Publizieren funktioniert.
+3. **Erste Vorreiter.** Journals wie *Basic and Applied Social Psychology* zeigen seit 2015, dass Publizieren ohne p-Werte funktioniert.
 
 ## Förderung
 

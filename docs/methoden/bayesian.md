@@ -151,22 +151,22 @@ verstehen.
 
   <details>
     <summary>„Aber Priors sind doch subjektiv!"</summary>
-    <p>Jede statistische Analyse trifft Annahmen — Priors machen sie nur explizit. Mit Sensitivitätsanalysen lässt sich zeigen, wie stark Schlüsse vom Prior abhängen. Bei genug Daten dominiert die Likelihood ohnehin.</p>
+    <p>Jede statistische Analyse trifft Annahmen — Priors machen sie nur explizit. Sensitivitätsanalysen zeigen, wie stark die Schlüsse vom Prior abhängen. Bei genug Daten dominiert die Likelihood ohnehin.</p>
   </details>
 
   <details>
     <summary>„Brauche ich einen Supercomputer?"</summary>
-    <p>Nein. Standardmodelle laufen in Sekunden bis Minuten auf einem normalen Notebook. Auch komplexere Modelle sind heute machbar. Die Hardware ist selten der Engpass.</p>
+    <p>Nein. Standardmodelle laufen in Sekunden bis Minuten auf einem normalen Notebook. Auch komplexere Modelle sind heute alltagstauglich — die Hardware ist selten der Engpass.</p>
   </details>
 
   <details>
-    <summary>„Was sage ich Reviewer:innen, die Bayes nicht kennen?"</summary>
-    <p>Berichte Effektgröße + HDI immer in der "intuitiven" Sprache, biete den Bayes-Faktor zusätzlich an, und verweise auf die ASA-Statements und das Editorial von <em>Basic and Applied Social Psychology</em>. Unsere <a href="../ressourcen/literatur/">Literaturseite</a> liefert die Referenzen.</p>
+    <summary>„Was sage ich Reviewer:innen, die mit Bayes nicht vertraut sind?"</summary>
+    <p>Berichte Effektgröße und HDI immer in der intuitiven Sprache, biete den Bayes-Faktor zusätzlich an und verweise auf das ASA-Statement sowie das Editorial von <em>Basic and Applied Social Psychology</em>. Die <a href="../ressourcen/literatur/">Literaturseite</a> liefert die Referenzen.</p>
   </details>
 
   <details>
     <summary>„Kann ich beides berichten — Bayes und p-Wert?"</summary>
-    <p>Ja, in vielen Journals ist das aktuell der pragmatische Weg. Aber: Wenn beides widerspricht, dann meist deshalb, weil der p-Wert die Frage falsch beantwortet — nicht der Bayes-Faktor.</p>
+    <p>Ja, in vielen Journals ist das aktuell der pragmatische Weg. Wenn beide Ergebnisse einander widersprechen, liegt das meist daran, dass der p-Wert die Frage falsch beantwortet — nicht der Bayes-Faktor.</p>
   </details>
 
 </div>

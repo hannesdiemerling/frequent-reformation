@@ -108,9 +108,9 @@ extra:
       slug: thinking
       title: "Denke Bayesianisch"
       subtitle: "Bayesianische Intuition aufbauen"
-      tagline: "Vom Wahrscheinlichkeitsbegriff bis zur Posterior-Verteilung — Schritt für Schritt, mit interaktiven Beispielen rund um SmartRail."
+      tagline: "Vom Wahrscheinlichkeitsbegriff bis zur Posterior-Verteilung — Schritt für Schritt, mit interaktiven Beispielen aus dem SmartRail-Szenario."
       number: "01"
-      level: "Einstieg · Fortgeschritten"
+      level: "Einstieg & Fortgeschritten"
       duration_self: "ca. 2 h"
       duration_guided: "1 Tag (ca. 6 h)"
       chapters_count: 7
@@ -118,9 +118,9 @@ extra:
       tone: "navy"
       repo: "https://github.com/hannesdiemerling/Thinking_Bayesian"
       base: "https://hannesdiemerling.github.io/Thinking_Bayesian"
-      goal_self: "Du arbeitest die sieben Kapitel in deinem eigenen Tempo durch und erkundest die Shinylive-Apps direkt im Browser."
-      goal_guided: "Wir führen durch die Inhalte, beantworten Fragen live und passen Tempo und Tiefe an deine Gruppe an."
-      audience: "Wissenschaftler:innen, Studierende, Praktiker:innen — alle, die bayesianisch denken lernen wollen."
+      goal_self: "Arbeite die sieben Kapitel im eigenen Tempo durch und probiere die interaktiven Browser-Apps direkt aus — keine Installation nötig."
+      goal_guided: "Wir führen gemeinsam durch die Inhalte, beantworten Fragen live und passen Tempo und Tiefe an deine Gruppe an."
+      audience: "Wissenschaftler:innen, Studierende und Praktiker:innen — alle, die bayesianisch denken lernen wollen."
       chapters:
         - { num: 1, title: "Wahrscheinlichkeitsbegriffe",  time: "15 min", level: "Einfach",   file: "chap1.html" }
         - { num: 2, title: "Das Bayes-Theorem",            time: "15 min", level: "Einfach",   file: "chap2.html" }
@@ -137,7 +137,7 @@ extra:
       subtitle: "Effekte verstehen statt p-Werte ablesen"
       tagline: "Warum der p-Wert nichts über Bedeutsamkeit aussagt — und wie du Effektgrößen, Praxisrelevanz und Publikationsbias greifbar machst."
       number: "02"
-      level: "Einstieg · Fortgeschritten"
+      level: "Einstieg & Fortgeschritten"
       duration_self: "ca. 2 h"
       duration_guided: "1 Tag (ca. 5 h)"
       chapters_count: 6
@@ -145,8 +145,8 @@ extra:
       tone: "coral"
       repo: "https://github.com/hannesdiemerling/Bayesian_Power"
       base: "https://hannesdiemerling.github.io/Bayesian_Power"
-      goal_self: "Du arbeitest die sechs Kapitel selbstständig durch und erkundest interaktive Beispiele zur Effekt- und Signifikanz-Logik."
-      goal_guided: "Wir gehen die Inhalte gemeinsam durch, diskutieren Beispiele aus eurem Kontext und legen Anwendungsbezüge frei."
+      goal_self: "Arbeite die sechs Kapitel im eigenen Tempo durch und erkunde interaktive Beispiele zu Effekten, Signifikanz und Publikationsbias."
+      goal_guided: "Wir gehen die Inhalte gemeinsam durch, diskutieren Beispiele aus eurem Kontext und übersetzen die Methoden in eure Berichts-Praxis."
       audience: "Forschende und Lehrende, die p-Werte kritisch lesen und Effektgrößen souverän berichten wollen."
       chapters:
         - { num: 1, title: "Fehlinterpretationen und binäres Denken", time: "15 min", level: "Einsteiger", file: "chap1.html" }
@@ -161,9 +161,9 @@ extra:
       slug: reliability
       title: "Repräsentativität & Stichprobengröße"
       subtitle: "Wie verlässlich verallgemeinert deine Studie?"
-      tagline: "Von der Stichprobe zur Population — Verzerrung, p-Hacking, Schätzgenauigkeit und Unsicherheit, anschaulich am SmartRail-Beispiel."
+      tagline: "Von der Stichprobe zur Population — Verzerrung, p-Hacking, Schätzgenauigkeit und Unsicherheit, anschaulich am SmartRail-Szenario."
       number: "03"
-      level: "Einstieg · Fortgeschritten"
+      level: "Einstieg & Fortgeschritten"
       duration_self: "ca. 1.5 h"
       duration_guided: "1 Tag (ca. 5 h)"
       chapters_count: 5
@@ -171,9 +171,9 @@ extra:
       tone: "teal"
       repo: "https://github.com/hannesdiemerling/True_Reliability"
       base: "https://hannesdiemerling.github.io/True_Reliability"
-      goal_self: "Du arbeitest die fünf Kapitel selbstständig durch und experimentierst mit Stichproben-Simulationen im Browser."
-      goal_guided: "Wir nehmen euch mit durch die Inhalte und übersetzen sie auf eure konkreten Studien-Designs."
-      audience: "Studienplaner:innen, Forschende und alle, die Sample-Size-Entscheidungen wirklich verstehen möchten."
+      goal_self: "Arbeite die fünf Kapitel im eigenen Tempo durch und experimentiere mit Stichproben-Simulationen direkt im Browser."
+      goal_guided: "Wir nehmen euch durch die Inhalte mit und übersetzen jede Methode auf eure konkreten Studien-Designs."
+      audience: "Studienplaner:innen, Forschende und alle, die Entscheidungen zur Stichprobengröße fundiert treffen wollen."
       chapters:
         - { num: 1, title: "Von der Stichprobe zur Population",          time: "15 min", level: "Einsteiger", file: "chap1.html" }
         - { num: 2, title: "Verzerrung durch Dropouts und Missings",     time: "15 min", level: "Einsteiger", file: "chap2.html" }
@@ -198,7 +198,7 @@ extra:
       icon: "d"
       tone: "teal"
       title: "Wie groß ist mein Effekt — und ist er bedeutsam?"
-      lead: "Die einzig sinnvolle Antwort: Effektgrößen, kontextbezogen interpretiert."
+      lead: "Effektgrößen, kontextbezogen interpretiert — die einzig sinnvolle Antwort."
       links:
         - { type: "chapter", workshop: "power",       chapter: 3, label: "Unstandardisierte Effekte" }
         - { type: "chapter", workshop: "power",       chapter: 4, label: "Standardisierte Effektgrößen" }
@@ -228,7 +228,7 @@ extra:
     - key: q-update
       icon: "↻"
       title: "Wie aktualisiere ich Überzeugungen mit neuen Daten?"
-      lead: "Die mechanische Logik des Bayes-Theorems — Schritt für Schritt."
+      lead: "Das Bayes-Theorem im Detail — Schritt für Schritt nachvollzogen."
       links:
         - { type: "chapter", workshop: "thinking",    chapter: 2, label: "Das Bayes-Theorem" }
         - { type: "chapter", workshop: "thinking",    chapter: 4, label: "Die Likelihood" }
@@ -265,7 +265,7 @@ extra:
     - key: q-vorhersage
       icon: "→"
       tone: "teal"
-      title: "Wie sage ich Werte für die Zukunft vorher?"
+      title: "Wie mache ich verlässliche Vorhersagen für neue Daten?"
       lead: "Posterior-Predictive — Unsicherheit ehrlich ausgewiesen."
       links:
         - { type: "chapter", workshop: "thinking",    chapter: 6, label: "Vorhersagen mit Posterior-Predictive" }

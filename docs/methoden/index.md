@@ -6,8 +6,8 @@ hide:
 
 # Methoden
 
-Drei Fragen — drei methodische Säulen. Plus eine kritische Diagnose dessen, was schiefläuft,
-wenn man sie ignoriert.
+Drei zentrale Forschungsfragen, drei methodische Säulen — und eine kritische Diagnose dessen,
+was schiefläuft, wenn diese Fragen mit dem falschen Werkzeug beantwortet werden.
 
 <div class="bp-bento">
 
@@ -49,34 +49,28 @@ wenn man sie ignoriert.
 
 ## Die drei zentralen Fragen
 
-Praktisch jede empirische Studie versucht, eine dieser drei Fragen zu beantworten. Der
+Praktisch jede empirische Studie versucht, eine dieser drei Fragen zu beantworten — der
 klassische Signifikanztest beantwortet keine davon vollständig.
 
 <div class="bp-pillars">
 
-  <div class="bp-pillar">
+  <a class="bp-pillar" href="effektgroessen/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">FRAGE 01</div>
     <h3>Gibt es einen Effekt — und wie groß?</h3>
-    <p>
-      Antwort: Effektgrößen. <a href="effektgroessen/">→ Mehr lesen</a>
-    </p>
-  </div>
+    <p>Antwort: <strong>Effektgrößen.</strong> → Mehr lesen</p>
+  </a>
 
-  <div class="bp-pillar">
+  <a class="bp-pillar" href="stichproben/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">FRAGE 02</div>
     <h3>Wie verlässlich ist die Schätzung?</h3>
-    <p>
-      Antwort: Stichprobenqualität. <a href="stichproben/">→ Mehr lesen</a>
-    </p>
-  </div>
+    <p>Antwort: <strong>Stichprobenqualität.</strong> → Mehr lesen</p>
+  </a>
 
-  <div class="bp-pillar">
+  <a class="bp-pillar" href="bayesian/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">FRAGE 03</div>
-    <h3>Was sagt das über die Hypothese?</h3>
-    <p>
-      Antwort: Bayesianische Analyse. <a href="bayesian/">→ Mehr lesen</a>
-    </p>
-  </div>
+    <h3>Was sagen die Daten über die Hypothese?</h3>
+    <p>Antwort: <strong>Bayesianische Analyse.</strong> → Mehr lesen</p>
+  </a>
 
 </div>
 
@@ -88,14 +82,16 @@ klassische Signifikanztest beantwortet keine davon vollständig.
   <a class="bp-pillar" href="../fragen/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">→ FRAGEN</div>
     <h3>Themenzentriert starten</h3>
-    <p>Statt Methoden-Kapitel zu durchsuchen — wähle die Frage, die du gerade hast, und springe direkt ins passende Workshop-Kapitel.</p>
+    <p>Wähle eine konkrete Frage und springe direkt ins passende Workshop-Kapitel — ohne Umweg über die Methoden-Theorie.</p>
   </a>
   <a class="bp-pillar" href="../workshops/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">→ WORKSHOPS</div>
     <h3>Strukturiert lernen</h3>
-    <p>Drei Workshops mit interaktiven Beispielen. Self-paced kostenfrei, geführt buchbar.</p>
+    <p>Drei Workshops mit interaktiven Beispielen. Im eigenen Tempo kostenfrei, geführt auf Anfrage.</p>
   </a>
 </div>
 
 !!! quote "Aus dem Vollantrag"
-    *„Zu erklären und zu demonstrieren, dass für die Beurteilung der Evidenz von Forschungsergebnissen der Signifikanztest gänzlich ungeeignet ist und wesentlich bessere Alternativen zur Verfügung stehen, ist das übergeordnete Ziel."*
+    *„Das übergeordnete Ziel ist, zu zeigen und zu erklären, dass der Signifikanztest für die
+    Beurteilung der Evidenz von Forschungsergebnissen ungeeignet ist — und dass wesentlich
+    bessere Alternativen zur Verfügung stehen."*

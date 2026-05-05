@@ -37,46 +37,47 @@ Eine größere Stichprobe ist nicht automatisch eine bessere. Drei Eigenschaften
 ## Repräsentativität — meist das größere Problem
 
 WEIRD-Stichproben (Western, Educated, Industrialised, Rich, Democratic) dominieren die
-psychologische Forschung. Bevor du über Stichprobengröße nachdenkst:
+psychologische Forschung. Bevor du über Stichprobengröße nachdenkst, kläre vier Fragen:
 
 - Wer ist deine **Zielpopulation**?
-- Wie wurden Teilnehmende **ausgewählt** (Convenience, geschichtet, randomisiert)?
+- Wie wurden Teilnehmende **ausgewählt** (Convenience-Sample, geschichtet, randomisiert)?
 - Welche **systematischen Ausschlüsse** gibt es?
 - Welche Verzerrungen entstehen durch **Self-Selection**?
 
-!!! warning "Drop-out ist eine Auswahlmechanismus"
-    Wenn 30 % deiner Stichprobe abbricht und das nicht zufällig geschieht, hast du keine repräsentative Stichprobe mehr — egal wie sorgfältig du anfangs gezogen hast.
+!!! warning "Drop-out ist ein Auswahlmechanismus"
+    Wenn 30 % deiner Stichprobe abbrechen und das nicht zufällig geschieht, hast du keine
+    repräsentative Stichprobe mehr — egal wie sorgfältig du anfangs gezogen hast.
 
 ## Stichprobengröße — drei Wege
 
 ### Weg 1: Klassische Power-Analyse (problematisch)
 
-Fragt: *„Wie viele Probanden brauche ich, um mit 80 % Wahrscheinlichkeit einen
-signifikanten p-Wert zu finden — wenn der wahre Effekt d = 0.5 ist?"*
+Fragt: *„Wie viele Probanden brauche ich, um mit 80 % Wahrscheinlichkeit einen signifikanten
+p-Wert zu finden — wenn der wahre Effekt d = 0.5 ist?"*
 
 Probleme:
 
-- Setzt eine konkrete Effektgröße voraus, die du oft nicht kennst
-- Plant auf "signifikant" — nicht auf "gut geschätzt"
-- Suggeriert Sicherheit, die du nicht hast
+- setzt eine konkrete Effektgröße voraus, die du meist nicht kennst,
+- plant auf „signifikant" — nicht auf „gut geschätzt",
+- suggeriert eine Sicherheit, die nicht da ist.
 
-### Weg 2: Präzisions-Planung (empfohlen)
+### Weg 2: Präzisionsplanung (empfohlen)
 
 Fragt: *„Wie viele Probanden brauche ich, damit mein Glaubwürdigkeitsintervall für den Effekt
-schmaler ist als z. B. ± 0.15?"*
+schmaler wird als z. B. ± 0.15?"*
 
-- Direkt an die Aussagekraft gekoppelt, nicht an Schwellen
-- Funktioniert auch ohne starke Effekt-Vorannahmen
-- Lässt sich transparent kommunizieren
+- direkt an die Aussagekraft gekoppelt — nicht an Schwellen,
+- funktioniert auch ohne starke Vorannahmen über den Effekt,
+- lässt sich transparent kommunizieren.
 
 ### Weg 3: Bayes-Faktor-Design (für Hypothesentests)
 
 Fragt: *„Wie viele Probanden brauche ich, damit der Bayes-Faktor mit hoher Wahrscheinlichkeit
-≥ 10 wird, falls H1 stimmt?"*
+≥ 10 wird, falls H₁ stimmt?"*
 
-- Erlaubt **sequenzielle Datenerhebung** mit Stoppregeln
-- Vermeidet Ressourcen-Verschwendung
-- Funktioniert symmetrisch für H0 und H1
+- erlaubt **sequenzielle Datenerhebung** mit klaren Stopp-Regeln,
+- vermeidet Ressourcen-Verschwendung,
+- funktioniert symmetrisch für H₀ und H₁.
 
 → Tiefere Behandlung in [Workshop 02 — Beyond Significance](../workshops/power.md).
 

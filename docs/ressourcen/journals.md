@@ -4,10 +4,10 @@ title: Journals
 
 # Journals
 
-Zeitschriften, die p-freies oder bayesianisches Publizieren aktiv unterstützen — oder für die
-Methoden-Reform-Diskussion einen relevanten Beitrag leisten.
+Zeitschriften, die bayesianisches Publizieren aktiv unterstützen — oder für die Diskussion um
+die Methodenreform einen relevanten Beitrag leisten.
 
-## Pionier — komplett p-frei
+## Pionier — komplett ohne p-Werte
 
 <div class="bp-carousel">
   <div class="bp-carousel__track">
@@ -16,8 +16,8 @@ Methoden-Reform-Diskussion einen relevanten Beitrag leisten.
       <span class="bp-card__tag">★ Pionier seit 2015</span>
       <h3 class="bp-card__title">Basic and Applied Social Psychology</h3>
       <p class="bp-card__desc">
-        Das Journal verbietet seit Februar 2015 Null-Hypothesis-Significance-Testing — keine
-        p-Werte, keine Konfidenzintervalle. Die Editorial-Begründung gilt als Blaupause.
+        Das Journal akzeptiert seit Februar 2015 keine Beiträge mit Null-Hypothesis-Significance-Testing
+        mehr — keine p-Werte, keine Konfidenzintervalle. Die Editorial-Begründung gilt als Blaupause.
       </p>
       <div class="bp-card__meta"><span>📰 Quarterly</span><span>Editorial: Trafimow & Marks (2015)</span></div>
     </a>

@@ -7,52 +7,51 @@ hide:
 <section class="bp-hero" style="padding: 3.5rem 2rem 4rem 2rem;">
   <div class="bp-hero__inner" style="grid-template-columns: 1fr;">
     <div>
-      <span class="bp-hero__eyebrow"><span class="dot"></span> Workshops · Self-paced &amp; geführt</span>
+      <span class="bp-hero__eyebrow"><span class="dot"></span> Im eigenen Tempo &amp; geführt</span>
       <h1>Drei Workshops — <span class="grad">zwei Wege</span> zum Mitmachen.</h1>
       <p class="bp-hero__lead">
-        Alle Inhalte laufen vollständig im Browser (Python via Shinylive, kein Setup). Du wählst,
-        wie du sie nutzt: <strong>selbstständig</strong> in deinem Tempo — oder
-        <strong>geführt</strong> als gebuchten Live-Workshop für dein Team.
+        Alle Inhalte laufen vollständig im Browser — keine Installation, keine Anmeldung.
+        Lerne <strong>im eigenen Tempo</strong> oder buche eine <strong>geführte Session</strong>
+        für dein Team.
       </p>
     </div>
   </div>
 </section>
 
-## So funktionieren die zwei Wege
+## Zwei Wege, drei Workshops
 
 <div class="bp-pillars">
 
-  <div class="bp-pillar">
+  <a class="bp-pillar" href="#workshop-thinking" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">WEG 01 · KOSTENFREI</div>
-    <h3>Selbstständig (Self-paced)</h3>
+    <h3>Im eigenen Tempo</h3>
     <p>
-      Öffne die Workshop-Seite, arbeite Kapitel für Kapitel durch. Jede Lektion enthält
-      Theorie + interaktive Browser-App. Lerne in deinem Tempo, jederzeit, ohne Anmeldung.
+      Öffne die Workshop-Seite und arbeite Kapitel für Kapitel durch. Jede Lektion verbindet
+      Theorie mit einer interaktiven Browser-App. Jederzeit verfügbar, ohne Anmeldung.
     </p>
-  </div>
+  </a>
 
-  <div class="bp-pillar">
+  <a class="bp-pillar" href="../kontakt/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">WEG 02 · GEBUCHT</div>
-    <h3>Geführt durch uns</h3>
+    <h3>Geführt mit uns</h3>
     <p>
-      Wir kommen zu euch (online oder vor Ort), führen durch die Inhalte, beantworten Fragen
-      live und übersetzen Beispiele auf eure Forschung. Ideal für Institute, Lehrstühle und
-      Praxispartner.
+      Wir kommen zu euch — online oder vor Ort, beantworten Fragen live und übersetzen die
+      Inhalte auf eure Forschung. Ideal für Institute, Lehrstühle und Praxispartner.
     </p>
-  </div>
+  </a>
 
 </div>
 
 <div class="bp-section-head">
   <div>
-    <span class="bp-section-head__eyebrow">Drei Workshops · Inhalte</span>
+    <span class="bp-section-head__eyebrow">Inhalte</span>
     <h2>Wähle deinen Workshop</h2>
     <p class="bp-section-head__lead">
-      Jeder Workshop ist eigenständig nutzbar. Empfehlung: in der gezeigten Reihenfolge,
-      wenn du frisch einsteigst.
+      Jeder Workshop steht für sich. Wenn du neu einsteigst, empfehlen wir die gezeigte
+      Reihenfolge.
     </p>
   </div>
-  <a class="bp-section-head__link" href="../fragen/">Hilfe bei der Auswahl? → Fragen</a>
+  <a class="bp-section-head__link" href="../fragen/">Hilfe bei der Auswahl → Fragen</a>
 </div>
 
 {% for key in ["thinking", "power", "reliability"] %}
@@ -74,7 +73,7 @@ hide:
     <div class="bp-workshop__meta">
       <span><strong>{{ w.chapters_count }}</strong> Kapitel</span>
       <span>· {{ w.level }}</span>
-      <span>· Self-paced: {{ w.duration_self }}</span>
+      <span>· Eigenes Tempo: {{ w.duration_self }}</span>
       <span>· Geführt: {{ w.duration_guided }}</span>
     </div>
 
@@ -82,7 +81,7 @@ hide:
 
       <div class="bp-mode bp-mode--self">
         <div class="bp-mode__head">
-          <span class="bp-pill bp-pill--live">Selbstständig</span>
+          <span class="bp-pill bp-pill--live">Im eigenen Tempo</span>
           <strong>kostenfrei</strong>
         </div>
         <p>{{ w.goal_self }}</p>
@@ -114,7 +113,7 @@ hide:
 
 {% endfor %}
 
-## Lernpfad — Empfehlung
+## Empfohlener Lernpfad
 
 <div class="bp-timeline">
   {% for key in ["thinking", "power", "reliability"] %}
@@ -127,27 +126,27 @@ hide:
   {% endfor %}
 </div>
 
-## FAQ
+## Häufige Fragen
 
 <div class="bp-faq">
   <details>
-    <summary>Brauche ich Vorinstallation oder ein Konto?</summary>
-    <p>Nein. Alle Inhalte laufen direkt im Browser (Python via Shinylive). Es entstehen keine Kosten und es ist kein Konto nötig.</p>
+    <summary>Muss ich etwas installieren oder ein Konto anlegen?</summary>
+    <p>Nein. Alle Inhalte laufen direkt im Browser (Python via Shinylive). Keine Installation, kein Konto, keine Kosten.</p>
   </details>
   <details>
     <summary>Was kostet die geführte Variante?</summary>
-    <p>Während der Förderphase kostenfrei für öffentliche Veranstaltungen. Inhouse-Schulungen werden nach Aufwand kalkuliert. <a href="../kontakt/">Anfrage stellen</a>.</p>
+    <p>Während der Förderphase kostenfrei für öffentliche Veranstaltungen. Inhouse-Schulungen kalkulieren wir nach Aufwand. <a href="../kontakt/">Anfrage stellen →</a></p>
   </details>
   <details>
     <summary>Erhalte ich ein Zertifikat?</summary>
-    <p>Geführte Workshops werden mit einer Teilnahmebescheinigung abgeschlossen. Für ECTS-Anrechnung bitte mit deiner Hochschule abstimmen.</p>
+    <p>Für geführte Workshops gibt es eine Teilnahmebescheinigung. Für ECTS-Anrechnung bitte mit deiner Hochschule abstimmen.</p>
   </details>
   <details>
     <summary>In welcher Sprache sind die Workshops?</summary>
-    <p>Inhalte aktuell auf Deutsch. Englische Versionen sind in Arbeit.</p>
+    <p>Aktuell auf Deutsch. Eine englische Version ist in Arbeit.</p>
   </details>
   <details>
-    <summary>Kann ich Inhalte wiederverwenden?</summary>
-    <p>Ja. Materialien werden unter Creative-Commons-Lizenz veröffentlicht — nutzbar für Lehre und Schulung mit Quellenangabe.</p>
+    <summary>Kann ich die Inhalte wiederverwenden?</summary>
+    <p>Ja. Sämtliche Materialien stehen unter Creative-Commons-Lizenz (CC BY 4.0) — nutzbar für Lehre und Schulung mit Quellenangabe.</p>
   </details>
 </div>

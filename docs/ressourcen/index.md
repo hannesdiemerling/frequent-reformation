@@ -6,8 +6,8 @@ hide:
 
 # Ressourcen
 
-Eine kuratierte Sammlung — Software, Bücher, Papers, Talks und Datensätze. Alles, was wir
-selbst nutzen oder nachhaltig empfehlen können.
+Eine kuratierte Sammlung: Software, Bücher, Papers, Talks und Datensätze — alles, was wir
+selbst nutzen oder mit gutem Gewissen weiterempfehlen.
 
 <div class="bp-bento">
 

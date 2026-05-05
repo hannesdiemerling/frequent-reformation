@@ -12,7 +12,7 @@ rund um die Methodenwende — sobald das Projekt offiziell startet.
 <div class="bp-soon">
   <span class="bp-pill bp-pill--soon">Bald</span>
   <h3>Der Blog wird mit Förderbeginn aktiv</h3>
-  <p>Wir planen monatlich 1–2 substanzielle Beiträge: Worked Examples, Methodendebatten, Konferenz-Berichte und Hinweise auf neue Open-Source-Werkzeuge. Im Moment ist diese Seite ein Platzhalter — die ersten Artikel skizzieren wir bereits.</p>
+  <p>Geplant sind monatlich ein bis zwei substanzielle Beiträge: konkrete Anwendungsbeispiele, Methodendebatten, Konferenz-Berichte und Hinweise auf neue Open-Source-Werkzeuge. Aktuell ist diese Seite ein Platzhalter — die ersten Artikel sind bereits in Vorbereitung.</p>
 </div>
 
 ## Geplante Themen-Reihen
