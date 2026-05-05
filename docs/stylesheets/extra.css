@@ -34,6 +34,12 @@
 
   /* Easing */
   --bp-ease: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Header- und Tabs-Bar IDENTISCH halten — Single Source of Truth */
+  --bp-nav-bg:
+    radial-gradient(ellipse at left, rgba(79, 168, 160, 0.18), transparent 55%),
+    radial-gradient(ellipse at right, rgba(226, 124, 92, 0.14), transparent 55%),
+    linear-gradient(135deg, #2A3F66 0%, #1a2540 100%);
 }
 
 [data-md-color-scheme="slate"] {
@@ -82,12 +88,9 @@
    ========================================================= */
 
 .md-header {
-  background:
-    radial-gradient(ellipse at left, rgba(79, 168, 160, 0.18), transparent 55%),
-    radial-gradient(ellipse at right, rgba(226, 124, 92, 0.14), transparent 55%),
-    linear-gradient(135deg, var(--bp-navy) 0%, #1a2540 100%);
-  box-shadow: none;             /* Schatten kommt erst unter den Tabs */
-  border-bottom: none;          /* nahtlos in die Tabs-Bar übergehen */
+  background: var(--bp-nav-bg);
+  box-shadow: none;
+  border-bottom: none;
   -webkit-backdrop-filter: saturate(180%) blur(10px);
   backdrop-filter: saturate(180%) blur(10px);
 }
@@ -153,17 +156,14 @@
    Scrollen zum Page-Title wechseln. Zweiten Topic permanent ausblenden. */
 .md-header__title .md-header__topic + .md-header__topic { display: none !important; }
 
-/* TABS — Fortsetzung der Header-Optik, eine Spur dunkler */
+/* TABS — IDENTISCH zum Header. Beide bilden eine zusammenhängende Bar. */
 .md-tabs {
-  background:
-    radial-gradient(ellipse at left, rgba(79, 168, 160, 0.10), transparent 55%),
-    radial-gradient(ellipse at right, rgba(226, 124, 92, 0.08), transparent 55%),
-    linear-gradient(135deg, #1f2c4a 0%, #15203a 100%);
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.18);
-  box-shadow: 0 4px 14px rgba(10, 16, 32, 0.28);
-  -webkit-backdrop-filter: saturate(180%) blur(8px);
-  backdrop-filter: saturate(180%) blur(8px);
+  background: var(--bp-nav-bg);
+  border-top: none;
+  border-bottom: none;
+  box-shadow: 0 4px 14px rgba(10, 16, 32, 0.22);
+  -webkit-backdrop-filter: saturate(180%) blur(10px);
+  backdrop-filter: saturate(180%) blur(10px);
 }
 .md-tabs__list { padding: 0 0.4rem; }
 .md-tabs__item { height: 2.6rem; }

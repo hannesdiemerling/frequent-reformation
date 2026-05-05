@@ -30,8 +30,8 @@ theme:
     text: Inter
     code: JetBrains Mono
   features:
-    - navigation.tabs
-    - navigation.tabs.sticky
+    - navigation.tabs                # Tabs-Leiste anzeigen
+    # bewusst NICHT: navigation.tabs.sticky  -> Tabs scrollen mit Inhalt weg
     - navigation.sections
     - navigation.instant
     - navigation.tracking
@@ -43,7 +43,7 @@ theme:
     - content.code.copy
     - content.tabs.link
     - toc.follow
-    - header.autohide
+    # bewusst NICHT: header.autohide  -> Header (mit Titel) bleibt immer sichtbar
   icon:
     repo: fontawesome/brands/github
 
