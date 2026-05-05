@@ -57,10 +57,33 @@ nicht auf eine erschöpfende Bibliographie.
       <span class="bp-card__tag">Praxisnah</span>
       <h3 class="bp-card__title">Regression and Other Stories</h3>
       <p class="bp-card__desc">
-        Gelman, Hill, Vehtari (2020). Sehr praxisnah — Regression bayesianisch und
-        frequentistisch. Erstklassig für angewandte Forscher:innen.
+        Gelman, Hill, Vehtari (2020). Sehr praxisnah, Regression bayesianisch und
+        frequentistisch. Erstklassig für angewandte Forschung.
       </p>
       <div class="bp-card__meta"><span>📘 486 Seiten</span><span>R · stan_glm</span></div>
+    </div>
+
+    <div class="bp-card">
+      <span class="bp-card__tag">★ Deutschsprachig</span>
+      <h3 class="bp-card__title">Statistik (Thomas Schäfer)</h3>
+      <p class="bp-card__desc">
+        Thomas Schäfer (Universität Leipzig). Modernes deutschsprachiges Lehrbuch der Statistik
+        mit Schwerpunkt auf Effektgrößen, Methodenkritik und reproduzierbarer Forschungspraxis.
+        Hervorragende Brücke zwischen klassischer Statistik-Ausbildung und aktueller Methodenreform.
+      </p>
+      <div class="bp-card__meta"><span>📘 Lehrbuch</span><span>Deutsch</span></div>
+    </div>
+
+    <div class="bp-card">
+      <span class="bp-card__tag">Forschung · Bayes</span>
+      <h3 class="bp-card__title">Timo von Oertzen: Bayes-Methoden</h3>
+      <p class="bp-card__desc">
+        Methodenforschung zu bayesianischer Inferenz, Power und Studienplanung. Schwerpunkte
+        unter anderem: bayesianische strukturelle Gleichungsmodelle, optimales Studiendesign
+        und replikationsfreundliche Auswertungsstrategien. Eine der zentralen
+        deutschsprachigen Stimmen für angewandte Bayes-Methodik.
+      </p>
+      <div class="bp-card__meta"><span>🔬 Methodenforschung</span><span>Bayes · SEM · Power</span></div>
     </div>
 
   </div>
