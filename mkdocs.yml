@@ -59,17 +59,12 @@ markdown_extensions:
   - footnotes
   - tables
   - def_list
-  - abbr        # ermöglicht *[Begriff]: Erklärung — automatisches <abbr>-Wrapping
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets:
-      base_path:
-        - docs/_includes
-      auto_append:
-        - glossar.md      # einzige Quelle der Wahrheit für Tooltip-Begriffe
+  - pymdownx.snippets
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:

@@ -86,8 +86,8 @@
     radial-gradient(ellipse at left, rgba(79, 168, 160, 0.18), transparent 55%),
     radial-gradient(ellipse at right, rgba(226, 124, 92, 0.14), transparent 55%),
     linear-gradient(135deg, var(--bp-navy) 0%, #1a2540 100%);
-  box-shadow: 0 2px 14px rgba(15, 22, 40, 0.25);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: none;             /* Schatten kommt erst unter den Tabs */
+  border-bottom: none;          /* nahtlos in die Tabs-Bar übergehen */
   -webkit-backdrop-filter: saturate(180%) blur(10px);
   backdrop-filter: saturate(180%) blur(10px);
 }
@@ -153,10 +153,15 @@
    Scrollen zum Page-Title wechseln. Zweiten Topic permanent ausblenden. */
 .md-header__title .md-header__topic + .md-header__topic { display: none !important; }
 
-/* TABS — etwas eleganter, mit subtilem Aktiv-Underline */
+/* TABS — Fortsetzung der Header-Optik, eine Spur dunkler */
 .md-tabs {
-  background: rgba(20, 28, 50, 0.92);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  background:
+    radial-gradient(ellipse at left, rgba(79, 168, 160, 0.10), transparent 55%),
+    radial-gradient(ellipse at right, rgba(226, 124, 92, 0.08), transparent 55%),
+    linear-gradient(135deg, #1f2c4a 0%, #15203a 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+  box-shadow: 0 4px 14px rgba(10, 16, 32, 0.28);
   -webkit-backdrop-filter: saturate(180%) blur(8px);
   backdrop-filter: saturate(180%) blur(8px);
 }
@@ -167,21 +172,22 @@
   font-weight: 500;
   font-size: 0.82rem;
   letter-spacing: 0.005em;
-  opacity: 0.78;
+  color: rgba(255, 255, 255, 0.78);
   margin-top: 0;
   padding: 0 0.2rem;
-  transition: opacity 0.2s ease, color 0.2s ease;
+  transition: color 0.2s ease;
   position: relative;
-}
-.md-tabs__link:hover { opacity: 1; }
-.md-tabs__link--active {
   opacity: 1;
+}
+.md-tabs__link:hover { color: #fff; }
+.md-tabs__link--active {
+  color: #fff;
   font-weight: 600;
 }
 .md-tabs__link--active::after {
   content: "";
   position: absolute;
-  left: 0; right: 0; bottom: -2px;
+  left: 0; right: 0; bottom: -1px;
   height: 2px;
   background: linear-gradient(90deg, var(--bp-teal), var(--bp-coral));
   border-radius: 2px;
