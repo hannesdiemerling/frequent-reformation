@@ -97,7 +97,7 @@ extra:
 
   contact:
     email: hello@beyond-p-values.example
-    booking_subject: "Workshop-Buchung — Beyond p-values"
+    booking_subject: "Workshop-Buchung Beyond p-values"
 
   # Drei Workshops als GitHub-Pages-Sites (Quarto). Self-paced
   # Bedienung direkt im Browser; geführt = Buchung über Kontakt.
@@ -108,7 +108,7 @@ extra:
       slug: thinking
       title: "Denke Bayesianisch"
       subtitle: "Bayesianische Intuition aufbauen"
-      tagline: "Vom Wahrscheinlichkeitsbegriff bis zur Posterior-Verteilung — Schritt für Schritt, mit interaktiven Beispielen aus dem SmartRail-Szenario."
+      tagline: "Vom Wahrscheinlichkeitsbegriff bis zur Posterior-Verteilung. Schritt für Schritt, mit interaktiven Beispielen aus dem SmartRail-Szenario."
       number: "01"
       level: "Einstieg & Fortgeschritten"
       duration_self: "ca. 2 h"
@@ -118,9 +118,9 @@ extra:
       tone: "navy"
       repo: "https://github.com/hannesdiemerling/Thinking_Bayesian"
       base: "https://hannesdiemerling.github.io/Thinking_Bayesian"
-      goal_self: "Arbeite die sieben Kapitel im eigenen Tempo durch und probiere die interaktiven Browser-Apps direkt aus — keine Installation nötig."
+      goal_self: "Arbeite die sieben Kapitel im eigenen Tempo durch und probiere die interaktiven Browser-Apps direkt aus. Keine Installation nötig."
       goal_guided: "Wir führen gemeinsam durch die Inhalte, beantworten Fragen live und passen Tempo und Tiefe an deine Gruppe an."
-      audience: "Wissenschaftler:innen, Studierende und Praktiker:innen — alle, die bayesianisch denken lernen wollen."
+      audience: "Forschende, Studierende und alle, die bayesianisch denken lernen wollen."
       chapters:
         - { num: 1, title: "Wahrscheinlichkeitsbegriffe",  time: "15 min", level: "Einfach",   file: "chap1.html" }
         - { num: 2, title: "Das Bayes-Theorem",            time: "15 min", level: "Einfach",   file: "chap2.html" }
@@ -135,7 +135,7 @@ extra:
       slug: power
       title: "Beyond Significance"
       subtitle: "Effekte verstehen statt p-Werte ablesen"
-      tagline: "Warum der p-Wert nichts über Bedeutsamkeit aussagt — und wie du Effektgrößen, Praxisrelevanz und Publikationsbias greifbar machst."
+      tagline: "Warum der p-Wert nichts über Bedeutsamkeit aussagt, und wie du Effektgrößen, Praxisrelevanz und Publikationsbias greifbar machst."
       number: "02"
       level: "Einstieg & Fortgeschritten"
       duration_self: "ca. 2 h"
@@ -161,7 +161,7 @@ extra:
       slug: reliability
       title: "Repräsentativität & Stichprobengröße"
       subtitle: "Wie verlässlich verallgemeinert deine Studie?"
-      tagline: "Von der Stichprobe zur Population — Verzerrung, p-Hacking, Schätzgenauigkeit und Unsicherheit, anschaulich am SmartRail-Szenario."
+      tagline: "Von der Stichprobe zur Population: Verzerrung, p-Hacking, Schätzgenauigkeit und Unsicherheit, anschaulich am SmartRail-Szenario."
       number: "03"
       level: "Einstieg & Fortgeschritten"
       duration_self: "ca. 1.5 h"
@@ -173,7 +173,7 @@ extra:
       base: "https://hannesdiemerling.github.io/True_Reliability"
       goal_self: "Arbeite die fünf Kapitel im eigenen Tempo durch und experimentiere mit Stichproben-Simulationen direkt im Browser."
       goal_guided: "Wir nehmen euch durch die Inhalte mit und übersetzen jede Methode auf eure konkreten Studien-Designs."
-      audience: "Studienplaner:innen, Forschende und alle, die Entscheidungen zur Stichprobengröße fundiert treffen wollen."
+      audience: "Studienplanende, Forschende und alle, die Entscheidungen zur Stichprobengröße fundiert treffen wollen."
       chapters:
         - { num: 1, title: "Von der Stichprobe zur Population",          time: "15 min", level: "Einsteiger", file: "chap1.html" }
         - { num: 2, title: "Verzerrung durch Dropouts und Missings",     time: "15 min", level: "Einsteiger", file: "chap2.html" }
@@ -188,7 +188,7 @@ extra:
       icon: "?"
       tone: "coral"
       title: "Was bedeutet ein p-Wert eigentlich genau?"
-      lead: "Sieben Fehlannahmen — und was der p-Wert tatsächlich aussagt."
+      lead: "Sieben Fehlannahmen, und was der p-Wert tatsächlich aussagt."
       links:
         - { type: "chapter", workshop: "power",       chapter: 1, label: "Fehlinterpretationen & binäres Denken" }
         - { type: "chapter", workshop: "power",       chapter: 2, label: "p-Wert und Stichprobengröße" }
@@ -197,8 +197,8 @@ extra:
     - key: q-effekt
       icon: "d"
       tone: "teal"
-      title: "Wie groß ist mein Effekt — und ist er bedeutsam?"
-      lead: "Effektgrößen, kontextbezogen interpretiert — die einzig sinnvolle Antwort."
+      title: "Wie groß ist mein Effekt, und ist er bedeutsam?"
+      lead: "Effektgrößen, kontextbezogen interpretiert. Die einzig sinnvolle Antwort."
       links:
         - { type: "chapter", workshop: "power",       chapter: 3, label: "Unstandardisierte Effekte" }
         - { type: "chapter", workshop: "power",       chapter: 4, label: "Standardisierte Effektgrößen" }
@@ -218,17 +218,17 @@ extra:
     - key: q-prior
       icon: "π"
       tone: "sand"
-      title: "Was ist ein Prior — ist er nicht zu subjektiv?"
+      title: "Was ist ein Prior, und ist er nicht zu subjektiv?"
       lead: "Wie Vorwissen mathematisch transparent gemacht wird."
       links:
         - { type: "chapter", workshop: "thinking",    chapter: 3, label: "Der Prior" }
-        - { type: "chapter", workshop: "thinking",    chapter: 5, label: "Der Posterior — Synthese aus Prior & Daten" }
+        - { type: "chapter", workshop: "thinking",    chapter: 5, label: "Der Posterior als Synthese aus Prior und Daten" }
         - { type: "method",  path: "methoden/bayesian/",       label: "Bayesianische Datenanalyse" }
 
     - key: q-update
       icon: "↻"
       title: "Wie aktualisiere ich Überzeugungen mit neuen Daten?"
-      lead: "Das Bayes-Theorem im Detail — Schritt für Schritt nachvollzogen."
+      lead: "Das Bayes-Theorem im Detail, Schritt für Schritt nachvollzogen."
       links:
         - { type: "chapter", workshop: "thinking",    chapter: 2, label: "Das Bayes-Theorem" }
         - { type: "chapter", workshop: "thinking",    chapter: 4, label: "Die Likelihood" }
@@ -237,7 +237,7 @@ extra:
     - key: q-95
       icon: "%"
       title: 'Wie formuliere ich „mit 95 % Wahrscheinlichkeit liegt der Wert in …“?'
-      lead: "Glaubwürdigkeitsintervalle vs. Konfidenzintervalle — endlich klar."
+      lead: "Glaubwürdigkeitsintervalle versus Konfidenzintervalle, endlich klar."
       links:
         - { type: "chapter", workshop: "thinking",    chapter: 5, label: "Der Posterior & Glaubwürdigkeitsintervall" }
         - { type: "chapter", workshop: "reliability", chapter: 5, label: "Unsicherheit quantifizieren" }
@@ -246,7 +246,7 @@ extra:
     - key: q-hacking
       icon: "✦"
       tone: "coral"
-      title: "Was ist p-Hacking — und woran erkenne ich es?"
+      title: "Was ist p-Hacking, und woran erkenne ich es?"
       lead: "Verborgene Freiheitsgrade, falsch-positive Raten bis 61 %."
       links:
         - { type: "chapter", workshop: "reliability", chapter: 3, label: "p-Hacking und falsch-positive Ergebnisse" }
@@ -255,7 +255,7 @@ extra:
 
     - key: q-bias
       icon: "Δ"
-      title: "Wann ist eine Stichprobe verzerrt — und was tun?"
+      title: "Wann ist eine Stichprobe verzerrt, und was tun?"
       lead: "Selektion, Drop-outs, Missings: was systematisch passiert."
       links:
         - { type: "chapter", workshop: "reliability", chapter: 1, label: "Von der Stichprobe zur Population" }
@@ -266,7 +266,7 @@ extra:
       icon: "→"
       tone: "teal"
       title: "Wie mache ich verlässliche Vorhersagen für neue Daten?"
-      lead: "Posterior-Predictive — Unsicherheit ehrlich ausgewiesen."
+      lead: "Posterior-Predictive: Unsicherheit ehrlich ausgewiesen."
       links:
         - { type: "chapter", workshop: "thinking",    chapter: 6, label: "Vorhersagen mit Posterior-Predictive" }
         - { type: "method",  path: "methoden/bayesian/",       label: "Bayesianische Datenanalyse" }
@@ -284,7 +284,7 @@ extra:
     deprecated: In Überarbeitung
 
 copyright: >
-  Copyright &copy; 2025 Beyond p-values Initiative —
+  Copyright &copy; 2025 Beyond p-values Initiative ·
   <a href="#__consent">Cookie-Einstellungen ändern</a>
 
 # ============================================================

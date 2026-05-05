@@ -1,5 +1,5 @@
 ---
-title: Repräsentativität & Stichprobengröße — Workshop 03
+title: Repräsentativität & Stichprobengröße · Workshop 03
 ---
 
 {% set w = workshops.reliability %}
@@ -44,9 +44,9 @@ title: Repräsentativität & Stichprobengröße — Workshop 03
 ## Worum geht es?
 
 Eine Stichprobe ist nur so gut wie ihre **Repräsentativität** und ihre **Größe**. Dieser
-Workshop zeigt, wann eine Studie tatsächlich auf die Grundgesamtheit verallgemeinert — und
+Workshop zeigt, wann eine Studie tatsächlich auf die Grundgesamtheit verallgemeinert und
 wann nicht. Wir behandeln Verzerrungen durch Drop-outs, p-Hacking, Schätzgenauigkeit nach dem
-Wurzelgesetz und das ehrliche Quantifizieren von Unsicherheit — wieder am SmartRail-Szenario.
+Wurzelgesetz und das ehrliche Quantifizieren von Unsicherheit, wieder am SmartRail-Szenario.
 
 ## Für wen ist der Workshop?
 
@@ -76,7 +76,7 @@ Wurzelgesetz und das ehrliche Quantifizieren von Unsicherheit — wieder am Smar
 - [x] Drop-outs und Missings als **Auswahlmechanismus** lesen.
 - [x] **p-Hacking** identifizieren und seine Folgen für die Falsch-positiv-Rate einschätzen.
 - [x] Stichprobenpläne nach dem **Wurzelgesetz** und mit Simulationen erstellen.
-- [x] Unsicherheit ehrlich kommunizieren — über das binäre „signifikant" hinaus.
+- [x] Unsicherheit ehrlich kommunizieren, über das binäre „signifikant" hinaus.
 
 ## Format & Termine
 

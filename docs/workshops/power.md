@@ -1,5 +1,5 @@
 ---
-title: Beyond Significance — Workshop 02
+title: Beyond Significance · Workshop 02
 ---
 
 {% set w = workshops.power %}
@@ -45,7 +45,7 @@ title: Beyond Significance — Workshop 02
 
 „Signifikant" heißt nicht „bedeutsam". Dieser Workshop löst die wichtigsten Missverständnisse
 rund um den p-Wert auf und zeigt, wie du Effekte stattdessen sinnvoll **berichten, vergleichen
-und interpretieren** kannst — von Cohen's d bis zur ehrlichen Diskussion praktischer Relevanz.
+und interpretieren** kannst: von Cohen's d bis zur ehrlichen Diskussion praktischer Relevanz.
 Das durchgängige SmartRail-Szenario macht abstrakte Konzepte greifbar.
 
 ## Für wen ist der Workshop?
@@ -72,7 +72,7 @@ Das durchgängige SmartRail-Szenario macht abstrakte Konzepte greifbar.
 
 ## Was du danach kannst
 
-- [x] Den **p-Wert** sauber lesen — und sieben verbreitete Fehlannahmen vermeiden.
+- [x] Den **p-Wert** sauber lesen und sieben verbreitete Fehlannahmen vermeiden.
 - [x] Erkennen, wann Signifikanz vor allem **Stichprobengröße** widerspiegelt.
 - [x] Effekte in **unstandardisierter** und **standardisierter** Form berichten.
 - [x] Praktische Bedeutsamkeit von „statistisch signifikant" abgrenzen.

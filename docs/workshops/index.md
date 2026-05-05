@@ -1,5 +1,5 @@
 ---
-title: Workshops — Beyond p-values
+title: Workshops · Beyond p-values
 hide:
   - toc
 ---
@@ -8,9 +8,9 @@ hide:
   <div class="bp-hero__inner" style="grid-template-columns: 1fr;">
     <div>
       <span class="bp-hero__eyebrow"><span class="dot"></span> Im eigenen Tempo &amp; geführt</span>
-      <h1>Drei Workshops — <span class="grad">zwei Wege</span> zum Mitmachen.</h1>
+      <h1>Drei Workshops, <span class="grad">zwei Wege</span> zum Mitmachen.</h1>
       <p class="bp-hero__lead">
-        Alle Inhalte laufen vollständig im Browser — keine Installation, keine Anmeldung.
+        Alle Inhalte laufen vollständig im Browser. Keine Installation, keine Anmeldung.
         Lerne <strong>im eigenen Tempo</strong> oder buche eine <strong>geführte Session</strong>
         für dein Team.
       </p>
@@ -35,7 +35,7 @@ hide:
     <div class="bp-pillar__num">WEG 02 · GEBUCHT</div>
     <h3>Geführt mit uns</h3>
     <p>
-      Wir kommen zu euch — online oder vor Ort, beantworten Fragen live und übersetzen die
+      Wir kommen zu euch, online oder vor Ort, beantworten Fragen live und übersetzen die
       Inhalte auf eure Forschung. Ideal für Institute, Lehrstühle und Praxispartner.
     </p>
   </a>
@@ -147,6 +147,6 @@ hide:
   </details>
   <details>
     <summary>Kann ich die Inhalte wiederverwenden?</summary>
-    <p>Ja. Sämtliche Materialien stehen unter Creative-Commons-Lizenz (CC BY 4.0) — nutzbar für Lehre und Schulung mit Quellenangabe.</p>
+    <p>Ja. Sämtliche Materialien stehen unter Creative-Commons-Lizenz (CC BY 4.0). Nutzbar für Lehre und Schulung mit Quellenangabe.</p>
   </details>
 </div>

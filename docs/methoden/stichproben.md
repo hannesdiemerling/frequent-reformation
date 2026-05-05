@@ -4,8 +4,8 @@ title: Stichproben & Präzision
 
 # Stichproben & Präzision
 
-> **Frage 02 — beantwortet.** Wie verlässlich verallgemeinert die Studie auf die Population?
-> Eine ehrliche Antwort beginnt mit der Stichprobe — und endet bei einem
+> **Frage 02, beantwortet.** Wie verlässlich verallgemeinert die Studie auf die Population?
+> Eine ehrliche Antwort beginnt mit der Stichprobe und endet bei einem
 > Glaubwürdigkeitsintervall, dessen Breite du vorab geplant hast.
 
 ## Was eine Stichprobe wirklich braucht
@@ -17,24 +17,24 @@ Eine größere Stichprobe ist nicht automatisch eine bessere. Drei Eigenschaften
   <div class="bp-pillar">
     <div class="bp-pillar__num">QUALITÄT 01</div>
     <h3>Repräsentativität</h3>
-    <p>Spiegelt die Stichprobe die Zielpopulation? Auswahlmechanismus dokumentieren — nicht erst im Diskussions-Teil.</p>
+    <p>Spiegelt die Stichprobe die Zielpopulation? Auswahlmechanismus dokumentieren, nicht erst im Diskussions-Teil.</p>
   </div>
 
   <div class="bp-pillar">
     <div class="bp-pillar__num">QUALITÄT 02</div>
     <h3>Daten-Integrität</h3>
-    <p>Drop-outs, fehlende Werte, Antwortverhalten — alles, was die effektive Stichprobe verzerrt.</p>
+    <p>Drop-outs, fehlende Werte, Antwortverhalten: alles, was die effektive Stichprobe verzerrt.</p>
   </div>
 
   <div class="bp-pillar">
     <div class="bp-pillar__num">QUALITÄT 03</div>
     <h3>Größe</h3>
-    <p>So groß wie nötig, um die Frage mit hinreichender Präzision zu beantworten — nicht nach Daumenregel.</p>
+    <p>So groß wie nötig, um die Frage mit hinreichender Präzision zu beantworten. Nicht nach Daumenregel.</p>
   </div>
 
 </div>
 
-## Repräsentativität — meist das größere Problem
+## Repräsentativität, meist das größere Problem
 
 WEIRD-Stichproben (Western, Educated, Industrialised, Rich, Democratic) dominieren die
 psychologische Forschung. Bevor du über Stichprobengröße nachdenkst, kläre vier Fragen:
@@ -46,19 +46,19 @@ psychologische Forschung. Bevor du über Stichprobengröße nachdenkst, kläre v
 
 !!! warning "Drop-out ist ein Auswahlmechanismus"
     Wenn 30 % deiner Stichprobe abbrechen und das nicht zufällig geschieht, hast du keine
-    repräsentative Stichprobe mehr — egal wie sorgfältig du anfangs gezogen hast.
+    repräsentative Stichprobe mehr, egal wie sorgfältig du anfangs gezogen hast.
 
-## Stichprobengröße — drei Wege
+## Stichprobengröße: drei Wege
 
 ### Weg 1: Klassische Power-Analyse (problematisch)
 
 Fragt: *„Wie viele Probanden brauche ich, um mit 80 % Wahrscheinlichkeit einen signifikanten
-p-Wert zu finden — wenn der wahre Effekt d = 0.5 ist?"*
+p-Wert zu finden, wenn der wahre Effekt d = 0.5 ist?"*
 
 Probleme:
 
 - setzt eine konkrete Effektgröße voraus, die du meist nicht kennst,
-- plant auf „signifikant" — nicht auf „gut geschätzt",
+- plant auf „signifikant" und nicht auf „gut geschätzt",
 - suggeriert eine Sicherheit, die nicht da ist.
 
 ### Weg 2: Präzisionsplanung (empfohlen)
@@ -66,7 +66,7 @@ Probleme:
 Fragt: *„Wie viele Probanden brauche ich, damit mein Glaubwürdigkeitsintervall für den Effekt
 schmaler wird als z. B. ± 0.15?"*
 
-- direkt an die Aussagekraft gekoppelt — nicht an Schwellen,
+- direkt an die Aussagekraft gekoppelt und nicht an Schwellen,
 - funktioniert auch ohne starke Vorannahmen über den Effekt,
 - lässt sich transparent kommunizieren.
 
@@ -79,7 +79,7 @@ Fragt: *„Wie viele Probanden brauche ich, damit der Bayes-Faktor mit hoher Wah
 - vermeidet Ressourcen-Verschwendung,
 - funktioniert symmetrisch für H₀ und H₁.
 
-→ Tiefere Behandlung in [Workshop 02 — Beyond Significance](../workshops/power.md).
+→ Tiefere Behandlung in [Workshop 02 · Beyond Significance](../workshops/power.md).
 
 ## Simulation statt Faustregel
 
@@ -108,7 +108,7 @@ Mit 10–20 Zeilen Code bekommst du eine ehrlichere Antwort als jede Tabelle.
 - **A-priori-Begründung** für die Größe (Präzision, Bayes-Faktor-Design oder Power)
 - **Sensitivitätsanalysen** für unterschiedliche Annahmen
 
-## Übungs-Kapitel — direkt anwenden
+## Übungs-Kapitel zum direkten Anwenden
 
 Diese Workshop-Kapitel vertiefen das Thema mit interaktiven Beispielen im Browser:
 
@@ -136,7 +136,7 @@ Diese Workshop-Kapitel vertiefen das Thema mit interaktiven Beispielen im Browse
 <div class="bp-soon">
   <span class="bp-pill bp-pill--soon">In Arbeit</span>
   <h3>Web-Tool: Sample Size Explorer</h3>
-  <p>Wir bauen ein interaktives Tool, mit dem du für gängige Designs (Mittelwertvergleich, Korrelation, lineares Modell) Präzisions- und Bayes-Faktor-basierte Stichprobenpläne erkunden kannst — inkl. Sensitivität und Visualisierung.</p>
+  <p>Wir bauen ein interaktives Tool, mit dem du für gängige Designs (Mittelwertvergleich, Korrelation, lineares Modell) Präzisions- und Bayes-Faktor-basierte Stichprobenpläne erkunden kannst, inklusive Sensitivität und Visualisierung.</p>
 </div>
 
 ## Schlüsselliteratur

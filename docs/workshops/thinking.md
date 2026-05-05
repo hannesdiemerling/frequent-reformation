@@ -1,5 +1,5 @@
 ---
-title: Denke Bayesianisch — Workshop 01
+title: Denke Bayesianisch · Workshop 01
 ---
 
 {% set w = workshops.thinking %}
@@ -45,7 +45,7 @@ title: Denke Bayesianisch — Workshop 01
 
 Bayesianische Statistik beginnt mit einer einfachen Idee: **Wahrscheinlichkeit ist ein Maß für
 Überzeugung**, das sich durch Daten aktualisieren lässt. Dieser Workshop baut die Intuition
-dafür von Grund auf — anschaulich am laufenden SmartRail-Szenario der Deutschen Bahn.
+dafür von Grund auf, anschaulich am laufenden SmartRail-Szenario der Deutschen Bahn.
 
 Du lernst, wie Prior, Likelihood und Posterior zusammenspielen, wie du Glaubwürdigkeitsintervalle
 korrekt interpretierst und warum MCMC die Brücke von Theorie zur praktischen Anwendung ist.
@@ -75,7 +75,7 @@ korrekt interpretierst und warum MCMC die Brücke von Theorie zur praktischen An
 ## Was du danach kannst
 
 - [x] Den Unterschied zwischen frequentistischer und bayesianischer Wahrscheinlichkeit erklären.
-- [x] Das **Bayes-Theorem** Schritt für Schritt anwenden — Prior, Likelihood, Posterior.
+- [x] Das **Bayes-Theorem** Schritt für Schritt anwenden: Prior, Likelihood, Posterior.
 - [x] Die Wahl eines Priors begründen und seine Wirkung einschätzen.
 - [x] Glaubwürdigkeitsintervalle richtig **lesen, berichten und kommunizieren**.
 - [x] Posterior-Predictive-Verteilungen für **Vorhersagen** nutzen.
