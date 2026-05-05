@@ -85,10 +85,14 @@
    HEADER & SITE TITLE — auf Markenidentität getrimmt.
    ========================================================= */
 
-.md-header {
-  background: var(--bp-nav-bg);
+.md-header,
+.md-header__inner {
+  background: var(--bp-nav-bg) !important;
+  background-color: var(--bp-nav-bg) !important;
   box-shadow: none;
   border-bottom: none;
+}
+.md-header {
   /* Nicht mehr sticky — Header scrollt zusammen mit der Tabs-Leiste weg.
      Material setzt per Default position:sticky; explizit überschreiben. */
   position: relative;
@@ -112,57 +116,38 @@
   transform: scale(1.06);
 }
 
-/* Vertikaler Separator zwischen Logo und Titel */
-.md-header__title::before {
-  content: "";
-  display: inline-block;
-  width: 1px;
-  height: 1.4rem;
-  margin-right: 1rem;
-  margin-left: 0.1rem;
-  background: linear-gradient(180deg, transparent, rgba(255,255,255,0.22), transparent);
-  vertical-align: middle;
-  flex-shrink: 0;
-}
-
-/* Site title — typografisch aufgewertet */
+/* Site title — typografisch sauber, in solidem Weiß */
 .md-header__title {
   font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   font-weight: 700;
   font-size: 1rem;
   letter-spacing: -0.012em;
   font-feature-settings: "kern", "ss01", "cv11";
-  display: flex;
-  align-items: center;
-}
-.md-header__title .md-header__topic {
-  font-weight: inherit;
-  letter-spacing: inherit;
-  display: flex;
-  align-items: baseline;
-  gap: 0.45rem;
+  margin-left: 0.4rem;
 }
 .md-header__title .md-ellipsis {
   font-size: 1.05rem;
   letter-spacing: -0.015em;
-  background: linear-gradient(120deg, #ffffff 0%, #ffffff 48%, var(--bp-teal) 60%, var(--bp-sand) 78%, var(--bp-coral) 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
+  color: #ffffff;
+  /* explizit kein gradient/clip mehr */
+  background: none;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-text-fill-color: #ffffff;
 }
 
 /* Site-Title soll IMMER "Beyond p-values" zeigen — nicht beim
    Scrollen zum Page-Title wechseln. Zweiten Topic permanent ausblenden. */
 .md-header__title .md-header__topic + .md-header__topic { display: none !important; }
 
-/* TABS — IDENTISCH zum Header. Beide bilden eine zusammenhängende Bar. */
-.md-tabs {
-  background: var(--bp-nav-bg);
+/* TABS — IDENTISCH zum Header. Beide bilden EINE Bar, ohne sichtbaren Übergang. */
+.md-tabs,
+.md-tabs__inner {
+  background: var(--bp-nav-bg) !important;
+  background-color: var(--bp-nav-bg) !important;
   border-top: none;
   border-bottom: none;
-  /* Schatten unter der gesamten Bar (Header + Tabs als Einheit) */
-  box-shadow: 0 4px 14px rgba(10, 16, 32, 0.22);
+  box-shadow: none;     /* kein Schatten zwischen Header und Tabs */
 }
 .md-tabs__list { padding: 0 0.4rem; }
 .md-tabs__item { height: 2.6rem; }
@@ -188,7 +173,7 @@
   position: absolute;
   left: 0; right: 0; bottom: -1px;
   height: 2px;
-  background: linear-gradient(90deg, var(--bp-teal), var(--bp-coral));
+  background: var(--bp-teal);
   border-radius: 2px;
 }
 
