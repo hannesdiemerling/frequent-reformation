@@ -149,13 +149,9 @@
   color: transparent;
 }
 
-/* Bei Page-Titeln (zweiter Topic) bleibt es schlicht weiß */
-.md-header__title .md-header__topic + .md-header__topic .md-ellipsis {
-  background: none;
-  -webkit-text-fill-color: rgba(255,255,255,0.92);
-  color: rgba(255,255,255,0.92);
-  font-weight: 500;
-}
+/* Site-Title soll IMMER "Beyond p-values" zeigen — nicht beim
+   Scrollen zum Page-Title wechseln. Zweiten Topic permanent ausblenden. */
+.md-header__title .md-header__topic + .md-header__topic { display: none !important; }
 
 /* TABS — etwas eleganter, mit subtilem Aktiv-Underline */
 .md-tabs {
@@ -1254,3 +1250,100 @@
   color: var(--md-default-fg-color--light);
   margin-top: 0.2rem;
 }
+
+/* =========================================================
+   GLOSSAR-TOOLTIPS
+   <abbr>-Elemente werden vom JS in [data-tip] umgewandelt,
+   damit der native Browser-Tooltip nicht parallel erscheint.
+   Pflege der Begriffe: docs/_includes/glossar.md
+   ========================================================= */
+
+.md-typeset abbr[data-tip],
+.md-typeset abbr[title] {
+  position: relative;
+  text-decoration: underline dotted var(--bp-coral);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  cursor: help;
+  font-weight: inherit;
+  border: 0;
+}
+
+.md-typeset abbr[data-tip]::after {
+  content: attr(data-tip);
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%) translateY(6px);
+  background: var(--bp-ink);
+  color: #fff;
+  padding: 0.6rem 0.8rem;
+  border-radius: 10px;
+  font-size: 0.78rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: 0;
+  text-align: left;
+  text-transform: none;
+  white-space: normal;
+  width: max-content;
+  max-width: 280px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s var(--bp-ease), visibility 0.18s;
+  z-index: 50;
+  box-shadow: 0 8px 24px rgba(15, 22, 40, 0.22), 0 2px 4px rgba(15, 22, 40, 0.12);
+}
+
+.md-typeset abbr[data-tip]::before {
+  content: "";
+  position: absolute;
+  bottom: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+  border: 6px solid transparent;
+  border-top-color: var(--bp-ink);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.18s ease, visibility 0.18s;
+  z-index: 51;
+}
+
+.md-typeset abbr[data-tip]:hover::after,
+.md-typeset abbr[data-tip]:focus::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+.md-typeset abbr[data-tip]:hover::before,
+.md-typeset abbr[data-tip]:focus::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Wenn ein <abbr> nahe am rechten/linken Bildschirmrand ist,
+   bricht der Tooltip nicht aus dem Viewport (max-content + max-width regeln das). */
+
+/* Auf Touch-Geräten: Tap zeigt Tooltip via :focus (JS gibt tabindex=0) */
+@media (hover: none) {
+  .md-typeset abbr[data-tip]:active::after,
+  .md-typeset abbr[data-tip]:active::before {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+/* Dark Mode: Tooltip leicht aufhellen damit Kontrast bleibt */
+[data-md-color-scheme="slate"] .md-typeset abbr[data-tip]::after {
+  background: #2a3550;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5), 0 2px 4px rgba(0,0,0,0.3);
+}
+[data-md-color-scheme="slate"] .md-typeset abbr[data-tip]::before {
+  border-top-color: #2a3550;
+}
+
+/* In dunklen Karten/Bento (Helle Schrift auf dunkel) bleibt das
+   dotted underline gut sichtbar — keine Anpassung nötig. */

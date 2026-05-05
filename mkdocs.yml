@@ -3,6 +3,11 @@ site_description: Hub für bayesianische Statistik. Werkzeuge, Workshops und Wis
 site_url: https://hannesdiemerling.github.io/Frequent-Reformation/
 site_author: Beyond p-values Initiative
 
+# Snippets (z. B. das Glossar) sind keine eigenen Seiten.
+exclude_docs: |
+  _includes/
+  _data/
+
 theme:
   name: material
   language: de
@@ -54,12 +59,17 @@ markdown_extensions:
   - footnotes
   - tables
   - def_list
+  - abbr        # ermöglicht *[Begriff]: Erklärung — automatisches <abbr>-Wrapping
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      base_path:
+        - docs/_includes
+      auto_append:
+        - glossar.md      # einzige Quelle der Wahrheit für Tooltip-Begriffe
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
