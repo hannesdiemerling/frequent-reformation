@@ -22,7 +22,7 @@ hide:
 
 <div class="bp-pillars">
 
-  <a class="bp-pillar" href="#workshop-thinking" style="text-decoration:none;color:inherit;display:block;">
+  <a class="bp-pillar" href="#waehle-deinen-workshop" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">WEG 01 · KOSTENFREI</div>
     <h3>Im eigenen Tempo</h3>
     <p>
@@ -54,7 +54,7 @@ hide:
   <a class="bp-section-head__link" href="../fragen/">Hilfe bei der Auswahl → Fragen</a>
 </div>
 
-{% for key in ["thinking", "power", "reliability"] %}
+{% for key in ["power", "reliability", "thinking"] %}
 {% set w = workshops[key] %}
 
 <article class="bp-workshop">
@@ -116,7 +116,7 @@ hide:
 ## Empfohlener Lernpfad
 
 <div class="bp-timeline">
-  {% for key in ["thinking", "power", "reliability"] %}
+  {% for key in ["power", "reliability", "thinking"] %}
   {% set w = workshops[key] %}
   <div class="bp-timeline__item">
     <div class="bp-timeline__date">Schritt {{ w.number }}</div>

@@ -1,5 +1,5 @@
 site_name: Beyond p-values
-site_description: Hub für bayesianische Statistik. Werkzeuge, Workshops und Wissen zur Überwindung des Signifikanztest-Rituals.
+site_description: Workshops, Methoden und Wissen für eine bessere Forschungspraxis. Effektgrößen, Repräsentativität und bayesianisches Denken, verständlich erklärt.
 site_url: https://hannesdiemerling.github.io/Frequent-Reformation/
 site_author: Beyond p-values Initiative
 
@@ -12,7 +12,7 @@ theme:
   name: material
   language: de
   logo: assets/Logo2.png
-  favicon: assets/Logo2.png
+  favicon: assets/P.svg
   palette:
     - scheme: default
       primary: custom
@@ -109,12 +109,12 @@ extra:
       title: "Denke Bayesianisch"
       subtitle: "Bayesianische Intuition aufbauen"
       tagline: "Vom Wahrscheinlichkeitsbegriff bis zur Posterior-Verteilung. Schritt für Schritt, mit interaktiven Beispielen aus dem SmartRail-Szenario."
-      number: "01"
+      number: "03"
       level: "Einstieg & Fortgeschritten"
       duration_self: "ca. 2 h"
       duration_guided: "1 Tag (ca. 6 h)"
       chapters_count: 7
-      eyebrow: "Workshop 01 · Grundlagen"
+      eyebrow: "Workshop 03 · Vertiefung"
       tone: "navy"
       repo: "https://github.com/hannesdiemerling/Thinking_Bayesian"
       base: "https://hannesdiemerling.github.io/Thinking_Bayesian"
@@ -136,12 +136,12 @@ extra:
       title: "Beyond Significance"
       subtitle: "Effekte verstehen statt p-Werte ablesen"
       tagline: "Warum der p-Wert nichts über Bedeutsamkeit aussagt, und wie du Effektgrößen, Praxisrelevanz und Publikationsbias greifbar machst."
-      number: "02"
+      number: "01"
       level: "Einstieg & Fortgeschritten"
       duration_self: "ca. 2 h"
       duration_guided: "1 Tag (ca. 5 h)"
       chapters_count: 6
-      eyebrow: "Workshop 02 · Anwendung"
+      eyebrow: "Workshop 01 · Grundlagen"
       tone: "coral"
       repo: "https://github.com/hannesdiemerling/Bayesian_Power"
       base: "https://hannesdiemerling.github.io/Bayesian_Power"
@@ -162,12 +162,12 @@ extra:
       title: "Repräsentativität & Stichprobengröße"
       subtitle: "Wie verlässlich verallgemeinert deine Studie?"
       tagline: "Von der Stichprobe zur Population: Verzerrung, p-Hacking, Schätzgenauigkeit und Unsicherheit, anschaulich am SmartRail-Szenario."
-      number: "03"
+      number: "02"
       level: "Einstieg & Fortgeschritten"
       duration_self: "ca. 1.5 h"
       duration_guided: "1 Tag (ca. 5 h)"
       chapters_count: 5
-      eyebrow: "Workshop 03 · Vertiefung"
+      eyebrow: "Workshop 02 · Methodik"
       tone: "teal"
       repo: "https://github.com/hannesdiemerling/True_Reliability"
       base: "https://hannesdiemerling.github.io/True_Reliability"
@@ -289,16 +289,16 @@ copyright: >
 
 # ============================================================
 # NAVIGATION
-# Workshop-Slugs: thinking / power / reliability
-# Neue Sektion: Fragen — themenzentrierter Einstieg.
+# Workshop-Reihenfolge (didaktisch): power / reliability / thinking
+# Neue Sektion: Fragen, themenzentrierter Einstieg.
 # ============================================================
 nav:
   - Startseite: index.md
   - Workshops:
       - Übersicht: workshops/index.md
-      - Denke Bayesianisch: workshops/thinking.md
       - Beyond Significance: workshops/power.md
       - Repräsentativität & Stichprobengröße: workshops/reliability.md
+      - Denke Bayesianisch: workshops/thinking.md
   - Fragen: fragen/index.md
   - Methoden:
       - Übersicht: methoden/index.md
@@ -317,8 +317,10 @@ nav:
       - Mission: ueber/index.md
       - Team: ueber/team.md
       - Partner & Förderer: ueber/partner.md
+      - Methodik & Dokumentation: ueber/methodik.md
   - Blog: blog/index.md
   - Kontakt: kontakt.md
   - Rechtliches:
       - Impressum: rechtliches/impressum.md
       - Datenschutz: rechtliches/datenschutz.md
+      - Nutzungshinweise: rechtliches/nutzung.md

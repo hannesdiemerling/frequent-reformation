@@ -4,10 +4,10 @@ title: Journals
 
 # Journals
 
-Zeitschriften, die bayesianisches Publizieren aktiv unterstützen — oder für die Diskussion um
+Zeitschriften, die bayesianisches Publizieren aktiv unterstützen oder für die Diskussion um
 die Methodenreform einen relevanten Beitrag leisten.
 
-## Pionier — komplett ohne p-Werte
+## Pionier: komplett ohne p-Werte
 
 <div class="bp-carousel">
   <div class="bp-carousel__track">
@@ -17,7 +17,7 @@ die Methodenreform einen relevanten Beitrag leisten.
       <h3 class="bp-card__title">Basic and Applied Social Psychology</h3>
       <p class="bp-card__desc">
         Das Journal akzeptiert seit Februar 2015 keine Beiträge mit Null-Hypothesis-Significance-Testing
-        mehr — keine p-Werte, keine Konfidenzintervalle. Die Editorial-Begründung gilt als Blaupause.
+        mehr, keine p-Werte, keine Konfidenzintervalle. Die Editorial-Begründung gilt als Blaupause.
       </p>
       <div class="bp-card__meta"><span>📰 Quarterly</span><span>Editorial: Trafimow & Marks (2015)</span></div>
     </a>
@@ -63,7 +63,7 @@ die Methodenreform einen relevanten Beitrag leisten.
       <span class="bp-card__tag">Open Science</span>
       <h3 class="bp-card__title">Royal Society Open Science</h3>
       <p class="bp-card__desc">
-        Bietet Registered Reports und ist offen für bayesianische Hauptanalysen — fairer
+        Bietet Registered Reports und ist offen für bayesianische Hauptanalysen, fairer
         Review-Prozess.
       </p>
       <div class="bp-card__meta"><span>RS</span><span>Open Access</span></div>
@@ -89,7 +89,7 @@ die Methodenreform einen relevanten Beitrag leisten.
 
     <a class="bp-card" href="https://www.cos.io/initiatives/registered-reports" target="_blank" rel="noopener">
       <span class="bp-card__tag">Liste</span>
-      <h3 class="bp-card__title">Center for Open Science — RR-Verzeichnis</h3>
+      <h3 class="bp-card__title">Center for Open Science · RR-Verzeichnis</h3>
       <p class="bp-card__desc">
         Aktuelle Übersicht aller Journals, die Registered Reports anbieten. Stark wachsend.
       </p>
@@ -115,7 +115,7 @@ die Methodenreform einen relevanten Beitrag leisten.
 |-----------------------------------------------------------------------|-----------------------------------------------------------------|
 | **Trafimow & Marks (2015), BASP-Editorial**                           | Begründung des p-Wert-Verbots in BASP                           |
 | **Wasserstein & Lazar (2016), ASA-Statement**                         | Konsens der American Statistical Association                    |
-| **Wasserstein, Schirm & Lazar (2019)**                                | „Moving to a world beyond p < 0.05" — konkrete Empfehlungen     |
+| **Wasserstein, Schirm & Lazar (2019)**                                | „Moving to a world beyond p < 0.05": konkrete Empfehlungen     |
 | **Benjamin et al. (2018), Nature Human Behaviour**                    | Vorschlag, die Schwelle auf .005 zu senken (kontrovers)         |
 | **McShane et al. (2019)**                                             | Vorschlag, Signifikanztests ganz abzuschaffen                   |
 
@@ -140,10 +140,10 @@ Geplante Outputs:
 - **Worked Examples** für prototypische Studientypen (Mittelwertvergleich, Korrelation, RCT)
 - **Autoren-Leitfaden** für bayesianische Methodenberichte
 - **Reviewer-Checkliste** zur Beurteilung bayesianischer Manuskripte
-- **Fortbildungen** für Editor:innen
+- **Fortbildungen** für Redaktionen
 
 <div class="bp-soon">
   <span class="bp-pill bp-pill--soon">Im Entstehen</span>
   <h3>Verlags-Roadmap</h3>
-  <p>Sobald konkrete Kooperationen unterschrieben sind, dokumentieren wir hier den Fortschritt — von Pilotartikeln bis zur dauerhaften Richtlinien-Anpassung.</p>
+  <p>Sobald konkrete Kooperationen unterschrieben sind, dokumentieren wir hier den Fortschritt, von Pilotartikeln bis zur dauerhaften Richtlinien-Anpassung.</p>
 </div>

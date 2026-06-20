@@ -4,14 +4,14 @@ title: Tools & Software
 
 # Tools & Software
 
-Praktische Werkzeuge für bayesianische Analysen — nach Einstiegshürde sortiert. Alle
+Praktische Werkzeuge für bayesianische Analysen, nach Einstiegshürde sortiert. Alle
 empfohlene Software ist **kostenlos und quelloffen**.
 
 <div class="bp-section-head">
   <div>
     <span class="bp-section-head__eyebrow">Niederschwellig · GUI</span>
-    <h2>Für Einsteiger:innen</h2>
-    <p class="bp-section-head__lead">Klicken statt Programmieren — ideal für Lehre, erste eigene Analysen und alle, die nicht coden möchten.</p>
+    <h2>Für Einsteigende</h2>
+    <p class="bp-section-head__lead">Klicken statt Programmieren: ideal für Lehre, erste eigene Analysen und alle, die nicht coden möchten.</p>
   </div>
 </div>
 
@@ -54,8 +54,8 @@ empfohlene Software ist **kostenlos und quelloffen**.
 <div class="bp-section-head">
   <div>
     <span class="bp-section-head__eyebrow">Fortgeschritten · R-Pakete</span>
-    <h2>Für Anwender:innen mit R-Erfahrung</h2>
-    <p class="bp-section-head__lead">Hohe Modell-Flexibilität — ohne den Sprung in eine probabilistische Programmiersprache.</p>
+    <h2>Für Anwendende mit R-Erfahrung</h2>
+    <p class="bp-section-head__lead">Hohe Modell-Flexibilität, ohne den Sprung in eine probabilistische Programmiersprache.</p>
   </div>
 </div>
 
@@ -66,7 +66,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <span class="bp-card__tag">★ Empfehlung Fortgeschritten</span>
       <h3 class="bp-card__title">brms</h3>
       <p class="bp-card__desc">
-        R-Wrapper für Stan. Formel-Syntax wie bei <code>lme4</code>, aber bayesianisch — von
+        R-Wrapper für Stan. Formel-Syntax wie bei <code>lme4</code>, aber bayesianisch, von
         einfachen Regressionen bis zu hierarchischen, nicht-linearen Modellen.
       </p>
       <div class="bp-card__meta"><span>R-Paket</span><span>Stan-basiert</span></div>
@@ -86,7 +86,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <span class="bp-card__tag">Workflow</span>
       <h3 class="bp-card__title">easystats</h3>
       <p class="bp-card__desc">
-        Paketfamilie für Postprocessing, Reporting und Visualisierung — inklusive
+        Paketfamilie für Postprocessing, Reporting und Visualisierung, inklusive
         <code>bayestestR</code> für HDIs, ROPE und mehr.
       </p>
       <div class="bp-card__meta"><span>R-Suite</span><span>bayestestR</span></div>
@@ -96,7 +96,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <span class="bp-card__tag">Studienplanung</span>
       <h3 class="bp-card__title">BFDA</h3>
       <p class="bp-card__desc">
-        Bayes-Faktor-Design-Analyse — Stichprobenplanung mit Simulation, sequenzielle
+        Bayes-Faktor-Design-Analyse: Stichprobenplanung mit Simulation, sequenzielle
         Designs, Stoppregeln.
       </p>
       <div class="bp-card__meta"><span>R-Paket</span><span>Schönbrodt</span></div>
@@ -109,7 +109,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
   <div>
     <span class="bp-section-head__eyebrow">Profi · Probabilistic Programming</span>
     <h2>Für maximale Flexibilität</h2>
-    <p class="bp-section-head__lead">Wenn dein Modell nicht in eine Standardformel passt — oder Performance entscheidend ist.</p>
+    <p class="bp-section-head__lead">Wenn dein Modell nicht in eine Standardformel passt oder Performance entscheidend ist.</p>
   </div>
 </div>
 
@@ -170,7 +170,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
 
     <a class="bp-card" href="https://osf.io/" target="_blank" rel="noopener">
       <span class="bp-card__tag">Plattform</span>
-      <h3 class="bp-card__title">OSF — Open Science Framework</h3>
+      <h3 class="bp-card__title">OSF · Open Science Framework</h3>
       <p class="bp-card__desc">
         Preregistration, Datenarchivierung, Projekt-Hosting. Standard für Open-Science-Workflows.
       </p>
@@ -179,9 +179,9 @@ empfohlene Software ist **kostenlos und quelloffen**.
 
     <a class="bp-card" href="https://www.zpid.de/" target="_blank" rel="noopener">
       <span class="bp-card__tag">Plattform</span>
-      <h3 class="bp-card__title">ZPID — Leibniz-Institut für Psychologie</h3>
+      <h3 class="bp-card__title">ZPID · Leibniz-Institut für Psychologie</h3>
       <p class="bp-card__desc">
-        Datenarchiv PsychArchives, PsychOpen, Preregistration-Service und Methodenkurse —
+        Datenarchiv PsychArchives, PsychOpen, Preregistration-Service und Methodenkurse,
         die zentrale Open-Science-Infrastruktur für Psychologie im DACH-Raum.
       </p>
       <div class="bp-card__meta"><span>DACH</span><span>kostenlos</span></div>
@@ -200,7 +200,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <span class="bp-card__tag">Reporting</span>
       <h3 class="bp-card__title">Quarto</h3>
       <p class="bp-card__desc">
-        Reproduzierbares Publizieren — Markdown + R/Python/Julia. Nachfolger von R Markdown
+        Reproduzierbares Publizieren: Markdown + R/Python/Julia. Nachfolger von R Markdown
         und Jupyter-Reports.
       </p>
       <div class="bp-card__meta"><span>Multi-Sprache</span><span>HTML · PDF · DOCX</span></div>
@@ -209,7 +209,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
   </div>
 </div>
 
-## Welches Tool wann? — Cheatsheet
+## Welches Tool wann? Cheatsheet
 
 | Situation                                              | Empfehlung                |
 |--------------------------------------------------------|---------------------------|
@@ -226,5 +226,5 @@ empfohlene Software ist **kostenlos und quelloffen**.
 <div class="bp-soon">
   <span class="bp-pill bp-pill--soon">In Arbeit</span>
   <h3>Vergleichende Tutorials</h3>
-  <p>Wir bauen pro Tool eine kompakte 5-Minuten-Einführung mit identischem Beispieldatensatz — damit du Workflows direkt vergleichen kannst.</p>
+  <p>Wir bauen pro Tool eine kompakte 5-Minuten-Einführung mit identischem Beispieldatensatz, damit du Workflows direkt vergleichen kannst.</p>
 </div>

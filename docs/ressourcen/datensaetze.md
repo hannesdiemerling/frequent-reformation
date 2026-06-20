@@ -10,10 +10,10 @@ Workshops. Alle Datensätze sind **kostenlos und offen lizenziert**.
 <div class="bp-soon">
   <span class="bp-pill bp-pill--soon">Im Aufbau</span>
   <h3>Diese Sammlung wächst</h3>
-  <p>Wir kuratieren eine Reihe von Datensätzen, die zu unseren Workshops passen — mit Begleit-Notebooks und Musterlösungen für JASP, Jamovi und R/brms. Erste Sets erscheinen im Verlauf der Förderphase.</p>
+  <p>Wir kuratieren eine Reihe von Datensätzen, die zu unseren Workshops passen, mit Begleit-Notebooks und Musterlösungen für JASP, Jamovi und R/brms. Erste Sets erscheinen im Verlauf der Förderphase.</p>
 </div>
 
-## Bereits empfehlbar — externe Quellen
+## Bereits empfehlbar · externe Quellen
 
 <div class="bp-carousel">
   <div class="bp-carousel__track">
@@ -32,7 +32,7 @@ Workshops. Alle Datensätze sind **kostenlos und offen lizenziert**.
       <span class="bp-card__tag">Repository</span>
       <h3 class="bp-card__title">Open Science Framework</h3>
       <p class="bp-card__desc">
-        Riesige Sammlung an Studien-Materialien und Daten — durchsuchbar nach Disziplin und
+        Riesige Sammlung an Studien-Materialien und Daten, durchsuchbar nach Disziplin und
         Schlagworten.
       </p>
       <div class="bp-card__meta"><span>COS</span><span>OA</span></div>
@@ -52,7 +52,7 @@ Workshops. Alle Datensätze sind **kostenlos und offen lizenziert**.
       <span class="bp-card__tag">R-Pakete</span>
       <h3 class="bp-card__title">Rdatasets</h3>
       <p class="bp-card__desc">
-        Über 1.700 Datensätze aus R-Paketen — direkt durchsuchbar. Ideal für Beispiele in
+        Über 1.700 Datensätze aus R-Paketen, direkt durchsuchbar. Ideal für Beispiele in
         Lehre und Tutorials.
       </p>
       <div class="bp-card__meta"><span>R</span><span>CSV</span></div>
@@ -61,7 +61,7 @@ Workshops. Alle Datensätze sind **kostenlos und offen lizenziert**.
   </div>
 </div>
 
-## Geplant — kuratierte Eigenproduktion
+## Geplant · kuratierte Eigenproduktion
 
 | Set                                       | Disziplin            | Anwendung                             | Status                            |
 |-------------------------------------------|----------------------|---------------------------------------|-----------------------------------|

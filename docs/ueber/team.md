@@ -4,8 +4,8 @@ title: Team
 
 # Team
 
-Das Projekt wird von einem kleinen Kernteam getragen — verstärkt durch ein wachsendes Netz
-aus Kooperationspartner:innen und Multiplikator:innen.
+Das Projekt wird von einem kleinen Kernteam getragen, verstärkt durch ein wachsendes Netz
+aus kooperierenden Institutionen und Train-the-Trainer-Teilnehmenden.
 
 <div class="bp-team">
 
@@ -18,14 +18,14 @@ aus Kooperationspartner:innen und Multiplikator:innen.
 
   <div class="bp-person">
     <div class="bp-person__avatar">★</div>
-    <h3>Antragsteller:in</h3>
+    <h3>Antragstellende Person</h3>
     <p class="role">Wissenschaftliche Leitung</p>
     <p>Detailangaben werden ergänzt, sobald das Projekt offiziell startet.</p>
   </div>
 
   <div class="bp-person">
     <div class="bp-person__avatar">+</div>
-    <h3>Wiss. Mitarbeiter:in</h3>
+    <h3>Wiss. Mitarbeitende</h3>
     <p class="role">Workshops & Materialentwicklung</p>
     <p>Position wird im Rahmen der Förderung ausgeschrieben. Profil folgt.</p>
   </div>
@@ -41,8 +41,8 @@ aus Kooperationspartner:innen und Multiplikator:innen.
 
 <div class="bp-soon">
   <span class="bp-pill bp-pill--soon">Aufbau</span>
-  <h3>Multiplikator:innen-Netzwerk</h3>
-  <p>Ein zentrales Element des Vorhabens: über das Train-the-Trainer-Programm bauen wir ein Netzwerk von Lehrenden auf, die die Inhalte langfristig in ihre eigenen Veranstaltungen tragen. Hier erscheint später die offene Liste teilnehmender Multiplikator:innen.</p>
+  <h3>Train-the-Trainer-Netzwerk</h3>
+  <p>Ein zentrales Element des Vorhabens: über das Train-the-Trainer-Programm bauen wir ein Netzwerk von Lehrenden auf, die die Inhalte langfristig in ihre eigenen Veranstaltungen tragen. Hier erscheint später die offene Liste teilnehmender Lehrender.</p>
 </div>
 
 ## Mitwirken

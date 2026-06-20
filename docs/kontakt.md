@@ -6,8 +6,9 @@ hide:
 
 # Kontakt
 
-Wir freuen uns über Anfragen zu Workshops, Kooperationen und Schulungen — und über jede
-Form von Feedback.
+Wir freuen uns über Anfragen zu Workshops, Kooperationen und Schulungen sowie über jede
+Form von Feedback. Eine individuelle Studien-, Ethik- oder Statistikberatung im Einzelfall
+bieten wir nicht, siehe [Nutzungshinweise](rechtliches/nutzung.md).
 
 <div class="bp-bento">
 
@@ -30,18 +31,26 @@ Form von Feedback.
     <p>Hochschulen, Kliniken, Verlage, Krankenkassen.</p>
   </a>
 
-  <a class="bp-bento__cell x3" href="https://github.com/hannesdiemerling/Frequent-Reformation">
+  <a class="bp-bento__cell x3" href="https://github.com/hannesdiemerling/Frequent-Reformation/issues">
     <span class="icon">⌥</span>
-    <h3>Open Source</h3>
-    <p>Inhalte und Code auf GitHub. Issues und PRs willkommen.</p>
+    <h3>Fehler melden</h3>
+    <p>Defekte Links oder inhaltliche Fehler als GitHub Issue melden. PRs willkommen.</p>
   </a>
 
 </div>
 
+## Feedback & Fehler melden
+
+Du hast einen inhaltlichen Fehler, einen defekten Link oder einen Verbesserungsvorschlag
+gefunden? Melde ihn als [GitHub Issue](https://github.com/hannesdiemerling/Frequent-Reformation/issues)
+oder per E-Mail an [{{ contact.email }}](mailto:{{ contact.email }}). Wir sind dankbar für
+jede Rückmeldung. Hinweise zu Zitation und Lizenz stehen in den
+[Nutzungshinweisen](rechtliches/nutzung.md).
+
 ## Kontaktformular <span class="bp-pill bp-pill--soon">Demo</span>
 
-Das untenstehende Formular ist eine Vorschau. Die echte Anbindung folgt mit dem Förderbeginn —
-bis dahin erreichst du uns am verlässlichsten per E-Mail.
+Das untenstehende Formular ist eine Vorschau. Die echte Anbindung folgt mit dem Förderbeginn.
+Bis dahin erreichst du uns am verlässlichsten per E-Mail.
 
 <div class="bp-callout">
   <div style="grid-column: 1 / -1;">
@@ -75,10 +84,10 @@ bis dahin erreichst du uns am verlässlichsten per E-Mail.
   </details>
   <details>
     <summary>Beratung zu eigenen Studien?</summary>
-    <p>Wir bieten <em>keine</em> Auftragsstatistik-Beratung — wir vermitteln aber Werkzeuge und schulen Personen, die eigene Studien sauber bayesianisch auswerten möchten.</p>
+    <p>Wir bieten <em>keine</em> Auftragsstatistik-Beratung, wir vermitteln aber Werkzeuge und schulen Personen, die eigene Studien sauber bayesianisch auswerten möchten.</p>
   </details>
   <details>
     <summary>Presse-Anfragen?</summary>
-    <p>Sehr gerne. Bitte über die E-Mail oben — wir antworten meist innerhalb eines Werktags.</p>
+    <p>Sehr gerne. Bitte über die E-Mail oben, wir antworten meist innerhalb eines Werktags.</p>
   </details>
 </div>

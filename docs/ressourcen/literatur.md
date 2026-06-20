@@ -4,10 +4,10 @@ title: Literatur
 
 # Literatur
 
-Eine kommentierte Auswahl. Wir konzentrieren uns auf Quellen, die wir selbst empfehlen können —
+Eine kommentierte Auswahl. Wir konzentrieren uns auf Quellen, die wir selbst empfehlen können,
 nicht auf eine erschöpfende Bibliographie.
 
-## Lehrbücher — Bayesianische Statistik
+## Lehrbücher · Bayesianische Statistik
 
 <div class="bp-carousel">
   <div class="bp-carousel__track">
@@ -17,7 +17,7 @@ nicht auf eine erschöpfende Bibliographie.
       <h3 class="bp-card__title">Statistical Rethinking</h3>
       <p class="bp-card__desc">
         Richard McElreath. CRC Press, 2nd ed. 2020. Wahrscheinlich das beste Bayes-Lehrbuch
-        überhaupt — konzeptuell tief, didaktisch brillant. Mit kostenloser Vorlesungsreihe
+        überhaupt, konzeptuell tief, didaktisch brillant. Mit kostenloser Vorlesungsreihe
         auf YouTube.
       </p>
       <div class="bp-card__meta"><span>📘 612 Seiten</span><span>R · Stan · brms</span></div>
@@ -37,7 +37,7 @@ nicht auf eine erschöpfende Bibliographie.
       <span class="bp-card__tag">Standardwerk</span>
       <h3 class="bp-card__title">Bayesian Data Analysis</h3>
       <p class="bp-card__desc">
-        Andrew Gelman et al., 3rd ed. 2013. Das Standardwerk — anspruchsvoller, aber
+        Andrew Gelman et al., 3rd ed. 2013. Das Standardwerk, anspruchsvoller, aber
         umfassend. Kostenlos als PDF von Gelmans Webseite.
       </p>
       <div class="bp-card__meta"><span>📘 675 Seiten</span><span>frei verfügbar</span></div>
@@ -47,7 +47,7 @@ nicht auf eine erschöpfende Bibliographie.
       <span class="bp-card__tag">Einsteiger</span>
       <h3 class="bp-card__title">Bayesian Cognitive Modeling</h3>
       <p class="bp-card__desc">
-        Lee & Wagenmakers, 2013. Bayes für Psycholog:innen — viele Beispiele aus der
+        Lee & Wagenmakers, 2013. Bayes für die Psychologie, viele Beispiele aus der
         kognitiven Modellierung.
       </p>
       <div class="bp-card__meta"><span>📘 264 Seiten</span><span>JAGS</span></div>
@@ -89,7 +89,7 @@ nicht auf eine erschöpfende Bibliographie.
   </div>
 </div>
 
-## Schlüssel-Papers — Kritik des p-Werts
+## Schlüssel-Papers · Kritik des p-Werts
 
 | Paper                                                       | Worum es geht                                                           |
 |-------------------------------------------------------------|-------------------------------------------------------------------------|
@@ -100,17 +100,17 @@ nicht auf eine erschöpfende Bibliographie.
 | **Bakan, D. (1966).** *The test of significance in psychological research.* | Frühe, prophetische Kritik                                              |
 | **Meehl, P. E. (1978).** *Theoretical risks and tabular asterisks.* | Eine der prägnantesten Auseinandersetzungen mit der Signifikanz-Kultur  |
 
-## Schlüssel-Papers — Bayes & Effektgrößen
+## Schlüssel-Papers · Bayes & Effektgrößen
 
 | Paper                                                                  | Worum es geht                                                  |
 |------------------------------------------------------------------------|----------------------------------------------------------------|
-| **Schäfer, T. & Schwarz, M. A. (2019).** *The meaningfulness of effect sizes.* | Empirische Verteilung von Effektgrößen — wichtige Referenz     |
+| **Schäfer, T. & Schwarz, M. A. (2019).** *The meaningfulness of effect sizes.* | Empirische Verteilung von Effektgrößen, wichtige Referenz     |
 | **Schönbrodt & Wagenmakers (2018).** *Bayes Factor Design Analysis.*           | Stichprobenplanung für Bayes-Faktor-Designs                    |
-| **Wagenmakers et al. (2018).** *Bayesian inference for psychology.*            | Sehr klare Übersicht über Bayes für Psycholog:innen            |
+| **Wagenmakers et al. (2018).** *Bayesian inference for psychology.*            | Sehr klare Übersicht über Bayes für die Psychologie            |
 | **Kruschke & Liddell (2018).** *The Bayesian New Statistics.*                  | Bayes vs. Frequentismus für die Praxis                         |
 | **Haller & Krauss (2002).** *Misinterpretations of significance.*              | Empirischer Beleg, dass selbst Methoden-Lehrende falsch interpretieren |
 
-## Bücher — Reproduzierbarkeitskrise & Wissenschaftspraxis
+## Bücher · Reproduzierbarkeitskrise & Wissenschaftspraxis
 
 <div class="bp-carousel">
   <div class="bp-carousel__track">
@@ -129,7 +129,7 @@ nicht auf eine erschöpfende Bibliographie.
       <span class="bp-card__tag">Praxis</span>
       <h3 class="bp-card__title">Science Fictions</h3>
       <p class="bp-card__desc">
-        Stuart Ritchie, 2020. Bestandsaufnahme der Reproduzierbarkeitskrise — zugänglich
+        Stuart Ritchie, 2020. Bestandsaufnahme der Reproduzierbarkeitskrise, zugänglich
         geschrieben, gut für den Nicht-Statistiker.
       </p>
       <div class="bp-card__meta"><span>📘 368 Seiten</span><span>Penguin</span></div>
@@ -151,5 +151,5 @@ nicht auf eine erschöpfende Bibliographie.
 <div class="bp-soon">
   <span class="bp-pill bp-pill--soon">Erweitert</span>
   <h3>Annotierte Reading-Lists pro Zielgruppe</h3>
-  <p>Wir kuratieren spezifische Lese-Pfade für Studierende, Lehrende, Editor:innen und Praktiker:innen — jeweils mit Begründung und Reihenfolge. Erscheinen sukzessive.</p>
+  <p>Wir kuratieren spezifische Lese-Pfade für Studierende, Lehrende, Redaktionen und die Praxis, jeweils mit Begründung und Reihenfolge. Erscheinen sukzessive.</p>
 </div>

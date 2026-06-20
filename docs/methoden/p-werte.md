@@ -123,12 +123,12 @@ klein sind.
   <a class="bp-pillar" href="../bayesian/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">→ ALTERNATIVE 03</div>
     <h3>Bayesianisch denken</h3>
-    <p>Wahrscheinlichkeiten für Hypothesen — die Frage, die du eigentlich stellst.</p>
+    <p>Wahrscheinlichkeiten für Hypothesen, die Frage, die du eigentlich stellst.</p>
   </a>
 
 </div>
 
-## Übungs-Kapitel — direkt anwenden
+## Übungs-Kapitel: direkt anwenden
 
 Diese Workshop-Kapitel vertiefen das Thema mit interaktiven Beispielen im Browser:
 

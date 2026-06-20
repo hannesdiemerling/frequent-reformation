@@ -1,5 +1,5 @@
 ---
-title: Fragen — Themenzentrierter Einstieg
+title: Fragen · Themenzentrierter Einstieg
 hide:
   - toc
 ---
@@ -32,7 +32,7 @@ hide:
       <span class="bp-question__chev">+</span>
     </summary>
     <div class="bp-question__body">
-      <p class="bp-question__hint">Direkt einsteigen — die Workshop-Kapitel öffnen sich in einem neuen Tab:</p>
+      <p class="bp-question__hint">Direkt einsteigen: die Workshop-Kapitel öffnen sich in einem neuen Tab.</p>
       <div class="bp-question__links">
         {% for l in q.links %}
           {% if l.type == "chapter" %}
@@ -64,7 +64,7 @@ hide:
   <div>
     <span class="bp-section-head__eyebrow">Weiterführend</span>
     <h2>Wenn keine Frage passt</h2>
-    <p class="bp-section-head__lead">Hier die zwei klassischen Wege ins Material — entweder über Workshops oder direkt über die Methoden-Seiten.</p>
+    <p class="bp-section-head__lead">Hier die zwei klassischen Wege ins Material: entweder über Workshops oder direkt über die Methoden-Seiten.</p>
   </div>
 </div>
 
@@ -72,16 +72,16 @@ hide:
   <a class="bp-pillar" href="../workshops/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">→ WORKSHOPS</div>
     <h3>Strukturiert lernen</h3>
-    <p>Drei Workshops — jeweils im eigenen Tempo oder als geführte Veranstaltung buchbar.</p>
+    <p>Drei Workshops, jeweils im eigenen Tempo oder als geführte Veranstaltung buchbar.</p>
   </a>
   <a class="bp-pillar" href="../methoden/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">→ METHODEN</div>
     <h3>Konzepte vertiefen</h3>
-    <p>p-Werte, Effektgrößen, Stichproben und bayesianische Datenanalyse — kompakt erklärt.</p>
+    <p>p-Werte, Effektgrößen, Stichproben und bayesianische Datenanalyse, kompakt erklärt.</p>
   </a>
   <a class="bp-pillar" href="../kontakt/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">→ KONTAKT</div>
     <h3>Frage fehlt?</h3>
-    <p>Schreib uns — wir nehmen häufig nachgefragte Themen in diese Sektion auf.</p>
+    <p>Schreib uns. Wir nehmen häufig nachgefragte Themen in diese Sektion auf.</p>
   </a>
 </div>

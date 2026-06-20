@@ -4,14 +4,14 @@ title: Bayesianische Datenanalyse
 
 # Bayesianische Datenanalyse
 
-> **Frage 03 — beantwortet.** Wie stark sprechen die Daten für eine bestimmte Hypothese?
-> Bayesianische Methoden geben dir genau diese Antwort — als Wahrscheinlichkeit, nicht als
+> **Frage 03, beantwortet.** Wie stark sprechen die Daten für eine bestimmte Hypothese?
+> Bayesianische Methoden geben dir genau diese Antwort, als Wahrscheinlichkeit, nicht als
 > binäres Urteil.
 
 ## Die Grundidee in einem Satz
 
 > **Aktualisiere deine Überzeugung über eine Hypothese, indem du Vorwissen und Daten
-> kombinierst — und beschreibe das Ergebnis als Wahrscheinlichkeitsverteilung.**
+> kombinierst, und beschreibe das Ergebnis als Wahrscheinlichkeitsverteilung.**
 
 Mathematisch:
 
@@ -40,7 +40,7 @@ In Worten: **Posterior = (Likelihood × Prior) / Evidenz**.
   <div class="bp-pillar">
     <div class="bp-pillar__num">BAUSTEIN 03</div>
     <h3>Posterior</h3>
-    <p>Deine aktualisierte Überzeugung — die Verteilung, die du für Schlüsse, Punktschätzer und Intervalle verwendest.</p>
+    <p>Deine aktualisierte Überzeugung, die Verteilung, die du für Schlüsse, Punktschätzer und Intervalle verwendest.</p>
   </div>
 
 </div>
@@ -50,7 +50,7 @@ In Worten: **Posterior = (Likelihood × Prior) / Evidenz**.
 ### 1. Punktschätzer mit echtem Intervall
 
 Statt eines Konfidenzintervalls (das viele falsch interpretieren) erhältst du ein
-**Glaubwürdigkeitsintervall (Credible Interval, HDI)** — und es bedeutet genau das, was die
+**Glaubwürdigkeitsintervall (Credible Interval, HDI)**, und es bedeutet genau das, was die
 Intuition vermutet: *„Mit 95 % Wahrscheinlichkeit liegt der wahre Wert im Intervall."*
 
 ### 2. Bayes-Faktor
@@ -69,13 +69,13 @@ $$
 | 30 – 100 | Sehr starke Evidenz              |
 | > 100    | Extreme Evidenz                  |
 
-Symmetrisch funktionieren die gleichen Stufen für **BF₀₁** — also Evidenz **für** die
+Symmetrisch funktionieren die gleichen Stufen für **BF₀₁**, also Evidenz **für** die
 Nullhypothese. Genau das ist eine Stärke, die der Signifikanztest nicht hat.
 
 ### 3. Posterior-Wahrscheinlichkeiten
 
-Direkte Aussagen wie *„Mit 87 % Wahrscheinlichkeit ist der Effekt mindestens d = 0.3."* —
-formuliert in genau der Sprache, die Forscher:innen, Praktiker:innen und Öffentlichkeit
+Direkte Aussagen wie *„Mit 87 % Wahrscheinlichkeit ist der Effekt mindestens d = 0.3."*,
+formuliert in genau der Sprache, die Forschende, Anwendende und Öffentlichkeit
 verstehen.
 
 ## Ein typischer Workflow
@@ -84,7 +84,7 @@ verstehen.
   <div class="bp-timeline__item">
     <div class="bp-timeline__date">Schritt 01</div>
     <h3 class="bp-timeline__title">Modell spezifizieren</h3>
-    <p>Likelihood, Parameter, Priors. Das Modell muss zur Frage passen — nicht zur Software.</p>
+    <p>Likelihood, Parameter, Priors. Das Modell muss zur Frage passen, nicht zur Software.</p>
   </div>
   <div class="bp-timeline__item">
     <div class="bp-timeline__date">Schritt 02</div>
@@ -94,7 +94,7 @@ verstehen.
   <div class="bp-timeline__item">
     <div class="bp-timeline__date">Schritt 03</div>
     <h3 class="bp-timeline__title">Inferenz durchführen</h3>
-    <p>MCMC (Stan/PyMC), Variational Inference oder analytisch — je nach Modell.</p>
+    <p>MCMC (Stan/PyMC), Variational Inference oder analytisch, je nach Modell.</p>
   </div>
   <div class="bp-timeline__item">
     <div class="bp-timeline__date">Schritt 04</div>
@@ -109,13 +109,13 @@ verstehen.
   <div class="bp-timeline__item">
     <div class="bp-timeline__date">Schritt 06</div>
     <h3 class="bp-timeline__title">Schlüsse formulieren</h3>
-    <p>Effekt, Glaubwürdigkeitsintervall, ggf. Bayes-Faktor — und alles als Wahrscheinlichkeitsaussage.</p>
+    <p>Effekt, Glaubwürdigkeitsintervall, ggf. Bayes-Faktor, und alles als Wahrscheinlichkeitsaussage.</p>
   </div>
 </div>
 
-## Software — mit was anfangen?
+## Software: mit was anfangen?
 
-=== "Einsteiger:innen — JASP / Jamovi"
+=== "Einsteigende: JASP / Jamovi"
 
     Beide Programme bieten **klickbare Bayes-Tests** (t-Test, ANOVA, Korrelation, Regression)
     mit sinnvollen Default-Priors. Ideal für die Lehre, für erste eigene Analysen und für
@@ -124,7 +124,7 @@ verstehen.
     [JASP herunterladen](https://jasp-stats.org/){ .md-button }
     [Jamovi herunterladen](https://www.jamovi.org/){ .md-button }
 
-=== "Fortgeschritten — R / brms"
+=== "Fortgeschritten: R / brms"
 
     Für komplexere Modelle (hierarchisch, multivariat, nicht-linear) ist **`brms`**
     (auf Stan-Basis) der Goldstandard im R-Universum.
@@ -137,41 +137,41 @@ verstehen.
 
     [brms-Dokumentation öffnen](https://paul-buerkner.github.io/brms/){ .md-button }
 
-=== "Power-User — Stan / PyMC"
+=== "Power-User: Stan / PyMC"
 
-    **Stan** und **PyMC** geben dir vollständige Modellspezifikation. Maximale Flexibilität —
+    **Stan** und **PyMC** geben dir vollständige Modellspezifikation. Maximale Flexibilität,
     aber höhere Einstiegshürde.
 
     [Stan](https://mc-stan.org/){ .md-button }
     [PyMC](https://www.pymc.io/){ .md-button }
 
-## Häufige Sorgen — kurz beantwortet
+## Häufige Sorgen: kurz beantwortet
 
 <div class="bp-faq">
 
   <details>
     <summary>„Aber Priors sind doch subjektiv!"</summary>
-    <p>Jede statistische Analyse trifft Annahmen — Priors machen sie nur explizit. Sensitivitätsanalysen zeigen, wie stark die Schlüsse vom Prior abhängen. Bei genug Daten dominiert die Likelihood ohnehin.</p>
+    <p>Jede statistische Analyse trifft Annahmen, Priors machen sie nur explizit. Sensitivitätsanalysen zeigen, wie stark die Schlüsse vom Prior abhängen. Bei genug Daten dominiert die Likelihood ohnehin.</p>
   </details>
 
   <details>
     <summary>„Brauche ich einen Supercomputer?"</summary>
-    <p>Nein. Standardmodelle laufen in Sekunden bis Minuten auf einem normalen Notebook. Auch komplexere Modelle sind heute alltagstauglich — die Hardware ist selten der Engpass.</p>
+    <p>Nein. Standardmodelle laufen in Sekunden bis Minuten auf einem normalen Notebook. Auch komplexere Modelle sind heute alltagstauglich, die Hardware ist selten der Engpass.</p>
   </details>
 
   <details>
-    <summary>„Was sage ich Reviewer:innen, die mit Bayes nicht vertraut sind?"</summary>
+    <summary>„Was sage ich Begutachtenden, die mit Bayes nicht vertraut sind?"</summary>
     <p>Berichte Effektgröße und HDI immer in der intuitiven Sprache, biete den Bayes-Faktor zusätzlich an und verweise auf das ASA-Statement sowie das Editorial von <em>Basic and Applied Social Psychology</em>. Die <a href="../ressourcen/literatur/">Literaturseite</a> liefert die Referenzen.</p>
   </details>
 
   <details>
-    <summary>„Kann ich beides berichten — Bayes und p-Wert?"</summary>
-    <p>Ja, in vielen Journals ist das aktuell der pragmatische Weg. Wenn beide Ergebnisse einander widersprechen, liegt das meist daran, dass der p-Wert die Frage falsch beantwortet — nicht der Bayes-Faktor.</p>
+    <summary>„Kann ich beides berichten, Bayes und p-Wert?"</summary>
+    <p>Ja, in vielen Journals ist das aktuell der pragmatische Weg. Wenn beide Ergebnisse einander widersprechen, liegt das meist daran, dass der p-Wert die Frage falsch beantwortet, nicht der Bayes-Faktor.</p>
   </details>
 
 </div>
 
-## Übungs-Kapitel — direkt anwenden
+## Übungs-Kapitel: direkt anwenden
 
 Diese Workshop-Kapitel vertiefen das Thema mit interaktiven Beispielen im Browser:
 

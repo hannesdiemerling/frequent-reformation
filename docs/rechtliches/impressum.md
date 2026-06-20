@@ -14,7 +14,7 @@ hide:
 
 **Name / Institution:**
 Beyond p-values Initiative
-*(Platzhalter — wird ersetzt durch die offizielle Trägerinstitution)*
+*(Platzhalter, wird ersetzt durch die offizielle Trägerinstitution)*
 
 **Anschrift:**
 Musterstraße 1
@@ -60,8 +60,8 @@ Seiten verantwortlich.
 ## Urheberrecht
 
 Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem
-deutschen Urheberrecht. Beiträge und Materialien dieses Projekts werden — soweit nicht anders
-gekennzeichnet — unter der Lizenz **Creative Commons CC BY 4.0** veröffentlicht.
+deutschen Urheberrecht. Beiträge und Materialien dieses Projekts werden, soweit nicht anders
+gekennzeichnet, unter der Lizenz **Creative Commons CC BY 4.0** veröffentlicht.
 
 ## Bildnachweise
 

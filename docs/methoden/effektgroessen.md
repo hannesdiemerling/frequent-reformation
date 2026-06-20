@@ -4,12 +4,12 @@ title: Effekte & Effektgrößen
 
 # Effekte & Effektgrößen
 
-> **Frage 01 — beantwortet.** Wie groß ist der Effekt? Was er für Theorie, Praxis und
-> Forschungsprogramm bedeutet, ergibt sich erst aus dieser Größe — nicht aus einem p-Wert.
+> **Frage 01, beantwortet.** Wie groß ist der Effekt? Was er für Theorie, Praxis und
+> Forschungsprogramm bedeutet, ergibt sich erst aus dieser Größe, nicht aus einem p-Wert.
 
 ## Warum Effektgrößen?
 
-Ein p-Wert verrät dir, wie überraschend deine Daten unter einer Annahme wären — aber **nicht**,
+Ein p-Wert verrät dir, wie überraschend deine Daten unter einer Annahme wären, aber **nicht**,
 wie groß der Unterschied oder Zusammenhang tatsächlich ist. Genau das ist jedoch die Frage,
 die für Theoriebildung und Praxisentscheidungen zählt.
 
@@ -25,7 +25,7 @@ die für Theoriebildung und Praxisentscheidungen zählt.
     <h3>Unstandardisierte Effekte</h3>
     <p>
       In den Einheiten deiner Messung. Z. B. „die Therapie reduziert Depressionswerte im
-      BDI-II um 4,2 Punkte". Direkt interpretierbar — wenn deine Skala gut bekannt ist.
+      BDI-II um 4,2 Punkte". Direkt interpretierbar, wenn deine Skala gut bekannt ist.
     </p>
   </div>
 
@@ -33,7 +33,7 @@ die für Theoriebildung und Praxisentscheidungen zählt.
     <div class="bp-pillar__num">FAMILIE 02</div>
     <h3>Standardisierte Effektgrößen</h3>
     <p>
-      Skalenfrei, vergleichbar über Studien hinweg. Cohen's d, Hedges' g, η², r — die
+      Skalenfrei, vergleichbar über Studien hinweg. Cohen's d, Hedges' g, η², r, die
       gemeinsame Sprache der Meta-Analyse.
     </p>
   </div>
@@ -88,7 +88,7 @@ die für Theoriebildung und Praxisentscheidungen zählt.
       <span class="bp-card__tag">Kategorial</span>
       <h3 class="bp-card__title">Odds Ratio · Risk Ratio</h3>
       <p class="bp-card__desc">
-        Standard für binäre Outcomes — vor allem in Medizin und Epidemiologie.
+        Standard für binäre Outcomes, vor allem in Medizin und Epidemiologie.
       </p>
       <div class="bp-card__meta"><span>Log-Skala empfohlen</span></div>
     </div>
@@ -106,16 +106,16 @@ die für Theoriebildung und Praxisentscheidungen zählt.
   </div>
 </div>
 
-## Cohens Klassifikation — mit Vorbehalt
+## Cohens Klassifikation: mit Vorbehalt
 
-Jacob Cohen schlug 1988 die Einteilung klein/mittel/groß vor — als grobe Orientierung, **wenn
+Jacob Cohen schlug 1988 die Einteilung klein/mittel/groß vor, als grobe Orientierung, **wenn
 keine fachspezifischen Vergleichswerte vorliegen**. In der Praxis wird sie häufig als Naturgesetz
 fehlinterpretiert.
 
 !!! warning "Domänenwissen schlägt Faustregel"
     Was als „klein" oder „groß" gilt, hängt vom Forschungsfeld ab. Ein d = 0.2 für eine
-    Suizidpräventions-Intervention ist riesig — ein d = 0.5 für ein neues Lernformat in einem
-    etablierten Fachgebiet eher mittelmäßig. **Vergleiche immer mit publizierten Effekten in
+    Suizidpräventions-Intervention ist riesig. Ein d = 0.5 für ein neues Lernformat in einem
+    etablierten Fachgebiet ist eher mittelmäßig. **Vergleiche immer mit publizierten Effekten in
     deiner Subdisziplin.**
 
 Empirische Verteilungen für viele Subdisziplinen findest du in:
@@ -130,7 +130,7 @@ Eine Effektgröße ohne Intervall ist nur die halbe Geschichte. Berichte immer:
 - **Intervall** (z. B. 95 % CI [0.18, 0.66] oder bayesianisch HDI [0.20, 0.65])
 - **Modellannahmen** und Effektgrößen-Variante (z. B. korrigiert für kleine Stichproben)
 
-## Cheatsheet — welche Effektgröße wann?
+## Cheatsheet: welche Effektgröße wann?
 
 | Design                              | Empfohlene Effektgröße             |
 |-------------------------------------|------------------------------------|
@@ -144,13 +144,13 @@ Eine Effektgröße ohne Intervall ist nur die halbe Geschichte. Berichte immer:
 
 ## Bayesianisches Pendant
 
-Auch im bayesianischen Workflow sind Effektgrößen zentral — du erhältst sie als
+Auch im bayesianischen Workflow sind Effektgrößen zentral. Du erhältst sie als
 **Posterior-Verteilung über den Effekt** (nicht nur als Punktschätzer). Damit lassen sich
 direkt Aussagen formulieren wie: *„Mit 92 % Wahrscheinlichkeit ist der Effekt mindestens d = 0.3."*
 
 → Mehr dazu in der [Bayesianischen Datenanalyse](bayesian.md).
 
-## Übungs-Kapitel — direkt anwenden
+## Übungs-Kapitel: direkt anwenden
 
 Diese Workshop-Kapitel vertiefen das Thema mit interaktiven Beispielen im Browser:
 
@@ -178,5 +178,5 @@ Diese Workshop-Kapitel vertiefen das Thema mit interaktiven Beispielen im Browse
 <div class="bp-soon">
   <span class="bp-pill bp-pill--soon">In Arbeit</span>
   <h3>Interaktiver Effektgrößen-Rechner</h3>
-  <p>Wir bauen einen kleinen Web-Rechner, mit dem du Effektgrößen aus üblichen Berichts-Statistiken (t, F, χ², r) konvertieren und visualisieren kannst — inklusive Glaubwürdigkeitsintervall.</p>
+  <p>Wir bauen einen kleinen Web-Rechner, mit dem du Effektgrößen aus üblichen Berichts-Statistiken (t, F, χ², r) konvertieren und visualisieren kannst, inklusive Glaubwürdigkeitsintervall.</p>
 </div>

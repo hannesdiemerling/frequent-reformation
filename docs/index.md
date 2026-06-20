@@ -2,17 +2,18 @@
 hide:
   - navigation
   - toc
-title: Beyond p-values · Hub für bayesianische Statistik
+title: Beyond p-values · Hub für bessere Forschungspraxis
 ---
 
 <section class="bp-hero">
   <div class="bp-hero__inner">
     <div>
       <span class="bp-hero__eyebrow"><span class="dot"></span> Workshops · Methoden · Werkzeuge</span>
-      <h1>Jenseits des <span class="grad">p-Werts</span>.<br>Bayesianisch denken.</h1>
+      <h1>Jenseits des <span class="grad">p-Werts</span>.<br>Besser forschen.</h1>
       <p class="bp-hero__lead">
-        Bessere Antworten als „signifikant oder nicht": Effektgrößen, Präzision und
-        bayesianische Inferenz, verständlich erklärt und direkt im Browser zum Mitmachen.
+        Bessere Antworten als „signifikant oder nicht": Effektgrößen, repräsentative
+        Stichproben und bayesianische Inferenz, verständlich erklärt und direkt im
+        Browser zum Mitmachen.
       </p>
       <div class="bp-hero__ctas">
         <a class="bp-btn bp-btn--primary" href="workshops/">Workshops entdecken →</a>
@@ -131,7 +132,7 @@ title: Beyond p-values · Hub für bayesianische Statistik
 <div class="bp-carousel">
   <div class="bp-carousel__track">
 
-    {% for key in ["thinking", "power", "reliability"] %}
+    {% for key in ["power", "reliability", "thinking"] %}
     {% set w = workshops[key] %}
     <a class="bp-card" href="{{ w.slug }}/" style="text-decoration:none;color:inherit;">
       <span class="bp-card__num">{{ w.number }}</span>

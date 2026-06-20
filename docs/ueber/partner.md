@@ -4,7 +4,7 @@ title: Partner & Förderer
 
 # Partner & Förderer
 
-Das Projekt lebt davon, dass viele Akteure mitziehen — von Hochschulen über Fachverlage bis
+Das Projekt lebt davon, dass viele Akteure mitziehen, von Hochschulen über Fachverlage bis
 zu Krankenkassen. Hier dokumentieren wir den wachsenden Verbund.
 
 ## Förderung
@@ -12,6 +12,17 @@ zu Krankenkassen. Hier dokumentieren wir den wachsenden Verbund.
 <div class="bp-partners">
   <div class="bp-partner">Pioniervorhaben<small>im Antragsverfahren</small></div>
 </div>
+
+!!! info "Förderhinweis"
+
+    Das Vorhaben befindet sich derzeit im Antragsverfahren (Pioniervorhaben). Sobald
+    eine Förderzusage vorliegt, ergänzen wir hier Förderinstitution, Projekttitel,
+    Förderkennzeichen und Förderzeitraum sowie, falls von den Förderbedingungen
+    verlangt, das Logo der Förderinstitution.
+
+    Geplanter Pflichthinweis nach Bewilligung: „Gefördert von [Förderinstitution]
+    unter dem Förderkennzeichen [Nummer]. Die Verantwortung für den Inhalt dieser
+    Veröffentlichung liegt bei den Autorinnen und Autoren."
 
 ## Wissenschaftliche Partner
 
@@ -48,15 +59,15 @@ zu Krankenkassen. Hier dokumentieren wir den wachsenden Verbund.
 ## Wirkungs-Berichte
 
 Über die Laufzeit dokumentieren wir, welche konkreten Veränderungen wir mit welchem Partner
-erreicht haben — von ersten p-freien Pilotartikeln bis zu dauerhaften Richtlinien-Anpassungen.
+erreicht haben, von ersten p-freien Pilotartikeln bis zu dauerhaften Richtlinien-Anpassungen.
 
 | Partner / Stakeholder            | Geplante Wirkung                                              | Status                                              |
 |----------------------------------|---------------------------------------------------------------|-----------------------------------------------------|
 | Hochschulen                      | Methodenwissen in Curricula                                   | <span class="bp-pill bp-pill--soon">In Anbahnung</span> |
 | Verlage / Editorials             | Veröffentlichungs-Richtlinien ohne p-Zwang                    | <span class="bp-pill bp-pill--soon">In Anbahnung</span> |
-| Krankenkassen                    | Faktenbox-artige Patient:innen-Information                    | <span class="bp-pill bp-pill--draft">Geplant</span>     |
+| Krankenkassen                    | Faktenbox-artige Information für Behandelte                   | <span class="bp-pill bp-pill--draft">Geplant</span>     |
 | Fachgesellschaften               | Statements und Methoden-Empfehlungen                          | <span class="bp-pill bp-pill--draft">Geplant</span>     |
-| Lehrende (Multiplikator:innen)   | Train-the-Trainer-Curriculum mit Materialien                  | <span class="bp-pill bp-pill--soon">In Aufbau</span>    |
+| Lehrende (Train-the-Trainer)     | Train-the-Trainer-Curriculum mit Materialien                  | <span class="bp-pill bp-pill--soon">In Aufbau</span>    |
 
 Sobald konkrete Vereinbarungen unterschrieben sind, ergänzen wir hier Logo, Beschreibung und
 Status.
