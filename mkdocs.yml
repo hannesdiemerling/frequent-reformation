@@ -11,7 +11,7 @@ exclude_docs: |
 theme:
   name: material
   language: de
-  logo: assets/Logo2.png
+  logo: assets/P.svg
   favicon: assets/P.svg
   palette:
     - scheme: default
@@ -283,9 +283,7 @@ extra:
     new: Neu hinzugefügt
     deprecated: In Überarbeitung
 
-copyright: >
-  Copyright &copy; 2025 Beyond p-values Initiative ·
-  <a href="#__consent">Cookie-Einstellungen ändern</a>
+copyright: Copyright &copy; 2025 Beyond p-values Initiative
 
 # ============================================================
 # NAVIGATION

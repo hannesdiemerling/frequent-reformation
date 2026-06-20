@@ -75,12 +75,9 @@ Newsletter, quartalsweise, kompakt, ohne Spam.
 <div class="bp-callout">
   <div>
     <h3>Quartals-Newsletter</h3>
-    <p>Workshops, neue Materialien, Veröffentlichungen: alles im Überblick.</p>
-    <form>
-      <input type="email" placeholder="deine@email.de" aria-label="E-Mail-Adresse" required>
-      <button type="submit" class="bp-btn bp-btn--primary">Anmelden</button>
-    </form>
-    <small>Du kannst dich jederzeit abmelden.</small>
+    <p>Workshops, neue Materialien, Veröffentlichungen: alles im Überblick. Schreib uns kurz, wir nehmen dich in den Verteiler auf.</p>
+    <a class="bp-btn bp-btn--primary" href="mailto:{{ contact.email }}?subject=Newsletter-Anmeldung">Per E-Mail abonnieren →</a>
+    <small>Du kannst dich jederzeit per E-Mail abmelden.</small>
   </div>
   <div>
     <p style="margin: 0; opacity: 0.85;">

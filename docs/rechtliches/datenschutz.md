@@ -6,11 +6,10 @@ hide:
 
 # Datenschutzerklärung
 
-> **Hinweis.** Diese Datenschutzerklärung beschreibt den aktuell geplanten technischen
-> Stand der Website. Vor dem offiziellen Live-Gang und insbesondere vor Aktivierung des
-> Anmeldeformulars muss sie mit den tatsächlich genutzten Diensten, echten Kontaktdaten und
-> einer juristisch verbindlichen Vorlage abgeglichen werden. Mit „Platzhalter" markierte
-> Angaben sind noch zu ersetzen.
+> **Hinweis.** Diese Datenschutzerklärung beschreibt den aktuellen technischen Stand der
+> Website. Vor dem offiziellen Live-Gang muss sie mit den tatsächlich genutzten Diensten,
+> echten Kontaktdaten und einer juristisch verbindlichen Vorlage abgeglichen werden. Mit
+> „Platzhalter" markierte Angaben sind noch zu ersetzen.
 
 ## 1. Verantwortlicher
 
@@ -68,26 +67,28 @@ Die interaktiven Workshops laufen vollständig im Browser (Python via Shinylive)
 die Workshop-Apps werden **lokal im Browser** verarbeitet und nicht an einen Server
 übertragen oder dauerhaft gespeichert.
 
-## 6. Workshop-Anmeldung und Kontaktformular
+## 6. Kontaktaufnahme per E-Mail
 
-> **Wichtig.** Die derzeit auf der Website sichtbaren Newsletter- und Kontaktformulare sind
-> **Demo-Elemente ohne Funktion**. Es werden über diese Formulare aktuell **keine Daten an
-> einen Server übermittelt oder gespeichert**.
+Diese Website ist vollständig statisch und enthält **keine Formulare**, die Daten an einen
+Server übermitteln. Auch Workshop-Anfragen und der Newsletter-Verteiler laufen über
+gewöhnliche E-Mail: Die entsprechenden Schaltflächen öffnen lediglich dein eigenes
+E-Mail-Programm (mailto-Link). Es werden dabei von dieser Website **keine Daten erhoben oder
+gespeichert**.
 
-Sobald eine echte Anmelde- oder Kontaktfunktion aktiviert wird, verarbeiten wir die von dir
-freiwillig angegebenen Daten (typischerweise Name und E-Mail-Adresse, bei Workshop-Anfragen
-ggf. Institution und Nachricht) ausschließlich zur Bearbeitung deiner Anfrage bzw. zur
-Organisation des Workshops.
+Wenn du uns eine E-Mail schreibst, verarbeiten wir die von dir mitgeteilten Daten (deine
+E-Mail-Adresse sowie den Inhalt deiner Nachricht, bei Workshop-Anfragen ggf. Name und
+Institution) ausschließlich zur Bearbeitung deines Anliegens.
 
-Vor Aktivierung ergänzen wir hier verbindlich:
-
-- den eingesetzten Dienstleister (Newsletter-/Formular-Backend) und den mit ihm
-  geschlossenen Auftragsverarbeitungs-Vertrag
-- die Rechtsgrundlage: Art. 6 Abs. 1 lit. a DSGVO (Einwilligung) bzw. lit. b
-  (Anbahnung oder Erfüllung der Workshop-Teilnahme)
-- die Speicherdauer (Daten werden gelöscht, sobald der Zweck entfällt, etwa nach
-  Abschluss des Workshops oder Widerruf der Einwilligung)
-- den Widerrufsweg (eine kurze Nachricht an die oben genannte E-Mail genügt)
+- **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (Anbahnung bzw. Durchführung einer
+  Workshop-Teilnahme) oder lit. f DSGVO (berechtigtes Interesse an der Beantwortung
+  allgemeiner Anfragen). Für den Newsletter-Verteiler: Art. 6 Abs. 1 lit. a DSGVO
+  (Einwilligung).
+- **Speicherdauer:** Wir löschen deine Nachricht, sobald der Zweck entfällt, etwa nach
+  abschließender Bearbeitung oder Abschluss des Workshops. Vom Newsletter-Verteiler kannst
+  du dich jederzeit per kurzer E-Mail abmelden.
+- **Empfänger:** Deine E-Mail wird über den Postfach-Anbieter der verantwortlichen Stelle
+  abgewickelt. Der genaue Anbieter wird mit der finalen Trägerstruktur hier benannt
+  *(Platzhalter)*.
 
 ## 7. Deine Rechte
 

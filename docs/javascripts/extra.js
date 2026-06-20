@@ -256,25 +256,24 @@
     "TEXTAREA", "INPUT", "ABBR", "BUTTON",
     "H1", "H2", "H3", "H4", "H5", "H6"
   ]);
+  // Tooltips erscheinen einheitlich im gesamten Fließtext. Ausgeschlossen
+  // sind nur Navigations-Chrome (vor allem die großen Tabs), Überschriften
+  // und kurze Label-/Badge-/Icon-Elemente, in denen ein unterstrichener
+  // Fachbegriff stören oder die Optik brechen würde.
   const SKIP_ANCESTOR_SELECTOR = [
     ".md-header", ".md-tabs", ".md-footer",
     ".md-nav", ".md-search", ".md-sidebar",
-    // Marketing-/Layout-Bausteine komplett ausschließen. Tooltips
-    // sollen ausschließlich im echten Fließtext erscheinen, nicht in
-    // Hero, Karten, Bento-Zellen, Stat-Boxen oder CTA-Blöcken.
-    ".bp-hero",
-    ".bp-stats", ".bp-stat",
-    ".bp-section-head",
-    ".bp-bento__cell",
-    ".bp-card",
-    ".bp-pillar",
-    ".bp-callout",
-    ".bp-workshop__head",
-    ".bp-mode__head",
-    ".bp-pill",
-    ".bp-timeline__date",
+    ".bp-card__title", ".bp-card__tag", ".bp-card__num", ".bp-card__meta",
     ".bp-pillar__num",
+    ".bp-stat__num",
+    ".bp-section-head__eyebrow",
+    ".bp-hero__eyebrow",
+    ".bp-pill",
+    ".bp-bento__cell .icon",
     ".bp-question__icon", ".bp-question__chev",
+    ".bp-workshop__num", ".bp-workshop__eyebrow",
+    ".bp-mode__head",
+    ".bp-timeline__date",
     "h1, h2, h3, h4, h5, h6",
     "a[href^=\"mailto:\"]",  // mailto-CTAs nicht decorieren
     ".bp-btn",               // Buttons nicht decorieren
@@ -518,24 +517,4 @@
   } else {
     document.addEventListener("DOMContentLoaded", init);
   }
-
-  // ============================================================
-  // Newsletter-Form: Demo-Handler
-  // ============================================================
-  document.addEventListener("submit", (e) => {
-    const form = e.target.closest(".bp-callout form");
-    if (!form) return;
-    e.preventDefault();
-    const input = form.querySelector('input[type="email"]');
-    const btn = form.querySelector("button");
-    if (input && input.value) {
-      btn.textContent = "Eingetragen ✓";
-      btn.disabled = true;
-      input.value = "";
-      setTimeout(() => {
-        btn.textContent = "Anmelden";
-        btn.disabled = false;
-      }, 2400);
-    }
-  });
 })();

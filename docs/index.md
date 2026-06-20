@@ -314,14 +314,11 @@ title: Beyond p-values · Hub für bessere Forschungspraxis
   <div>
     <h3>Bleib informiert. Kein Spam, nur Substanz.</h3>
     <p>
-      Quartalsweiser Newsletter mit neuen Workshops, Veröffentlichungen und konkreten
-      Beispielen aus der Arbeit am Projekt.
+      Quartalsweise Updates mit neuen Workshops, Veröffentlichungen und konkreten Beispielen
+      aus der Arbeit am Projekt. Schreib uns kurz, wir nehmen dich in den Verteiler auf.
     </p>
-    <form>
-      <input type="email" placeholder="deine@email.de" aria-label="E-Mail-Adresse" required>
-      <button type="submit" class="bp-btn bp-btn--primary">Anmelden</button>
-    </form>
-    <small>Jederzeit abbestellbar. Wir geben deine Adresse nicht weiter.</small>
+    <a class="bp-btn bp-btn--primary" href="mailto:{{ contact.email }}?subject=Newsletter-Anmeldung">Per E-Mail abonnieren →</a>
+    <small>Jederzeit per E-Mail abbestellbar. Wir geben deine Adresse nicht weiter.</small>
   </div>
   <div>
     <p style="margin: 0; opacity: 0.85;">

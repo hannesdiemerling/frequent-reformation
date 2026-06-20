@@ -47,25 +47,22 @@ oder per E-Mail an [{{ contact.email }}](mailto:{{ contact.email }}). Wir sind d
 jede Rückmeldung. Hinweise zu Zitation und Lizenz stehen in den
 [Nutzungshinweisen](rechtliches/nutzung.md).
 
-## Kontaktformular <span class="bp-pill bp-pill--soon">Demo</span>
+## Schreib uns
 
-Das untenstehende Formular ist eine Vorschau. Die echte Anbindung folgt mit dem Förderbeginn.
-Bis dahin erreichst du uns am verlässlichsten per E-Mail.
+Diese Website ist vollständig statisch. Wir binden bewusst **kein Formular** ein, das Daten
+an einen Server überträgt. Schreib uns einfach direkt per E-Mail, wir antworten in der Regel
+binnen drei Werktagen.
 
 <div class="bp-callout">
-  <div style="grid-column: 1 / -1;">
-    <h3>Schreib uns</h3>
-    <p>Wir antworten in der Regel binnen 3 Werktagen.</p>
-    <form style="flex-direction: column; align-items: stretch; gap: 0.6rem;">
-      <input type="text" placeholder="Dein Name" aria-label="Name" required style="background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.22); border-radius: 12px; padding: 0.85rem 1.2rem; color: #fff;">
-      <input type="email" placeholder="E-Mail-Adresse" aria-label="E-Mail" required>
-      <input type="text" placeholder="Betreff (z. B. Workshop-Anfrage)" aria-label="Betreff" style="background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.22); border-radius: 12px; padding: 0.85rem 1.2rem; color: #fff;">
-      <textarea placeholder="Deine Nachricht …" aria-label="Nachricht" rows="5" style="background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.22); border-radius: 14px; padding: 0.85rem 1.2rem; color: #fff; resize: vertical; font-family: inherit;"></textarea>
-      <button type="submit" class="bp-btn bp-btn--primary" style="align-self: flex-start;">Nachricht senden</button>
-    </form>
-    <small>Mit dem Absenden stimmst du der Verarbeitung deiner Daten zur Beantwortung deiner Anfrage zu. Details in der <a href="../rechtliches/datenschutz/" style="color:#fff; text-decoration:underline;">Datenschutzerklärung</a>.</small>
+  <div style="grid-column: 1 / -1; text-align: center;">
+    <h3>Per E-Mail erreichst du uns am schnellsten</h3>
+    <p>Für Workshop-Anfragen nenne kurz Zielgruppe, Vorwissen und gewünschte Inhalte.</p>
+    <a class="bp-btn bp-btn--primary" href="mailto:{{ contact.email }}">E-Mail an {{ contact.email }} →</a>
   </div>
 </div>
+
+Wie wir mit deiner E-Mail umgehen, steht in der
+[Datenschutzerklärung](rechtliches/datenschutz.md).
 
 ## Anschrift & Verantwortliche Person
 
