@@ -328,3 +328,21 @@ title: Beyond p-values · Hub für bessere Forschungspraxis
     <a class="bp-btn bp-btn--ghost" href="kontakt/" style="margin-top: 1rem;">Kontakt aufnehmen →</a>
   </div>
 </div>
+
+<div class="bp-fundstrip">
+  <span class="bp-fundstrip__intro">In Trägerschaft der HMU Erfurt, gefördert durch die VolkswagenStiftung.</span>
+  <div class="bp-logobar">
+    <div class="bp-logobar__item">
+      <span class="bp-logobar__label">In Trägerschaft</span>
+      <div class="bp-logobar__card">
+        <img src="assets/HMU_Logo_Erfurt_transparent.png" alt="HMU Health and Medical University Erfurt">
+      </div>
+    </div>
+    <div class="bp-logobar__item">
+      <span class="bp-logobar__label">Gefördert durch</span>
+      <div class="bp-logobar__card">
+        <img src="assets/volkswagenstiftung.png" alt="VolkswagenStiftung">
+      </div>
+    </div>
+  </div>
+</div>

@@ -7,17 +7,29 @@ title: Partner & Förderer
 Das Projekt lebt davon, dass viele Akteure mitziehen, von Hochschulen über Fachverlage bis
 zu Krankenkassen. Hier dokumentieren wir den wachsenden Verbund.
 
-## Förderung
+## Trägerschaft & Förderung
 
-<div class="bp-partners">
-  <div class="bp-partner">VolkswagenStiftung<small>Pioniervorhaben</small></div>
+<div class="bp-logobar">
+  <div class="bp-logobar__item">
+    <span class="bp-logobar__label">In Trägerschaft</span>
+    <div class="bp-logobar__card">
+      <img src="../../assets/HMU_Logo_Erfurt_transparent.png" alt="HMU Health and Medical University Erfurt">
+    </div>
+  </div>
+  <div class="bp-logobar__item">
+    <span class="bp-logobar__label">Gefördert durch</span>
+    <div class="bp-logobar__card">
+      <img src="../../assets/volkswagenstiftung.png" alt="VolkswagenStiftung">
+    </div>
+  </div>
 </div>
 
 !!! info "Förderhinweis"
 
     Dieses Vorhaben wird von der **VolkswagenStiftung** im Rahmen der Förderlinie
-    „Pioniervorhaben" gefördert. Die Verantwortung für den Inhalt dieser
-    Veröffentlichung liegt bei den Autorinnen und Autoren.
+    „Pioniervorhaben" gefördert. Träger ist die HMU Health and Medical University
+    Erfurt. Die Verantwortung für den Inhalt dieser Veröffentlichung liegt bei den
+    Autorinnen und Autoren.
 
 ## Wissenschaftliche Partner
 
