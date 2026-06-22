@@ -44,7 +44,7 @@ Wenn du Inhalte in wissenschaftlichen Arbeiten oder in der Lehre verwendest:
 ## Lizenz
 
 Die Inhalte dieser Website stehen, soweit nicht anders gekennzeichnet, unter
-[Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de): Teilen
+[Creative Commons CC BY 4.0]({{ links.cc_by }}): Teilen
 und Bearbeiten sind erlaubt, mit Namensnennung. Das Logo ist urheberrechtlich geschützt
 (alle Rechte vorbehalten).
 
@@ -55,5 +55,5 @@ dort angegebenen Lizenz.
 
 Inhaltliche Fehler, defekte Links oder Verbesserungsvorschläge nehmen wir gerne entgegen,
 per E-Mail an {{ contact.email }} oder als
-[GitHub Issue](https://github.com/hannesdiemerling/Frequent-Reformation/issues). Wir sind
+[GitHub Issue]({{ links.repo_issues }}). Wir sind
 dankbar für jede Rückmeldung.

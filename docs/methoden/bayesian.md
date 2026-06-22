@@ -121,8 +121,8 @@ verstehen.
     mit sinnvollen Default-Priors. Ideal für die Lehre, für erste eigene Analysen und für
     Forschende, die keine Programmiersprache lernen möchten.
 
-    [JASP herunterladen](https://jasp-stats.org/){ .md-button }
-    [Jamovi herunterladen](https://www.jamovi.org/){ .md-button }
+    [JASP herunterladen]({{ links.jasp }}){ .md-button }
+    [Jamovi herunterladen]({{ links.jamovi }}){ .md-button }
 
 === "Fortgeschritten: R / brms"
 
@@ -135,15 +135,15 @@ verstehen.
     summary(fit)
     ```
 
-    [brms-Dokumentation öffnen](https://paul-buerkner.github.io/brms/){ .md-button }
+    [brms-Dokumentation öffnen]({{ links.brms }}){ .md-button }
 
 === "Power-User: Stan / PyMC"
 
     **Stan** und **PyMC** geben dir vollständige Modellspezifikation. Maximale Flexibilität,
     aber höhere Einstiegshürde.
 
-    [Stan](https://mc-stan.org/){ .md-button }
-    [PyMC](https://www.pymc.io/){ .md-button }
+    [Stan]({{ links.stan }}){ .md-button }
+    [PyMC]({{ links.pymc }}){ .md-button }
 
 ## Häufige Sorgen: kurz beantwortet
 

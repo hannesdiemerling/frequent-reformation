@@ -247,7 +247,7 @@ title: Beyond p-values · Hub für bessere Forschungspraxis
 <div class="bp-carousel">
   <div class="bp-carousel__track">
 
-    <a class="bp-card" href="https://jasp-stats.org/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.jasp }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Software · Open Source</span>
       <h3 class="bp-card__title">JASP</h3>
       <p class="bp-card__desc">
@@ -257,7 +257,7 @@ title: Beyond p-values · Hub für bessere Forschungspraxis
       <div class="bp-card__meta"><span>🪟 Win</span><span>🍎 Mac</span><span>🐧 Linux</span></div>
     </a>
 
-    <a class="bp-card" href="https://www.jamovi.org/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.jamovi }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Software · Open Source</span>
       <h3 class="bp-card__title">Jamovi</h3>
       <p class="bp-card__desc">
@@ -334,15 +334,15 @@ title: Beyond p-values · Hub für bessere Forschungspraxis
   <div class="bp-logobar">
     <div class="bp-logobar__item">
       <span class="bp-logobar__label">In Trägerschaft</span>
-      <div class="bp-logobar__card">
+      <a class="bp-logobar__card" href="{{ links.hmu }}" target="_blank" rel="noopener">
         <img src="assets/HMU_Logo_Erfurt_transparent.png" alt="HMU Health and Medical University Erfurt">
-      </div>
+      </a>
     </div>
     <div class="bp-logobar__item">
       <span class="bp-logobar__label">Gefördert durch</span>
-      <div class="bp-logobar__card">
+      <a class="bp-logobar__card" href="{{ links.volkswagenstiftung }}" target="_blank" rel="noopener">
         <img src="assets/volkswagenstiftung.png" alt="VolkswagenStiftung">
-      </div>
+      </a>
     </div>
   </div>
 </div>

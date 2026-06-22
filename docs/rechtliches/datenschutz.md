@@ -53,7 +53,7 @@ Art. 6 Abs. 1 Satz 1 lit. f DSGVO (berechtigtes Interesse an Funktionsfähigkeit
 Sicherheit). Mit GitHub besteht ein Auftragsverarbeitungsvertrag nach Art. 28 DSGVO. Die
 Übermittlung in die USA stützt sich auf das EU-US Data Privacy Framework, an dem
 Microsoft/GitHub teilnimmt. Mehr Informationen:
-[GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+[GitHub Privacy Statement]({{ links.github_privacy }}).
 
 ### b. Kontaktaufnahme per E-Mail oder Telefon
 

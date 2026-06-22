@@ -950,6 +950,8 @@ a.bp-pillar:hover,
   min-height: 92px;
   transition: box-shadow 0.25s var(--bp-ease), transform 0.25s var(--bp-ease);
 }
+a.bp-logobar__card { text-decoration: none; }
+a.bp-logobar__card:hover { border-color: var(--bp-teal); }
 .bp-logobar__card:hover {
   box-shadow: var(--bp-shadow-md);
   transform: translateY(-3px);

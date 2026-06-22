@@ -12,7 +12,7 @@ die Methodenreform einen relevanten Beitrag leisten.
 <div class="bp-carousel">
   <div class="bp-carousel__track">
 
-    <a class="bp-card" href="https://www.tandfonline.com/journals/hbas20" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.basp }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">★ Pionier seit 2015</span>
       <h3 class="bp-card__title">Basic and Applied Social Psychology</h3>
       <p class="bp-card__desc">
@@ -30,7 +30,7 @@ die Methodenreform einen relevanten Beitrag leisten.
 <div class="bp-carousel">
   <div class="bp-carousel__track">
 
-    <a class="bp-card" href="https://psycnet.apa.org/PsycARTICLES/journal/met/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.psych_methods }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Methoden-Schwerpunkt</span>
       <h3 class="bp-card__title">Psychological Methods</h3>
       <p class="bp-card__desc">
@@ -40,7 +40,7 @@ die Methodenreform einen relevanten Beitrag leisten.
       <div class="bp-card__meta"><span>APA</span></div>
     </a>
 
-    <a class="bp-card" href="https://link.springer.com/journal/13428" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.brm_journal }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Methoden</span>
       <h3 class="bp-card__title">Behavior Research Methods</h3>
       <p class="bp-card__desc">
@@ -49,7 +49,7 @@ die Methodenreform einen relevanten Beitrag leisten.
       <div class="bp-card__meta"><span>Springer</span></div>
     </a>
 
-    <a class="bp-card" href="https://www.ejwagenmakers.com/journal.html" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.cbb_journal }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Reform-orientiert</span>
       <h3 class="bp-card__title">Computational Brain & Behavior</h3>
       <p class="bp-card__desc">
@@ -59,7 +59,7 @@ die Methodenreform einen relevanten Beitrag leisten.
       <div class="bp-card__meta"><span>Springer</span></div>
     </a>
 
-    <a class="bp-card" href="https://royalsocietypublishing.org/journal/rsos" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.rsos }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Open Science</span>
       <h3 class="bp-card__title">Royal Society Open Science</h3>
       <p class="bp-card__desc">
@@ -77,7 +77,7 @@ die Methodenreform einen relevanten Beitrag leisten.
 <div class="bp-carousel">
   <div class="bp-carousel__track">
 
-    <a class="bp-card" href="https://www.psychonomic.org/page/registeredreports" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.psychonomic_rr }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Initiative</span>
       <h3 class="bp-card__title">Psychonomic Society</h3>
       <p class="bp-card__desc">
@@ -87,7 +87,7 @@ die Methodenreform einen relevanten Beitrag leisten.
       <div class="bp-card__meta"><span>Multi-Journal</span></div>
     </a>
 
-    <a class="bp-card" href="https://www.cos.io/initiatives/registered-reports" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.cos_rr }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Liste</span>
       <h3 class="bp-card__title">Center for Open Science · RR-Verzeichnis</h3>
       <p class="bp-card__desc">
@@ -96,7 +96,7 @@ die Methodenreform einen relevanten Beitrag leisten.
       <div class="bp-card__meta"><span>Übersicht</span></div>
     </a>
 
-    <a class="bp-card" href="https://www.psychologie.uni-frankfurt.de/142220879/Meta_Psychology" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.meta_psychology }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Open Access</span>
       <h3 class="bp-card__title">Meta-Psychology</h3>
       <p class="bp-card__desc">

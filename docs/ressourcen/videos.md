@@ -11,7 +11,7 @@ Vorlesungen, Konferenzbeiträge und Podcasts, alles kostenlos, ohne Lehrbuch-Pfl
 <div class="bp-carousel">
   <div class="bp-carousel__track">
 
-    <a class="bp-card" href="https://www.youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.mcelreath_yt }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">★ Top-Empfehlung</span>
       <h3 class="bp-card__title">Statistical Rethinking · Vorlesung</h3>
       <p class="bp-card__desc">
@@ -21,7 +21,7 @@ Vorlesungen, Konferenzbeiträge und Podcasts, alles kostenlos, ohne Lehrbuch-Pfl
       <div class="bp-card__meta"><span>🎥 ~30 h</span><span>EN</span><span>2023</span></div>
     </a>
 
-    <a class="bp-card" href="https://www.youtube.com/c/BayesianStatistics" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.bayes_yt }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Workshop</span>
       <h3 class="bp-card__title">JASP-Tutorials</h3>
       <p class="bp-card__desc">
@@ -31,7 +31,7 @@ Vorlesungen, Konferenzbeiträge und Podcasts, alles kostenlos, ohne Lehrbuch-Pfl
       <div class="bp-card__meta"><span>🎥 Modular</span><span>EN</span></div>
     </a>
 
-    <a class="bp-card" href="https://www.coursera.org/learn/bayesian-statistics" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.coursera_bayes }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">MOOC</span>
       <h3 class="bp-card__title">Bayesian Statistics · Coursera</h3>
       <p class="bp-card__desc">
@@ -48,7 +48,7 @@ Vorlesungen, Konferenzbeiträge und Podcasts, alles kostenlos, ohne Lehrbuch-Pfl
 <div class="bp-carousel">
   <div class="bp-carousel__track">
 
-    <a class="bp-card" href="https://www.youtube.com/watch?v=8FPNkyf6f7Y" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.bayes_preview }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Talk</span>
       <h3 class="bp-card__title">Why Most Published Research Findings Are False</h3>
       <p class="bp-card__desc">
@@ -57,7 +57,7 @@ Vorlesungen, Konferenzbeiträge und Podcasts, alles kostenlos, ohne Lehrbuch-Pfl
       <div class="bp-card__meta"><span>⏱ ~60 min</span><span>EN</span></div>
     </a>
 
-    <a class="bp-card" href="https://www.youtube.com/results?search_query=Daniel+Lakens+TED" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.lakens_yt }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Talk</span>
       <h3 class="bp-card__title">Daniel Lakens · Methodenreform</h3>
       <p class="bp-card__desc">
@@ -67,7 +67,7 @@ Vorlesungen, Konferenzbeiträge und Podcasts, alles kostenlos, ohne Lehrbuch-Pfl
       <div class="bp-card__meta"><span>⏱ Varia</span><span>EN</span></div>
     </a>
 
-    <a class="bp-card" href="https://www.youtube.com/results?search_query=Andrew+Gelman+lecture" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.gelman_yt }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Talk</span>
       <h3 class="bp-card__title">Andrew Gelman · Bayes & Reform</h3>
       <p class="bp-card__desc">
@@ -85,7 +85,7 @@ Vorlesungen, Konferenzbeiträge und Podcasts, alles kostenlos, ohne Lehrbuch-Pfl
 <div class="bp-carousel">
   <div class="bp-carousel__track">
 
-    <a class="bp-card" href="https://learnbayesstats.com/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.learnbayes }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">★ Empfehlung</span>
       <h3 class="bp-card__title">Learning Bayesian Statistics</h3>
       <p class="bp-card__desc">
@@ -95,7 +95,7 @@ Vorlesungen, Konferenzbeiträge und Podcasts, alles kostenlos, ohne Lehrbuch-Pfl
       <div class="bp-card__meta"><span>🎧 Wöchentlich</span><span>EN</span></div>
     </a>
 
-    <a class="bp-card" href="https://nicebrain.substack.com/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.nicebrain }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Newsletter</span>
       <h3 class="bp-card__title">Felix Schönbrodt · Newsletter</h3>
       <p class="bp-card__desc">

@@ -12,15 +12,15 @@ zu Krankenkassen. Hier dokumentieren wir den wachsenden Verbund.
 <div class="bp-logobar">
   <div class="bp-logobar__item">
     <span class="bp-logobar__label">In Trägerschaft</span>
-    <div class="bp-logobar__card">
+    <a class="bp-logobar__card" href="{{ links.hmu }}" target="_blank" rel="noopener">
       <img src="../../assets/HMU_Logo_Erfurt_transparent.png" alt="HMU Health and Medical University Erfurt">
-    </div>
+    </a>
   </div>
   <div class="bp-logobar__item">
     <span class="bp-logobar__label">Gefördert durch</span>
-    <div class="bp-logobar__card">
+    <a class="bp-logobar__card" href="{{ links.volkswagenstiftung }}" target="_blank" rel="noopener">
       <img src="../../assets/volkswagenstiftung.png" alt="VolkswagenStiftung">
-    </div>
+    </a>
   </div>
 </div>
 

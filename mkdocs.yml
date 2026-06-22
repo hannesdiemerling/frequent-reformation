@@ -99,6 +99,68 @@ extra:
     email: hello@beyond-p-values.example
     booking_subject: "Workshop-Buchung Beyond p-values"
 
+  # ============================================================
+  # EXTERNE LINKS — alle ausgehenden URLs zentral hier pflegen.
+  # In Seiten verwenden: {{ links.jasp }}, {{ links.osf }} etc.
+  # ============================================================
+  links:
+    # Projekt
+    repo:            "https://github.com/hannesdiemerling/Frequent-Reformation"
+    repo_issues:     "https://github.com/hannesdiemerling/Frequent-Reformation/issues"
+    repo_power:      "https://github.com/hannesdiemerling/Beyond_Significance"
+    repo_reliability: "https://github.com/hannesdiemerling/True_Reliability"
+    repo_thinking:   "https://github.com/hannesdiemerling/Thinking_Bayesian"
+    repo_bfda:       "https://github.com/nicebread/BFDA"
+
+    # Träger & Förderer
+    hmu:             "https://www.health-and-medical-university-erfurt.de/"
+    volkswagenstiftung: "https://www.volkswagenstiftung.de/de"
+
+    # Tools & Software
+    jasp:            "https://jasp-stats.org/"
+    jamovi:          "https://www.jamovi.org/"
+    r_project:       "https://www.r-project.org/"
+    brms:            "https://paul-buerkner.github.io/brms/"
+    bayesfactor_pkg: "https://cran.r-project.org/package=BayesFactor"
+    easystats:       "https://easystats.github.io/easystats/"
+    stan:            "https://mc-stan.org/"
+    pymc:            "https://www.pymc.io/"
+    numpyro:         "https://num.pyro.ai/"
+    turing:          "https://turinglang.org/"
+    quarto:          "https://quarto.org/"
+
+    # Plattformen & Archive
+    osf:             "https://osf.io/"
+    zpid:            "https://www.zpid.de/"
+    psycharchives:   "https://psycharchives.org/"
+    aspredicted:     "https://aspredicted.org/"
+    rdatasets:       "https://vincentarelbundock.github.io/Rdatasets/"
+    uci_ml:          "https://archive.ics.uci.edu/"
+
+    # Journals
+    basp:            "https://www.tandfonline.com/journals/hbas20"
+    psych_methods:   "https://psycnet.apa.org/PsycARTICLES/journal/met/"
+    brm_journal:     "https://link.springer.com/journal/13428"
+    cbb_journal:     "https://www.ejwagenmakers.com/journal.html"
+    rsos:            "https://royalsocietypublishing.org/journal/rsos"
+    psychonomic_rr:  "https://www.psychonomic.org/page/registeredreports"
+    cos_rr:          "https://www.cos.io/initiatives/registered-reports"
+    meta_psychology: "https://www.psychologie.uni-frankfurt.de/142220879/Meta_Psychology"
+
+    # Videos & Kurse
+    mcelreath_yt:    "https://www.youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus"
+    gelman_yt:       "https://www.youtube.com/results?search_query=Andrew+Gelman+lecture"
+    lakens_yt:       "https://www.youtube.com/results?search_query=Daniel+Lakens+TED"
+    bayes_yt:        "https://www.youtube.com/c/BayesianStatistics"
+    bayes_preview:   "https://www.youtube.com/watch?v=8FPNkyf6f7Y"
+    coursera_bayes:  "https://www.coursera.org/learn/bayesian-statistics"
+    learnbayes:      "https://learnbayesstats.com/"
+    nicebrain:       "https://nicebrain.substack.com/"
+
+    # Rechtliches
+    github_privacy:  "https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement"
+    cc_by:           "https://creativecommons.org/licenses/by/4.0/deed.de"
+
   # Drei Workshops als GitHub-Pages-Sites (Quarto). Self-paced
   # Bedienung direkt im Browser; geführt = Buchung über Kontakt.
   workshops:
@@ -143,8 +205,8 @@ extra:
       chapters_count: 6
       eyebrow: "Workshop 01 · Grundlagen"
       tone: "coral"
-      repo: "https://github.com/hannesdiemerling/Bayesian_Power"
-      base: "https://hannesdiemerling.github.io/Bayesian_Power"
+      repo: "https://hannesdiemerling.github.io/Beyond_Significance/"
+      base: "https://hannesdiemerling.github.io/Beyond_Significance"
       goal_self: "Arbeite die sechs Kapitel im eigenen Tempo durch und erkunde interaktive Beispiele zu Effekten, Signifikanz und Publikationsbias."
       goal_guided: "Wir gehen die Inhalte gemeinsam durch, diskutieren Beispiele aus eurem Kontext und übersetzen die Methoden in eure Berichts-Praxis."
       audience: "Forschende und Lehrende, die p-Werte kritisch lesen und Effektgrößen souverän berichten wollen."

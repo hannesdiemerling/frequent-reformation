@@ -47,10 +47,10 @@ Eine kuratierte Quellenauswahl findest du unter [Literatur](../ressourcen/litera
 Sämtliche Inhalte werden in öffentlichen Git-Repositorys versioniert. Jede Änderung ist über
 die Commit-Historie nachvollziehbar. Die Quell-Repositorys:
 
-- Hub: [Frequent-Reformation](https://github.com/hannesdiemerling/Frequent-Reformation)
-- Workshop Beyond Significance: [Bayesian_Power](https://github.com/hannesdiemerling/Bayesian_Power)
-- Workshop Repräsentativität & Stichprobengröße: [True_Reliability](https://github.com/hannesdiemerling/True_Reliability)
-- Workshop Denke Bayesianisch: [Thinking_Bayesian](https://github.com/hannesdiemerling/Thinking_Bayesian)
+- Hub: [Frequent-Reformation]({{ links.repo }})
+- Workshop Beyond Significance: [Bayesian_Power]({{ links.repo_power }})
+- Workshop Repräsentativität & Stichprobengröße: [True_Reliability]({{ links.repo_reliability }})
+- Workshop Denke Bayesianisch: [Thinking_Bayesian]({{ links.repo_thinking }})
 
 ## Änderungshistorie
 
@@ -65,5 +65,5 @@ Commit-Historie der Repositorys.
 
 Hinweise auf inhaltliche oder methodische Fehler sind ausdrücklich erwünscht. Melde sie per
 E-Mail an {{ contact.email }} oder als
-[GitHub Issue](https://github.com/hannesdiemerling/Frequent-Reformation/issues). Siehe auch
+[GitHub Issue]({{ links.repo_issues }}). Siehe auch
 die [Nutzungshinweise](../rechtliches/nutzung.md).

@@ -18,7 +18,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
 <div class="bp-carousel">
   <div class="bp-carousel__track">
 
-    <a class="bp-card" href="https://jasp-stats.org/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.jasp }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">★ Empfehlung Einstieg</span>
       <h3 class="bp-card__title">JASP</h3>
       <p class="bp-card__desc">
@@ -28,7 +28,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <div class="bp-card__meta"><span>🪟 Win</span><span>🍎 Mac</span><span>🐧 Linux</span><span>0 €</span></div>
     </a>
 
-    <a class="bp-card" href="https://www.jamovi.org/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.jamovi }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">★ Empfehlung Einstieg</span>
       <h3 class="bp-card__title">Jamovi</h3>
       <p class="bp-card__desc">
@@ -38,7 +38,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <div class="bp-card__meta"><span>🪟 Win</span><span>🍎 Mac</span><span>🐧 Linux</span><span>0 €</span></div>
     </a>
 
-    <a class="bp-card" href="https://www.r-project.org/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.r_project }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Programmierung</span>
       <h3 class="bp-card__title">R + RStudio</h3>
       <p class="bp-card__desc">
@@ -62,7 +62,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
 <div class="bp-carousel">
   <div class="bp-carousel__track">
 
-    <a class="bp-card" href="https://paul-buerkner.github.io/brms/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.brms }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">★ Empfehlung Fortgeschritten</span>
       <h3 class="bp-card__title">brms</h3>
       <p class="bp-card__desc">
@@ -72,7 +72,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <div class="bp-card__meta"><span>R-Paket</span><span>Stan-basiert</span></div>
     </a>
 
-    <a class="bp-card" href="https://cran.r-project.org/package=BayesFactor" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.bayesfactor_pkg }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Standard-Tests</span>
       <h3 class="bp-card__title">BayesFactor</h3>
       <p class="bp-card__desc">
@@ -82,7 +82,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <div class="bp-card__meta"><span>R-Paket</span><span>Morey & Rouder</span></div>
     </a>
 
-    <a class="bp-card" href="https://easystats.github.io/easystats/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.easystats }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Workflow</span>
       <h3 class="bp-card__title">easystats</h3>
       <p class="bp-card__desc">
@@ -92,7 +92,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <div class="bp-card__meta"><span>R-Suite</span><span>bayestestR</span></div>
     </a>
 
-    <a class="bp-card" href="https://github.com/nicebread/BFDA" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.repo_bfda }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Studienplanung</span>
       <h3 class="bp-card__title">BFDA</h3>
       <p class="bp-card__desc">
@@ -116,7 +116,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
 <div class="bp-carousel">
   <div class="bp-carousel__track">
 
-    <a class="bp-card" href="https://mc-stan.org/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.stan }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">★ Goldstandard</span>
       <h3 class="bp-card__title">Stan</h3>
       <p class="bp-card__desc">
@@ -126,7 +126,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <div class="bp-card__meta"><span>C++ Backend</span><span>Multi-Sprache</span></div>
     </a>
 
-    <a class="bp-card" href="https://www.pymc.io/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.pymc }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Python</span>
       <h3 class="bp-card__title">PyMC</h3>
       <p class="bp-card__desc">
@@ -136,7 +136,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <div class="bp-card__meta"><span>Python</span><span>PyTensor</span></div>
     </a>
 
-    <a class="bp-card" href="https://num.pyro.ai/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.numpyro }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Performance</span>
       <h3 class="bp-card__title">NumPyro</h3>
       <p class="bp-card__desc">
@@ -146,7 +146,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <div class="bp-card__meta"><span>JAX</span><span>GPU-fähig</span></div>
     </a>
 
-    <a class="bp-card" href="https://turinglang.org/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.turing }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Julia</span>
       <h3 class="bp-card__title">Turing.jl</h3>
       <p class="bp-card__desc">
@@ -168,7 +168,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
 <div class="bp-carousel">
   <div class="bp-carousel__track">
 
-    <a class="bp-card" href="https://osf.io/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.osf }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Plattform</span>
       <h3 class="bp-card__title">OSF · Open Science Framework</h3>
       <p class="bp-card__desc">
@@ -177,7 +177,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <div class="bp-card__meta"><span>Cloud</span><span>kostenlos</span></div>
     </a>
 
-    <a class="bp-card" href="https://www.zpid.de/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.zpid }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Plattform</span>
       <h3 class="bp-card__title">ZPID · Leibniz-Institut für Psychologie</h3>
       <p class="bp-card__desc">
@@ -187,7 +187,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <div class="bp-card__meta"><span>DACH</span><span>kostenlos</span></div>
     </a>
 
-    <a class="bp-card" href="https://aspredicted.org/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.aspredicted }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Preregistration</span>
       <h3 class="bp-card__title">AsPredicted</h3>
       <p class="bp-card__desc">
@@ -196,7 +196,7 @@ empfohlene Software ist **kostenlos und quelloffen**.
       <div class="bp-card__meta"><span>Lean</span></div>
     </a>
 
-    <a class="bp-card" href="https://quarto.org/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.quarto }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Reporting</span>
       <h3 class="bp-card__title">Quarto</h3>
       <p class="bp-card__desc">

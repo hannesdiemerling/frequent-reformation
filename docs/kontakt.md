@@ -31,7 +31,7 @@ bieten wir nicht, siehe [Nutzungshinweise](rechtliches/nutzung.md).
     <p>Hochschulen, Kliniken, Verlage, Krankenkassen.</p>
   </a>
 
-  <a class="bp-bento__cell x3" href="https://github.com/hannesdiemerling/Frequent-Reformation/issues">
+  <a class="bp-bento__cell x3" href="{{ links.repo_issues }}">
     <span class="icon">⌥</span>
     <h3>Fehler melden</h3>
     <p>Defekte Links oder inhaltliche Fehler als GitHub Issue melden. PRs willkommen.</p>
@@ -42,7 +42,7 @@ bieten wir nicht, siehe [Nutzungshinweise](rechtliches/nutzung.md).
 ## Feedback & Fehler melden
 
 Du hast einen inhaltlichen Fehler, einen defekten Link oder einen Verbesserungsvorschlag
-gefunden? Melde ihn als [GitHub Issue](https://github.com/hannesdiemerling/Frequent-Reformation/issues)
+gefunden? Melde ihn als [GitHub Issue]({{ links.repo_issues }})
 oder per E-Mail an [{{ contact.email }}](mailto:{{ contact.email }}). Wir sind dankbar für
 jede Rückmeldung. Hinweise zu Zitation und Lizenz stehen in den
 [Nutzungshinweisen](rechtliches/nutzung.md).

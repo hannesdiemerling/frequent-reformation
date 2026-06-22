@@ -18,7 +18,7 @@ Workshops. Alle Datensätze sind **kostenlos und offen lizenziert**.
 <div class="bp-carousel">
   <div class="bp-carousel__track">
 
-    <a class="bp-card" href="https://psycharchives.org/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.psycharchives }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Repository</span>
       <h3 class="bp-card__title">PsychArchives</h3>
       <p class="bp-card__desc">
@@ -28,7 +28,7 @@ Workshops. Alle Datensätze sind **kostenlos und offen lizenziert**.
       <div class="bp-card__meta"><span>ZPID</span><span>OA</span></div>
     </a>
 
-    <a class="bp-card" href="https://osf.io/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.osf }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Repository</span>
       <h3 class="bp-card__title">Open Science Framework</h3>
       <p class="bp-card__desc">
@@ -38,7 +38,7 @@ Workshops. Alle Datensätze sind **kostenlos und offen lizenziert**.
       <div class="bp-card__meta"><span>COS</span><span>OA</span></div>
     </a>
 
-    <a class="bp-card" href="https://archive.ics.uci.edu/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.uci_ml }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">Klassiker</span>
       <h3 class="bp-card__title">UCI Machine Learning Repository</h3>
       <p class="bp-card__desc">
@@ -48,7 +48,7 @@ Workshops. Alle Datensätze sind **kostenlos und offen lizenziert**.
       <div class="bp-card__meta"><span>UCI</span><span>seit 1987</span></div>
     </a>
 
-    <a class="bp-card" href="https://vincentarelbundock.github.io/Rdatasets/" target="_blank" rel="noopener">
+    <a class="bp-card" href="{{ links.rdatasets }}" target="_blank" rel="noopener">
       <span class="bp-card__tag">R-Pakete</span>
       <h3 class="bp-card__title">Rdatasets</h3>
       <p class="bp-card__desc">
