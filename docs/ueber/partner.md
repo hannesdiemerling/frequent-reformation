@@ -10,19 +10,14 @@ zu Krankenkassen. Hier dokumentieren wir den wachsenden Verbund.
 ## Förderung
 
 <div class="bp-partners">
-  <div class="bp-partner">Pioniervorhaben<small>im Antragsverfahren</small></div>
+  <div class="bp-partner">VolkswagenStiftung<small>Pioniervorhaben</small></div>
 </div>
 
 !!! info "Förderhinweis"
 
-    Das Vorhaben befindet sich derzeit im Antragsverfahren (Pioniervorhaben). Sobald
-    eine Förderzusage vorliegt, ergänzen wir hier Förderinstitution, Projekttitel,
-    Förderkennzeichen und Förderzeitraum sowie, falls von den Förderbedingungen
-    verlangt, das Logo der Förderinstitution.
-
-    Geplanter Pflichthinweis nach Bewilligung: „Gefördert von [Förderinstitution]
-    unter dem Förderkennzeichen [Nummer]. Die Verantwortung für den Inhalt dieser
-    Veröffentlichung liegt bei den Autorinnen und Autoren."
+    Dieses Vorhaben wird von der **VolkswagenStiftung** im Rahmen der Förderlinie
+    „Pioniervorhaben" gefördert. Die Verantwortung für den Inhalt dieser
+    Veröffentlichung liegt bei den Autorinnen und Autoren.
 
 ## Wissenschaftliche Partner
 

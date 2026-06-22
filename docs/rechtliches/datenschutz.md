@@ -6,121 +6,149 @@ hide:
 
 # Datenschutzerklärung
 
-> **Hinweis.** Diese Datenschutzerklärung beschreibt den aktuellen technischen Stand der
-> Website. Vor dem offiziellen Live-Gang muss sie mit den tatsächlich genutzten Diensten,
-> echten Kontaktdaten und einer juristisch verbindlichen Vorlage abgeglichen werden. Mit
-> „Platzhalter" markierte Angaben sind noch zu ersetzen.
+Willkommen auf unserer Website und vielen Dank für dein Interesse. Der Schutz deiner
+personenbezogenen Daten und deiner Privatsphäre ist uns wichtig. Im Folgenden informieren
+wir dich über den Umgang mit deinen personenbezogenen Daten („Daten").
+
+Diese Website nutzt aus Sicherheitsgründen und zum Schutz der Übertragung personenbezogener
+Daten eine TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennst du an der
+Zeichenfolge „https://" in deiner Browserzeile.
 
 ## 1. Verantwortlicher
 
-Verantwortlich für die Datenverarbeitung auf dieser Website im Sinne der DSGVO ist:
+Verantwortlich für die Datenverarbeitung ist:
 
-> **Beyond p-values Initiative** *(Platzhalter Trägerinstitution)*
-> Musterstraße 1, 12345 Musterstadt
-> E-Mail: hello@beyond-p-values.example
+**HMU Health and Medical University Erfurt**<br>
+Villa Marienhaus<br>
+Dalbergsweg 5<br>
+D-99084 Erfurt<br>
+Rechtsform: GmbH<br>
+E-Mail: info@hmu-erfurt.de
 
 Vollständige Angaben siehe [Impressum](impressum.md).
 
-**Datenschutzbeauftragte Person:** Ob die Benennung gesetzlich erforderlich ist, hängt von
-der finalen Trägerstruktur ab (in der Regel ab 20 Personen mit ständigem Zugriff auf
-personenbezogene Daten oder bei besonders sensiblen Verarbeitungen). Dieser Punkt wird mit
-der Trägerinstitution geklärt und hier ergänzt.
+## 2. Datenschutzbeauftragter
 
-## 2. Hosting über GitHub Pages
+Bei Fragen oder Kommentaren zum Datenschutz im Zusammenhang mit dieser Website erreichst du
+den Datenschutzbeauftragten des Verantwortlichen unter: datenschutz@hmu-erfurt.de
 
-Diese Website wird statisch über **GitHub Pages** ausgeliefert (GitHub Inc., 88 Colin P.
-Kelly Jr. Street, San Francisco, CA 94107, USA, ein Unternehmen von Microsoft). Beim Aufruf
-verarbeitet GitHub technisch notwendige Daten in Server-Logfiles, insbesondere:
+## 3. Zwecke und Rechtsgrundlagen der Verarbeitung
+
+### a. Bereitstellung der Website und Hosting
+
+Diese Website ist statisch und wird über **GitHub Pages** ausgeliefert (GitHub Inc., 88 Colin
+P. Kelly Jr. Street, San Francisco, CA 94107, USA, ein Unternehmen von Microsoft). Beim
+Aufruf verarbeitet GitHub technisch notwendige Zugriffsdaten in Server-Logfiles,
+insbesondere:
 
 - IP-Adresse des anfragenden Geräts
 - Datum und Uhrzeit des Zugriffs
 - angeforderte URL und HTTP-Statuscode
-- übertragene Datenmenge und User-Agent (Browser, Betriebssystem)
+- übertragene Datenmenge sowie Browsertyp und Betriebssystem (User-Agent)
+- Referrer-URL
 
-**Rechtsgrundlage** ist Art. 6 Abs. 1 lit. f DSGVO. Das berechtigte Interesse besteht im
-sicheren und stabilen Betrieb der Website. Mit GitHub besteht ein Auftragsverarbeitungs-Vertrag
-(GitHub Data Protection Agreement). Die Übermittlung in die USA stützt sich auf das
-EU-US Data Privacy Framework, an dem Microsoft/GitHub teilnimmt.
+Diese Verarbeitung ist für den sicheren und stabilen Betrieb der Website erforderlich.
+Rechtsgrundlage ist Art. 6 Abs. 1 Satz 1 lit. b DSGVO (Bereitstellung der Website) sowie
+Art. 6 Abs. 1 Satz 1 lit. f DSGVO (berechtigtes Interesse an Funktionsfähigkeit und
+Sicherheit). Mit GitHub besteht ein Auftragsverarbeitungsvertrag nach Art. 28 DSGVO. Die
+Übermittlung in die USA stützt sich auf das EU-US Data Privacy Framework, an dem
+Microsoft/GitHub teilnimmt. Mehr Informationen:
+[GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
-Mehr Informationen: [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
+### b. Kontaktaufnahme per E-Mail oder Telefon
 
-## 3. Keine Cookies, kein Tracking
+Wenn du uns per E-Mail oder Telefon kontaktierst, verarbeiten wir deine Angaben (deine
+E-Mail-Adresse bzw. Rufnummer sowie den Inhalt deiner Nachricht, bei Workshop-Anfragen ggf.
+Name und Institution) zur Bearbeitung deines Anliegens und für den Fall von Anschlussfragen.
+Diese Daten geben wir nicht ohne deine Einwilligung weiter.
 
-Diese Website setzt **keine eigenen Cookies** und bindet **keine Analyse- oder
-Tracking-Dienste** ein (kein Google Analytics, kein Matomo, keine Werbe-Pixel). Es findet
-keine Profilbildung statt. Ein Cookie-Banner ist daher nicht erforderlich.
+Rechtsgrundlage ist Art. 6 Abs. 1 Satz 1 lit. b DSGVO (Anbahnung oder Durchführung einer
+Workshop-Teilnahme) bzw. lit. f DSGVO (Beantwortung allgemeiner Anfragen). Die von dir
+mitgeteilten Daten verbleiben bei uns, bis du uns zur Löschung aufforderst, eine Einwilligung
+widerrufst oder der Zweck entfällt, etwa nach abgeschlossener Bearbeitung. Zwingende
+gesetzliche Aufbewahrungsfristen bleiben unberührt.
 
-## 4. Lokale Schriften und Icons
+> **Hinweis.** Diese Website enthält keine Formulare, die Daten an einen Server senden. Die
+> Newsletter- und Kontakt-Schaltflächen öffnen lediglich dein eigenes E-Mail-Programm
+> (mailto-Link). Möchtest du den Newsletter-Verteiler abonnieren, genügt eine E-Mail. Die
+> Verarbeitung erfolgt dann auf Grundlage deiner Einwilligung (Art. 6 Abs. 1 Satz 1 lit. a
+> DSGVO), die du jederzeit per E-Mail widerrufen kannst.
 
-Web-Schriften (Inter, JetBrains Mono) sowie Icon-Sets (Material Icons, Twemoji) werden lokal
-mit der Website ausgeliefert. Beim Seitenaufruf entstehen dadurch **keine Verbindungen zu
-Drittanbieter-Servern** wie Google Fonts.
+## 4. Cookies und Tracking
 
-## 5. Externe Links
+Diese Website setzt **keine Cookies** und nutzt **keine Analyse-, Tracking- oder
+Remarketing-Dienste**. Es kommen insbesondere **kein** Google Analytics, Google Ads, Google
+Tag Manager, Google Maps, **kein** Facebook-Pixel, **kein** HubSpot und **kein**
+Newsletter-Dienst wie Sendinblue/Brevo zum Einsatz. Es findet keine Profilbildung statt. Ein
+Cookie-Banner ist daher nicht erforderlich.
+
+## 5. Schriften, Icons und externe Inhalte
+
+Schriftarten (Inter, JetBrains Mono) und Icon-Sets (Material Icons, Twemoji) werden lokal mit
+der Website ausgeliefert. Es werden **keine** externen Schriftdienste wie Google Web Fonts
+eingebunden, sodass beim Seitenaufruf keine Verbindung zu Drittanbieter-Servern entsteht.
 
 Die Website verlinkt auf externe Inhalte (z. B. die Workshop-Seiten auf GitHub Pages, JASP,
 Jamovi, OSF, ZPID). Erst beim Klick auf einen solchen Link werden Daten an die jeweiligen
-Betreiber übertragen, dann gemäß deren eigenen Datenschutzbestimmungen. Auf deren
-Verarbeitung haben wir keinen Einfluss.
+Anbieter übertragen, dann nach deren Datenschutzbestimmungen. Die interaktiven Workshops
+laufen vollständig im Browser (Python via Shinylive). Deine Eingaben werden dabei lokal
+verarbeitet und nicht an einen Server übertragen oder dauerhaft gespeichert.
 
-Die interaktiven Workshops laufen vollständig im Browser (Python via Shinylive). Eingaben in
-die Workshop-Apps werden **lokal im Browser** verarbeitet und nicht an einen Server
-übertragen oder dauerhaft gespeichert.
+## 6. Empfänger deiner Daten
 
-## 6. Kontaktaufnahme per E-Mail
+Wir geben deine personenbezogenen Daten grundsätzlich nicht an Dritte weiter, sofern dies
+nicht zum Betrieb der Website erforderlich ist oder wir gesetzlich dazu verpflichtet sind.
+Als Auftragsverarbeiter nach Art. 28 DSGVO ist der Hosting-Anbieter GitHub eingebunden.
+Daneben können zur besonderen Verschwiegenheit verpflichtete Personen (z. B. Rechtsanwälte)
+Daten erhalten, soweit dies erforderlich ist.
 
-Diese Website ist vollständig statisch und enthält **keine Formulare**, die Daten an einen
-Server übermitteln. Auch Workshop-Anfragen und der Newsletter-Verteiler laufen über
-gewöhnliche E-Mail: Die entsprechenden Schaltflächen öffnen lediglich dein eigenes
-E-Mail-Programm (mailto-Link). Es werden dabei von dieser Website **keine Daten erhoben oder
-gespeichert**.
+## 7. Speicherdauer
 
-Wenn du uns eine E-Mail schreibst, verarbeiten wir die von dir mitgeteilten Daten (deine
-E-Mail-Adresse sowie den Inhalt deiner Nachricht, bei Workshop-Anfragen ggf. Name und
-Institution) ausschließlich zur Bearbeitung deines Anliegens.
+Wir löschen Daten, sobald sie für die genannten Zwecke nicht mehr benötigt werden. Darüber
+hinaus speichern wir Daten bis zum Ablauf gesetzlicher Aufbewahrungs- und
+Gewährleistungspflichten (z. B. sind steuerrechtlich relevante Unterlagen grundsätzlich bis
+zu zehn Jahre aufzubewahren). Die Server-Logfiles bei GitHub werden nach den Vorgaben des
+GitHub-Auftragsverarbeitungsvertrags vorgehalten.
 
-- **Rechtsgrundlage:** Art. 6 Abs. 1 lit. b DSGVO (Anbahnung bzw. Durchführung einer
-  Workshop-Teilnahme) oder lit. f DSGVO (berechtigtes Interesse an der Beantwortung
-  allgemeiner Anfragen). Für den Newsletter-Verteiler: Art. 6 Abs. 1 lit. a DSGVO
-  (Einwilligung).
-- **Speicherdauer:** Wir löschen deine Nachricht, sobald der Zweck entfällt, etwa nach
-  abschließender Bearbeitung oder Abschluss des Workshops. Vom Newsletter-Verteiler kannst
-  du dich jederzeit per kurzer E-Mail abmelden.
-- **Empfänger:** Deine E-Mail wird über den Postfach-Anbieter der verantwortlichen Stelle
-  abgewickelt. Der genaue Anbieter wird mit der finalen Trägerstruktur hier benannt
-  *(Platzhalter)*.
+## 8. Deine Rechte
 
-## 7. Deine Rechte
+Dir stehen bezüglich deiner durch uns verarbeiteten Daten folgende Rechte zu:
 
-Du hast nach DSGVO folgende Rechte:
-
-- **Auskunft** über die zu deiner Person gespeicherten Daten (Art. 15 DSGVO)
+- **Auskunft** über deine bei uns gespeicherten Daten (Art. 15 DSGVO)
 - **Berichtigung** unrichtiger Daten (Art. 16 DSGVO)
-- **Löschung** („Recht auf Vergessenwerden", Art. 17 DSGVO)
+- **Löschung** (Art. 17 DSGVO)
 - **Einschränkung der Verarbeitung** (Art. 18 DSGVO)
 - **Datenübertragbarkeit** (Art. 20 DSGVO)
 - **Widerspruch** gegen die Verarbeitung (Art. 21 DSGVO)
 - **Widerruf** erteilter Einwilligungen (Art. 7 Abs. 3 DSGVO)
 - **Beschwerde** bei einer Aufsichtsbehörde (Art. 77 DSGVO)
 
-Zur Geltendmachung genügt eine Nachricht an die im [Impressum](impressum.md) genannten
-Kontaktdaten.
+## 9. Widerspruchsrecht
 
-## 8. Beschwerderecht bei der Aufsichtsbehörde
+Du hast das Recht, aus Gründen, die sich aus deiner besonderen Situation ergeben, jederzeit
+Widerspruch gegen die Verarbeitung deiner Daten einzulegen, die auf Art. 6 Abs. 1 Satz 1
+lit. f DSGVO beruht. Wende dich dazu an den unter Ziffer 1 genannten Verantwortlichen.
 
-Du kannst dich bei einer Datenschutz-Aufsichtsbehörde beschweren. Zuständig ist die Behörde
-des Bundeslandes, in dem die verantwortliche Stelle ihren Sitz hat. Die konkrete Behörde
-wird mit der finalen Trägeranschrift hier benannt *(Platzhalter)*.
+## 10. Beschwerde bei der Aufsichtsbehörde
 
-## 9. SSL-/TLS-Verschlüsselung
+Du kannst dich bei einer Datenschutz-Aufsichtsbehörde beschweren. Für die verantwortliche
+Stelle zuständig ist der Thüringer Landesbeauftragte für den Datenschutz und die
+Informationsfreiheit (TLfDI), Häßlerstraße 8, 99096 Erfurt.
 
-Diese Website nutzt aus Sicherheitsgründen eine **SSL-/TLS-Verschlüsselung**. Eine
-verschlüsselte Verbindung erkennst du an „https://" und am Schloss-Symbol in deiner
-Browser-Zeile.
+## 11. Datensicherheit
 
-## 10. Änderungen dieser Erklärung
+Wir haben technische und organisatorische Sicherheitsvorkehrungen getroffen, um deine Daten
+gegen Verlust, Manipulation und unberechtigten Zugriff zu schützen, und passen diese laufend
+der technischen Entwicklung an.
 
-Wir passen diese Datenschutzerklärung an, sobald Änderungen an den genutzten Diensten dies
-erforderlich machen. Die jeweils aktuelle Version ist hier abrufbar.
+## 12. Pflicht zur Bereitstellung deiner Daten
 
-*Stand: Juni 2026 (Platzhalter, wird mit Inbetriebnahme finalisiert).*
+Du bist weder gesetzlich noch vertraglich verpflichtet, uns Daten zu übermitteln. Ohne die
+zur Kontaktaufnahme nötigen Angaben können wir dein Anliegen jedoch unter Umständen nicht
+bearbeiten.
+
+## 13. Automatisierte Entscheidungsfindung
+
+Eine automatisierte Entscheidungsfindung einschließlich Profiling findet nicht statt.
+
+*Stand: Juni 2026.*

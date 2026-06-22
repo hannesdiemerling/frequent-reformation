@@ -211,7 +211,7 @@
       "Fiktives Pilot-System der Deutschen Bahn, das in den Workshops als durchgängiges Beispiel dient.",
 
     "Pioniervorhaben":
-      "Förderlinie der Volkswagen-Stiftung für transformative Grundlagenforschung mit Pilot-Charakter, adressiert ungelöste Probleme des Wissenschaftssystems.",
+      "Förderlinie der VolkswagenStiftung für transformative Grundlagenforschung mit Pilot-Charakter, adressiert ungelöste Probleme des Wissenschaftssystems.",
     "Faktenbox":
       "Standardisiertes, evidenzbasiertes Informationsformat, etabliert vom Harding-Zentrum für Risikokompetenz, das Nutzen und Schaden medizinischer Maßnahmen in absoluten Zahlen darstellt.",
     "Faktenboxen":

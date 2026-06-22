@@ -6,65 +6,80 @@ hide:
 
 # Impressum
 
-> **Hinweis.** Die folgenden Angaben sind ein Platzhalter und müssen vor offiziellem
-> Live-Gang durch die rechtsverbindlichen Daten der verantwortlichen Person/Institution
-> ersetzt werden.
+## Angaben gemäß § 5 DDG
 
-## Angaben gemäß § 5 DDG / § 18 MStV
+Anbieter dieser Website ist:
 
-**Name / Institution:**
-Beyond p-values Initiative
-*(Platzhalter, wird ersetzt durch die offizielle Trägerinstitution)*
+**HMU Health and Medical University Erfurt**<br>
+Villa Marienhaus<br>
+Dalbergsweg 5<br>
+D-99084 Erfurt<br>
+Rechtsform: GmbH
 
-**Anschrift:**
-Musterstraße 1
-12345 Musterstadt
-Deutschland
+**Vertreten durch:**<br>
+Geschäftsführerin Ilona Renken-Olthoff
 
-**Vertretungsberechtigte Person:**
-Hannes Diemerling
+**Kontakt:**<br>
+Telefon: +49 (0)361 213 06 60<br>
+E-Mail: info@hmu-erfurt.de
 
-**Kontakt:**
-E-Mail: hello@beyond-p-values.example
-Telefon: *folgt*
+## Registereintrag
+
+Eintragung im Handelsregister.<br>
+Registergericht: Amtsgericht Jena<br>
+Registernummer: HRB 521122<br>
+Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: DE366443401
+
+## Angaben zur Berufshaftpflichtversicherung
+
+Name und Sitz des Versicherers:<br>
+Öffentliche Versicherungen Oldenburg<br>
+Staugraben 11<br>
+26122 Oldenburg<br>
+Geltungsraum der Versicherung: weltweit, Gerichtsstand ist immer Deutschland.
 
 ## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
 
-Hannes Diemerling
-*Anschrift wie oben.*
+Ilona Renken-Olthoff<br>
+HMU Health and Medical University Erfurt<br>
+Villa Marienhaus, Dalbergsweg 5, D-99084 Erfurt
 
-## EU-Streitschlichtung
+## Projekt und redaktionelle Umsetzung
 
-Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
-[https://ec.europa.eu/consumers/odr/](https://ec.europa.eu/consumers/odr/).
+Inhalte und technische Umsetzung des Projekts „Beyond p-values": Hannes Diemerling. Die
+Website basiert auf MkDocs Material und wird statisch über GitHub Pages ausgeliefert.
 
-Wir sind **nicht bereit oder verpflichtet**, an Streitbeilegungsverfahren vor einer
+## Förderung
+
+Dieses Vorhaben wird von der VolkswagenStiftung im Rahmen der Förderlinie „Pioniervorhaben"
+gefördert. Die Verantwortung für den Inhalt liegt bei den Autorinnen und Autoren.
+
+## Streitschlichtung
+
+Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
 Verbraucherschlichtungsstelle teilzunehmen.
 
-## Haftung für Inhalte
+## Haftung für Inhalte und Links
 
-Als Diensteanbieter sind wir gemäß § 7 Abs. 1 DDG für eigene Inhalte auf diesen Seiten nach
-den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 DDG sind wir als Diensteanbieter
-jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen
-oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
-Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den
-allgemeinen Gesetzen bleiben hiervon unberührt.
+Wir sind für die Inhalte unserer Internetseiten nach den Maßgaben der allgemeinen Gesetze
+verantwortlich. Alle Inhalte werden mit der gebotenen Sorgfalt und nach bestem Wissen
+erstellt und dienen rein informativen Zwecken. Soweit wir mittels Hyperlink auf
+Internetseiten Dritter verweisen, können wir keine Gewähr für die fortwährende Aktualität,
+Richtigkeit und Vollständigkeit der verlinkten Inhalte übernehmen, da diese außerhalb
+unseres Verantwortungsbereichs liegen und wir auf deren zukünftige Gestaltung keinen
+Einfluss haben. Sollten aus deiner Sicht Inhalte gegen geltendes Recht verstoßen oder
+unangemessen sein, teile uns dies bitte mit.
 
-## Haftung für Links
+## Urheberrecht und Lizenz
 
-Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen
-Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen.
-Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der
-Seiten verantwortlich.
-
-## Urheberrecht
-
-Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem
-deutschen Urheberrecht. Beiträge und Materialien dieses Projekts werden, soweit nicht anders
-gekennzeichnet, unter der Lizenz **Creative Commons CC BY 4.0** veröffentlicht.
+Die von uns erstellten Inhalte (Texte, Workshop-Materialien, Grafiken) stehen, soweit nicht
+anders gekennzeichnet, unter der Lizenz **Creative Commons CC BY 4.0**: Teilen und Bearbeiten
+sind mit Namensnennung erlaubt. Das Logo ist urheberrechtlich geschützt (alle Rechte
+vorbehalten). Inhalte Dritter unterliegen deren Rechten. Falls dir eine
+Urheberrechtsverletzung auffällt, kontaktiere uns bitte unter den oben stehenden Angaben.
 
 ## Bildnachweise
 
-- **Logo "Beyond p-values":** Eigene Erstellung, alle Rechte vorbehalten.
-- Sämtliche weiteren grafischen Elemente: Eigenproduktion bzw. Open-Source-Bibliotheken
+- **Logo „Beyond p-values":** Eigene Erstellung, alle Rechte vorbehalten.
+- Weitere grafische Elemente: Eigenproduktion bzw. Open-Source-Bibliotheken
   (Material Icons, Twemoji unter CC BY 4.0).

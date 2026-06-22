@@ -1,7 +1,7 @@
 site_name: Beyond p-values
 site_description: Workshops, Methoden und Wissen für eine bessere Forschungspraxis. Effektgrößen, Repräsentativität und bayesianisches Denken, verständlich erklärt.
 site_url: https://hannesdiemerling.github.io/Frequent-Reformation/
-site_author: Beyond p-values Initiative
+site_author: HMU Health and Medical University Erfurt
 
 # Snippets (z. B. das Glossar) sind keine eigenen Seiten.
 exclude_docs: |
@@ -283,7 +283,9 @@ extra:
     new: Neu hinzugefügt
     deprecated: In Überarbeitung
 
-copyright: Copyright &copy; 2025 Beyond p-values Initiative
+copyright: >
+  Gefördert durch die VolkswagenStiftung ·
+  Copyright &copy; 2026 HMU Health and Medical University Erfurt
 
 # ============================================================
 # NAVIGATION

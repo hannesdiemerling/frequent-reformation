@@ -79,7 +79,7 @@ Example** veröffentlicht. Lizenz: **CC BY 4.0**.
 Du darfst die kuratierten Datensätze für Lehre, Forschung und Schulung nutzen. Bitte zitiere
 das Projekt mit:
 
-> Beyond p-values Initiative (Jahr). *Übungsdatensatz „[Titel]"*. Verfügbar unter:
-> hannesdiemerling.github.io/Frequent-Reformation. Lizenz: CC BY 4.0.
+> Diemerling, H. / Beyond p-values, HMU Erfurt (Jahr). *Übungsdatensatz „[Titel]"*.
+> Verfügbar unter: hannesdiemerling.github.io/Frequent-Reformation. Lizenz: CC BY 4.0.
 
 [Datensatz vorschlagen / einreichen](../kontakt.md){ .bp-btn .bp-btn--primary }
