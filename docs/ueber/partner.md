@@ -5,7 +5,8 @@ title: Partner & Förderer
 # Partner & Förderer
 
 Das Projekt lebt davon, dass viele Akteure mitziehen, von Hochschulen über Fachverlage bis
-zu Krankenkassen. Hier dokumentieren wir den wachsenden Verbund.
+zu Krankenkassen. Hier dokumentieren wir, welche Kooperationen wir aufbauen wollen. Bisher
+ist noch nichts angefragt, alle genannten Partner sind **geplant**.
 
 ## Trägerschaft & Förderung
 
@@ -34,26 +35,25 @@ zu Krankenkassen. Hier dokumentieren wir den wachsenden Verbund.
 ## Wissenschaftliche Partner
 
 <div class="bp-partners">
-  <div class="bp-partner">ZPID Trier<small>angefragt</small></div>
-  <div class="bp-partner">Hochschule (Antragstellende)<small>kommt</small></div>
-  <div class="bp-partner">DGPs-Methodengruppe<small>angefragt</small></div>
-  <div class="bp-partner">Weitere Universitäten<small>im Aufbau</small></div>
+  <div class="bp-partner">ZPID Trier<small>geplant</small></div>
+  <div class="bp-partner">DGPs-Methodengruppe<small>geplant</small></div>
+  <div class="bp-partner">Weitere Universitäten<small>geplant</small></div>
 </div>
 
 ## Verlage
 
 <div class="bp-partners">
-  <div class="bp-partner">Hogrefe<small>angefragt</small></div>
-  <div class="bp-partner">Springer Nature<small>angefragt</small></div>
-  <div class="bp-partner">Beltz<small>angefragt</small></div>
+  <div class="bp-partner">Hogrefe<small>geplant</small></div>
+  <div class="bp-partner">Springer Nature<small>geplant</small></div>
+  <div class="bp-partner">Beltz<small>geplant</small></div>
 </div>
 
 ## Praxispartner
 
 <div class="bp-partners">
-  <div class="bp-partner">Krankenkassen<small>angefragt</small></div>
-  <div class="bp-partner">Klinik-Kooperationen<small>im Aufbau</small></div>
-  <div class="bp-partner">Harding-Zentrum<small>als Vorbild</small></div>
+  <div class="bp-partner">Krankenkassen<small>geplant</small></div>
+  <div class="bp-partner">Klinik-Kooperationen<small>geplant</small></div>
+  <div class="bp-partner">Harding-Zentrum<small>Vorbild</small></div>
 </div>
 
 <div class="bp-soon">
@@ -70,11 +70,11 @@ erreicht haben, von ersten p-freien Pilotartikeln bis zu dauerhaften Richtlinien
 
 | Partner / Stakeholder            | Geplante Wirkung                                              | Status                                              |
 |----------------------------------|---------------------------------------------------------------|-----------------------------------------------------|
-| Hochschulen                      | Methodenwissen in Curricula                                   | <span class="bp-pill bp-pill--soon">In Anbahnung</span> |
-| Verlage / Editorials             | Veröffentlichungs-Richtlinien ohne p-Zwang                    | <span class="bp-pill bp-pill--soon">In Anbahnung</span> |
-| Krankenkassen                    | Faktenbox-artige Information für Behandelte                   | <span class="bp-pill bp-pill--draft">Geplant</span>     |
-| Fachgesellschaften               | Statements und Methoden-Empfehlungen                          | <span class="bp-pill bp-pill--draft">Geplant</span>     |
-| Lehrende (Train-the-Trainer)     | Train-the-Trainer-Curriculum mit Materialien                  | <span class="bp-pill bp-pill--soon">In Aufbau</span>    |
+| Hochschulen                      | Methodenwissen in Curricula                                   | <span class="bp-pill bp-pill--draft">Geplant</span> |
+| Verlage / Editorials             | Veröffentlichungs-Richtlinien ohne p-Zwang                    | <span class="bp-pill bp-pill--draft">Geplant</span> |
+| Krankenkassen                    | Faktenbox-artige Information für Behandelte                   | <span class="bp-pill bp-pill--draft">Geplant</span> |
+| Fachgesellschaften               | Statements und Methoden-Empfehlungen                          | <span class="bp-pill bp-pill--draft">Geplant</span> |
+| Lehrende (Train-the-Trainer)     | Train-the-Trainer-Curriculum mit Materialien                  | <span class="bp-pill bp-pill--draft">Geplant</span> |
 
 Sobald konkrete Vereinbarungen unterschrieben sind, ergänzen wir hier Logo, Beschreibung und
 Status.

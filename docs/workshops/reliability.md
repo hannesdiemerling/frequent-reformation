@@ -30,13 +30,10 @@ title: Repräsentativität & Stichprobengröße · Workshop 03
 
   <div class="bp-mode bp-mode--guided" id="booking">
     <div class="bp-mode__head">
-      <span class="bp-pill bp-pill--soon">Geführt buchen</span>
-      <strong>auf Anfrage</strong>
+      <span class="bp-pill bp-pill--soon">In Planung</span>
+      <strong>noch nicht buchbar</strong>
     </div>
-    <p>{{ w.goal_guided }}</p>
-    <a class="bp-btn bp-btn--ghost" href="mailto:{{ contact.email }}?subject={{ contact.booking_subject }}: {{ w.title }}">
-      Anfrage per Mail →
-    </a>
+    <p>{{ w.goal_guided }} Geführte Workshops bieten wir derzeit noch nicht an, das Format ist in Vorbereitung.</p>
   </div>
 
 </div>
@@ -80,13 +77,13 @@ Wurzelgesetz und das ehrliche Quantifizieren von Unsicherheit, wieder am SmartRa
 
 ## Format & Termine
 
-| Aspekt      | Im eigenen Tempo                  | Geführt                                |
+| Aspekt      | Im eigenen Tempo                  | Geführt (in Planung)                   |
 |-------------|-----------------------------------|----------------------------------------|
 | Dauer       | {{ w.duration_self }}             | {{ w.duration_guided }}                |
 | Tempo       | individuell                       | strukturiert, mit Pausen               |
 | Interaktion | Browser-Apps, Fragen via Kontakt  | Live-Diskussion, Q&A, Übungsbetreuung  |
-| Kosten      | kostenfrei                        | auf Anfrage                            |
-| Termin      | jederzeit                         | nach Vereinbarung                      |
+| Kosten      | kostenfrei                        | noch offen                             |
+| Termin      | jederzeit                         | in Planung                             |
 
 ## Begleitmaterial
 

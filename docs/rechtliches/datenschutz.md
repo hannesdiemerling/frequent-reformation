@@ -69,10 +69,8 @@ widerrufst oder der Zweck entfällt, etwa nach abgeschlossener Bearbeitung. Zwin
 gesetzliche Aufbewahrungsfristen bleiben unberührt.
 
 > **Hinweis.** Diese Website enthält keine Formulare, die Daten an einen Server senden. Die
-> Newsletter- und Kontakt-Schaltflächen öffnen lediglich dein eigenes E-Mail-Programm
-> (mailto-Link). Möchtest du den Newsletter-Verteiler abonnieren, genügt eine E-Mail. Die
-> Verarbeitung erfolgt dann auf Grundlage deiner Einwilligung (Art. 6 Abs. 1 Satz 1 lit. a
-> DSGVO), die du jederzeit per E-Mail widerrufen kannst.
+> Kontakt-Schaltflächen öffnen lediglich dein eigenes E-Mail-Programm (mailto-Link). Es
+> werden dabei von dieser Website keine Daten erhoben oder gespeichert.
 
 ## 4. Cookies und Tracking
 

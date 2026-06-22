@@ -130,9 +130,9 @@ Im Rahmen des Projekts laden wir die großen deutschsprachigen Verlage zur Zusam
 um **Richtlinien für das Publizieren ohne p-Wert** zu entwickeln. Vorgesehen sind initial:
 
 <div class="bp-partners">
-  <div class="bp-partner">Hogrefe<small>angefragt</small></div>
-  <div class="bp-partner">Springer Nature<small>angefragt</small></div>
-  <div class="bp-partner">Beltz<small>angefragt</small></div>
+  <div class="bp-partner">Hogrefe<small>geplant</small></div>
+  <div class="bp-partner">Springer Nature<small>geplant</small></div>
+  <div class="bp-partner">Beltz<small>geplant</small></div>
 </div>
 
 Geplante Outputs:

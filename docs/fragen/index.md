@@ -72,7 +72,7 @@ hide:
   <a class="bp-pillar" href="../workshops/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">→ WORKSHOPS</div>
     <h3>Strukturiert lernen</h3>
-    <p>Drei Workshops, jeweils im eigenen Tempo oder als geführte Veranstaltung buchbar.</p>
+    <p>Drei Workshops, jeweils im eigenen Tempo. Geführte Veranstaltungen sind in Planung.</p>
   </a>
   <a class="bp-pillar" href="../methoden/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">→ METHODEN</div>

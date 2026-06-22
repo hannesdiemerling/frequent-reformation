@@ -67,22 +67,8 @@ rund um die Methodenwende, sobald das Projekt offiziell startet.
   </div>
 </div>
 
-## Newsletter
+## Kontakt
 
-Bis der Blog aktiv ist, erfährst du alle wichtigen Updates am verlässlichsten über den
-Newsletter, quartalsweise, kompakt, ohne Spam.
+Bis der Blog aktiv ist, erreichst du uns bei Fragen am besten direkt per E-Mail.
 
-<div class="bp-callout">
-  <div>
-    <h3>Quartals-Newsletter</h3>
-    <p>Workshops, neue Materialien, Veröffentlichungen: alles im Überblick. Schreib uns kurz, wir nehmen dich in den Verteiler auf.</p>
-    <a class="bp-btn bp-btn--primary" href="mailto:{{ contact.email }}?subject=Newsletter-Anmeldung">Per E-Mail abonnieren →</a>
-    <small>Du kannst dich jederzeit per E-Mail abmelden.</small>
-  </div>
-  <div>
-    <p style="margin: 0; opacity: 0.85;">
-      Lieber direkt schreiben?
-    </p>
-    <a class="bp-btn bp-btn--ghost" href="../kontakt/" style="margin-top: 1rem;">Kontakt →</a>
-  </div>
-</div>
+[E-Mail an {{ contact.name }}](mailto:{{ contact.email }}){ .bp-btn .bp-btn--primary }

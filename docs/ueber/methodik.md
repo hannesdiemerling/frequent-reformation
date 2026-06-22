@@ -59,7 +59,7 @@ Commit-Historie der Repositorys.
 
 | Datum     | Änderung                                                              |
 |-----------|-----------------------------------------------------------------------|
-| 2026      | Aufbau der Hub-Seite und der drei Workshops im Antragsverfahren        |
+| 2026      | Projektstart, Aufbau der Hub-Seite und der drei Workshops             |
 
 ## Fehler und Feedback
 

@@ -33,7 +33,7 @@ title: Beyond p-values · Hub für bessere Forschungspraxis
   </div>
   <div class="bp-stat">
     <span class="bp-stat__num">3</span>
-    <span class="bp-stat__label">interaktive Workshops, vollständig im Browser, im eigenen Tempo oder geführt.</span>
+    <span class="bp-stat__label">interaktive Workshops, vollständig im Browser, jederzeit im eigenen Tempo.</span>
   </div>
   <div class="bp-stat">
     <span class="bp-stat__num">{{ workshops.thinking.chapters_count + workshops.power.chapters_count + workshops.reliability.chapters_count }}</span>
@@ -64,8 +64,8 @@ title: Beyond p-values · Hub für bessere Forschungspraxis
     <div>
       <h3>Workshops, strukturiert lernen</h3>
       <p>
-        Drei Workshops mit insgesamt {{ workshops.thinking.chapters_count + workshops.power.chapters_count + workshops.reliability.chapters_count }} Kapiteln. Vollständig im Browser, im eigenen Tempo
-        oder als gebuchter Live-Workshop für dein Team.
+        Drei Workshops mit insgesamt {{ workshops.thinking.chapters_count + workshops.power.chapters_count + workshops.reliability.chapters_count }} Kapiteln. Vollständig im Browser, jederzeit
+        im eigenen Tempo. Geführte Workshops sind in Planung.
       </p>
     </div>
   </a>
@@ -119,11 +119,10 @@ title: Beyond p-values · Hub für bessere Forschungspraxis
 <div class="bp-section-head">
   <div>
     <span class="bp-section-head__eyebrow">Workshops</span>
-    <h2>Drei Lernpfade, zwei Wege</h2>
+    <h2>Drei Lernpfade im eigenen Tempo</h2>
     <p class="bp-section-head__lead">
       Jeder Workshop läuft vollständig im Browser (Python via Shinylive, keine Installation).
-      Im eigenen Tempo ist alles kostenfrei zugänglich; geführte Sessions für dein Team
-      buchst du über uns.
+      Alles ist kostenfrei zugänglich. Geführte Sessions für Teams sind in Planung.
     </p>
   </div>
   <a class="bp-section-head__link" href="workshops/">Alle Workshops →</a>
@@ -141,7 +140,7 @@ title: Beyond p-values · Hub für bessere Forschungspraxis
       <p class="bp-card__desc">{{ w.tagline }}</p>
       <div class="bp-card__meta">
         <span>📂 {{ w.chapters_count }} Kapitel</span>
-        <span>⏱ {{ w.duration_self }} self · {{ w.duration_guided }} geführt</span>
+        <span>⏱ {{ w.duration_self }} im eigenen Tempo</span>
       </div>
     </a>
     {% endfor %}
@@ -311,21 +310,13 @@ title: Beyond p-values · Hub für bessere Forschungspraxis
 </div>
 
 <div class="bp-callout">
-  <div>
-    <h3>Bleib informiert. Kein Spam, nur Substanz.</h3>
+  <div style="grid-column: 1 / -1; text-align: center;">
+    <h3>Fragen, Anfragen oder Kooperation?</h3>
     <p>
-      Quartalsweise Updates mit neuen Workshops, Veröffentlichungen und konkreten Beispielen
-      aus der Arbeit am Projekt. Schreib uns kurz, wir nehmen dich in den Verteiler auf.
+      Schreib uns direkt. Wir freuen uns über Nachrichten von Forschenden, Lehrenden und
+      Institutionen, die die Methodenwende mittragen wollen.
     </p>
-    <a class="bp-btn bp-btn--primary" href="mailto:{{ contact.email }}?subject=Newsletter-Anmeldung">Per E-Mail abonnieren →</a>
-    <small>Jederzeit per E-Mail abbestellbar. Wir geben deine Adresse nicht weiter.</small>
-  </div>
-  <div>
-    <p style="margin: 0; opacity: 0.85;">
-      <strong style="font-size: 1.1rem; color: #fff;">Du willst aktiv mitwirken?</strong><br>
-      Wir suchen Kooperationen mit Hochschulen, Kliniken, Verlagen und Krankenkassen.
-    </p>
-    <a class="bp-btn bp-btn--ghost" href="kontakt/" style="margin-top: 1rem;">Kontakt aufnehmen →</a>
+    <a class="bp-btn bp-btn--primary" href="mailto:{{ contact.email }}">E-Mail an {{ contact.name }} →</a>
   </div>
 </div>
 

@@ -96,8 +96,9 @@ extra:
       name: Beyond p-values auf GitHub
 
   contact:
-    email: hello@beyond-p-values.example
-    booking_subject: "Workshop-Buchung Beyond p-values"
+    email: "Thomas.Schaefer@hmu-erfurt.de"
+    name: "Thomas Schäfer"
+    subject: "Anfrage Beyond p-values"
 
   # ============================================================
   # EXTERNE LINKS — alle ausgehenden URLs zentral hier pflegen.
@@ -205,7 +206,7 @@ extra:
       chapters_count: 6
       eyebrow: "Workshop 01 · Grundlagen"
       tone: "coral"
-      repo: "https://hannesdiemerling.github.io/Beyond_Significance/"
+      repo: "https://github.com/hannesdiemerling/Beyond_Significance"
       base: "https://hannesdiemerling.github.io/Beyond_Significance"
       goal_self: "Arbeite die sechs Kapitel im eigenen Tempo durch und erkunde interaktive Beispiele zu Effekten, Signifikanz und Publikationsbias."
       goal_guided: "Wir gehen die Inhalte gemeinsam durch, diskutieren Beispiele aus eurem Kontext und übersetzen die Methoden in eure Berichts-Praxis."

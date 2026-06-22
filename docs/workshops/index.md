@@ -7,12 +7,12 @@ hide:
 <section class="bp-hero" style="padding: 3.5rem 2rem 4rem 2rem;">
   <div class="bp-hero__inner" style="grid-template-columns: 1fr;">
     <div>
-      <span class="bp-hero__eyebrow"><span class="dot"></span> Im eigenen Tempo &amp; geführt</span>
-      <h1>Drei Workshops, <span class="grad">zwei Wege</span> zum Mitmachen.</h1>
+      <span class="bp-hero__eyebrow"><span class="dot"></span> Im eigenen Tempo · geführt in Planung</span>
+      <h1>Drei Workshops, <span class="grad">im eigenen Tempo</span>.</h1>
       <p class="bp-hero__lead">
         Alle Inhalte laufen vollständig im Browser. Keine Installation, keine Anmeldung.
-        Lerne <strong>im eigenen Tempo</strong> oder buche eine <strong>geführte Session</strong>
-        für dein Team.
+        Lerne jetzt <strong>im eigenen Tempo</strong>. Geführte Sessions für Teams sind
+        <strong>in Planung</strong>.
       </p>
     </div>
   </div>
@@ -31,14 +31,15 @@ hide:
     </p>
   </a>
 
-  <a class="bp-pillar" href="../kontakt/" style="text-decoration:none;color:inherit;display:block;">
-    <div class="bp-pillar__num">WEG 02 · GEBUCHT</div>
+  <div class="bp-pillar" style="display:block;">
+    <div class="bp-pillar__num">WEG 02 · IN PLANUNG</div>
     <h3>Geführt mit uns</h3>
     <p>
-      Wir kommen zu euch, online oder vor Ort, beantworten Fragen live und übersetzen die
-      Inhalte auf eure Forschung. Ideal für Institute, Lehrstühle und Praxispartner.
+      Geplant: Wir kommen zu euch, online oder vor Ort, beantworten Fragen live und übersetzen
+      die Inhalte auf eure Forschung. Dieses Format für Institute, Lehrstühle und Praxispartner
+      bereiten wir gerade vor.
     </p>
-  </a>
+  </div>
 
 </div>
 
@@ -92,13 +93,10 @@ hide:
 
       <div class="bp-mode bp-mode--guided">
         <div class="bp-mode__head">
-          <span class="bp-pill bp-pill--soon">Geführt buchen</span>
-          <strong>auf Anfrage</strong>
+          <span class="bp-pill bp-pill--soon">In Planung</span>
+          <strong>noch nicht buchbar</strong>
         </div>
-        <p>{{ w.goal_guided }}</p>
-        <a class="bp-btn bp-btn--ghost" href="../{{ w.slug }}/#booking">
-          Geführt buchen →
-        </a>
+        <p>{{ w.goal_guided }} Dieses Format bereiten wir gerade vor.</p>
       </div>
 
     </div>
@@ -134,12 +132,12 @@ hide:
     <p>Nein. Alle Inhalte laufen direkt im Browser (Python via Shinylive). Keine Installation, kein Konto, keine Kosten.</p>
   </details>
   <details>
-    <summary>Was kostet die geführte Variante?</summary>
-    <p>Während der Förderphase kostenfrei für öffentliche Veranstaltungen. Inhouse-Schulungen kalkulieren wir nach Aufwand. <a href="../kontakt/">Anfrage stellen →</a></p>
+    <summary>Gibt es geführte Workshops?</summary>
+    <p>Geführte Workshops sind aktuell in Planung und noch nicht buchbar. Die Inhalte stehen aber jederzeit kostenfrei im eigenen Tempo zur Verfügung.</p>
   </details>
   <details>
     <summary>Erhalte ich ein Zertifikat?</summary>
-    <p>Für geführte Workshops gibt es eine Teilnahmebescheinigung. Für ECTS-Anrechnung bitte mit deiner Hochschule abstimmen.</p>
+    <p>Für die geführten Workshops ist eine Teilnahmebescheinigung vorgesehen, sobald sie starten. Für ECTS-Anrechnung bitte mit deiner Hochschule abstimmen.</p>
   </details>
   <details>
     <summary>In welcher Sprache sind die Workshops?</summary>

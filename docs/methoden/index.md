@@ -87,7 +87,7 @@ klassische Signifikanztest beantwortet keine davon vollständig.
   <a class="bp-pillar" href="../workshops/" style="text-decoration:none;color:inherit;display:block;">
     <div class="bp-pillar__num">→ WORKSHOPS</div>
     <h3>Strukturiert lernen</h3>
-    <p>Drei Workshops mit interaktiven Beispielen. Im eigenen Tempo kostenfrei, geführt auf Anfrage.</p>
+    <p>Drei Workshops mit interaktiven Beispielen. Im eigenen Tempo kostenfrei, geführte Variante in Planung.</p>
   </a>
 </div>
 

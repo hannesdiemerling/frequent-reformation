@@ -89,11 +89,9 @@ Drei Faktoren machen den Moment richtig:
 
 ## Förderung
 
-<div class="bp-soon">
-  <span class="bp-pill bp-pill--soon">Aktuell</span>
-  <h3>Pioniervorhaben: Impulse für das Wissenschaftssystem</h3>
-  <p>Das Projekt befindet sich aktuell im Antragsverfahren als Pioniervorhaben. Sobald die Förderzusage vorliegt, dokumentieren wir hier Förderlinie, Laufzeit und konkrete Mittelverwendung.</p>
-</div>
+Das Vorhaben wird von der **VolkswagenStiftung** im Rahmen der Förderlinie „Pioniervorhaben"
+gefördert. Träger ist die HMU Health and Medical University Erfurt. Details unter
+[Partner & Förderer](partner.md).
 
 ## Impressum & Kontakt
 
